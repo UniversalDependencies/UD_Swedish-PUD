@@ -48,6 +48,11 @@ employ ten-fold cross-validation.
 
 # Changelog
 
+From v2.0 to v2.1, no changes have been made.
+
+From v2.1 to v2.2:
+- Possessives retagged from DET to PRON.
+
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.1
 License: CC BY-SA 4.0
