@@ -51,7 +51,10 @@ employ ten-fold cross-validation.
 From v2.0 to v2.1, no changes have been made.
 
 From v2.1 to v2.2:
-- Possessives retagged from DET to PRON.
+- Harmonization with other Swedish treebanks:
+  - Possessives retagged DET -> PRON
+  - Negations ("inte", "icke", "ej") retagged ADV -> PART
+  - Comparative markers ("som", "än") retagged CCONJ -> SCONJ
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.1
