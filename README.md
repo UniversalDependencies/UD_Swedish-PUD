@@ -58,6 +58,7 @@ From v2.1 to v2.2:
   - Comparative with nominal complement relabeled advcl -> obl [mark -> case, SCONJ -> ADP]
   - Clefts reanalyzed as copula constructions and relabeled acl:relcl -> acl:cleft
   - Temporal subordinating conjunctions ("när", "då") retagged ADV -> SCONJ and relabeled advmod -> mark
+- Added enhanced dependencies
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.1
