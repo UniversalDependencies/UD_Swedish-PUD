@@ -48,6 +48,18 @@ employ ten-fold cross-validation.
 
 # Changelog
 
+From v2.0 to v2.1, no changes have been made.
+
+From v2.1 to v2.2:
+- Harmonization with other Swedish treebanks:
+  - Possessives retagged DET -> PRON
+  - Negations ("inte", "icke", "ej") retagged ADV -> PART
+  - Comparative markers ("som", "än") retagged CCONJ -> SCONJ
+  - Comparative with nominal complement relabeled advcl -> obl [mark -> case, SCONJ -> ADP]
+  - Clefts reanalyzed as copula constructions and relabeled acl:relcl -> acl:cleft
+  - Temporal subordinating conjunctions ("när", "då") retagged ADV -> SCONJ and relabeled advmod -> mark
+- Added enhanced dependencies
+
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.1
 License: CC BY-SA 4.0

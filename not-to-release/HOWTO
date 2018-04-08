@@ -1,0 +1,1 @@
+python3 insert-enhanced.py sv_pud-ud-test.enhanced.txt sv_pud-ud-test.basic.conllu sv_pud-ud-test.enhanced.conllu
