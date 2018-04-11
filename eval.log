@@ -1,15 +1,11 @@
-Sun Feb 11 20:55:04 CET 2018
-perl -I perllib/lib/perl5 -I tools tools/evaluate_treebank.pl --verbose UD_Swedish-PUD
 Running the following version of tools/evaluate_treebank.pl:
-commit c1cb17aec6a5505b56b885f578dc6b1093bb4b30
+commit 87d374bbd458d29331d76014d05c52eaac32518d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Feb 11 20:27:50 2018 +0100
-Switched to branch 'master'
-Your branch is up-to-date with 'origin/master'.
+Date:   Wed Apr 11 09:21:53 2018 +0200
 Evaluating the following revision of UD_Swedish-PUD:
-commit c08c93a03de35de1a1c5476f9688eb87b6b647c0
+commit 084136b7f7ba841ef7110fc49ffc1e332aa008dc
+Merge: bc7d0de b4ac3cf
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 11 14:12:08 2017 +0100
 Size: counted 19074 of 19074 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.89665230231344.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,13 +15,16 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.4.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.1.
-Features: 12733 out of 19074 total words have one or more features.
+Features: 12729 out of 19074 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi: found 2420 bugs.
+Udapi: found 2423 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 19074 words.
 Genres: found 2 out of 14 known.
+validate.py --lang sv --max-err=10 UD_Swedish-PUD/sv_pud-ud-test.conllu
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.4) = 0.0307692307692308
 (weight=0.0769230769230769) * (score{genres}=0.142857142857143) = 0.010989010989011
 (weight=0.0769230769230769) * (score{lemmas}=0.4) = 0.0307692307692308
@@ -37,5 +36,3 @@ Genres: found 2 out of 14 known.
 (TOTAL score=0.276247646803518) * (availability=1) * (validity=1) = 0.276247646803518
 STARS = 1.5
 UD_Swedish-PUD	0.276247646803518	1.5
-Switched to branch 'dev'
-Your branch is up-to-date with 'origin/dev'.
