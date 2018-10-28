@@ -4828,7 +4828,7 @@
 11	kanske	kanske	ADV	AB	_	14	advmod	14:advmod	_
 12	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	14:cop	_
 13	under	under	ADP	PP	_	14	case	14:case	_
-14	kontroll	kontroll	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	advcl	22:advcl:under	_
+14	kontroll	kontroll	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	advcl	22:advcl:fast	_
 15	nu	nu	ADV	AB	_	14	advmod	14:advmod	_
 16	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	22	aux	22:aux	_
 17	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	19	det	19:det	_
@@ -6694,7 +6694,7 @@
 9	under	under	ADP	PP	_	12	case	12:case	_
 10	”	”	PUNCT	PAD	_	12	punct	12:punct	SpaceAfter=No
 11	enormt	enorm	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	amod	12:amod	_
-12	tryck	tryck	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	acl	3:acl:under	SpaceAfter=No
+12	tryck	tryck	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	acl	3:acl:om	SpaceAfter=No
 13	”	”	PUNCT	MID	_	12	punct	12:punct	_
 14	bad	be	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 15	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	nsubj	14:nsubj	_

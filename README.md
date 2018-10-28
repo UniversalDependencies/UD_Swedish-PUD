@@ -60,6 +60,9 @@ From v2.1 to v2.2:
   - Temporal subordinating conjunctions ("när", "då") retagged ADV -> SCONJ and relabeled advmod -> mark
 - Added enhanced dependencies
 
+From v2.2 to v2.3:
+- Fixed a few errors in enhanced dependencies
+
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.1
 License: CC BY-SA 4.0

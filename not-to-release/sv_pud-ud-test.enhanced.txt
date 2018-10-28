@@ -716,7 +716,7 @@ n01081022	15	11:xcomp|13:conj:och
 n01081022	18	11:xcomp|13:conj:och
 n01081022	21	18:advcl:att
 n01082014	6	3:obl:till
-n01082014	14	22:advcl:under
+n01082014	14	22:advcl:fast
 n01082014	21	19:nmod:i
 n01082014	24	22:obl:till
 n01083013	11	8:nmod:för
@@ -988,7 +988,7 @@ n01112014	31	28:obl:i
 n01113021	5	14:obl:efter
 n01113021	10	5:conj:och|14:obl:efter
 n01114012	3	14:obl:med
-n01114012	12	3:acl:under
+n01114012	12	3:acl:om
 n01114012	16	14:obj|18:nsubj
 n01114012	24	18:obl:för
 n01114025	3	1:nmod:av
