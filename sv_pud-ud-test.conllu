@@ -1591,7 +1591,7 @@
 6	hos	hos	ADP	PP	_	7	case	7:case	_
 7	Sony	Sony	PROPN	PM|NOM	Case=Nom	5	nmod	5:nmod:hos	_
 8	Australien	Australien	PROPN	PM|NOM	Case=Nom	7	flat:name	7:flat:name	_
-9	typ	typ	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	advmod	4:advmod	_
+9	typ	typ	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obl	4:obl	_
 10	”	”	PUNCT	MID	_	15	punct	15:punct	SpaceAfter=No
 11	Jo	jo	INTJ	IN	_	15	discourse	15:discourse	SpaceAfter=No
 12	,	,	PUNCT	MID	_	15	punct	15:punct	_
@@ -2039,7 +2039,7 @@
 14	eller	eller	CCONJ	KN	_	15	cc	15:cc	_
 15	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing	13	conj	12:nsubj|13:conj:eller	_
 16	än	än	ADV	KN	_	12	advmod	12:advmod	_
-17	må	må	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	aux	12:aux	_
+17	må	må	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	aux	12:aux	_
 18	vara	vara	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	cop	12:cop	SpaceAfter=No
 19	.	.	PUNCT	MAD	_	4	punct	4:punct	_
 
@@ -2227,9 +2227,9 @@
 9	undersökningsbefogenheter	undersökningsbefogenhet	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	conj	5:obj|7:conj:och	_
 10	för	för	ADP	PP	_	13	case	13:case	_
 11	Real	real	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	12	compound	12:compound	_
-12	Estate	Estate	PROPN	PM|NOM	Case=Nom	13	compound	13:compound	_
-13	Council	Council	PROPN	PM|NOM	Case=Nom	7	nmod	7:nmod:för|20:nsubj	_
-14	of	Of	PROPN	PM|NOM	Case=Nom	15	case	15:case	_
+12	Estate	Estate	NOUN	NN|SIN	Number=Singular	13	compound	13:compound	_
+13	Council	Council	NOUN	NN|SIN	Number=Singular	7	nmod	7:nmod:för|20:nsubj	_
+14	of	Of	ADP	PP	_	15	case	15:case	_
 15	Ontario	Ontario	PROPN	PM|NOM	Case=Nom	13	nmod	13:nmod:of	_
 16	(	(	PUNCT	PAD	_	17	punct	17:punct	SpaceAfter=No
 17	RECO	RECO	PROPN	PM|NOM	Case=Nom	13	appos	13:appos	SpaceAfter=No
@@ -2249,7 +2249,7 @@
 3	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 4	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	6	det	6:det	_
 5	högsta	hög	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	6	amod	6:amod	_
-6	bot	bot	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	10:obl	_
+6	bot	bot	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	0:root|10:obl	_
 7	som	som	PRON	HP|-|-|-	PronType=Int,Rel	10	obj	6:ref	_
 8	RECO	RECO	PROPN	PM|NOM	Case=Nom	10	nsubj	10:nsubj	_
 9	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	10:aux	_
@@ -3030,7 +3030,7 @@
 2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 3	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing	5	det	5:det	_
 4	livsviktigt	livsviktig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	amod	5:amod	_
-5	grundämne	grundämne	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	8:obl	_
+5	grundämne	grundämne	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	0:root|8:obl	_
 6	som	som	PRON	HP|-|-|-	PronType=Int,Rel	8	obj	5:ref	_
 7	kroppen	kropp	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	nsubj	8:nsubj	_
 8	behöver	behöva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	5:acl:relcl	_
@@ -3091,7 +3091,7 @@
 18	totalt	totalt	ADV	AB|POS	Degree=Pos	19	advmod	19:advmod	_
 19	sett	sedd	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	15:advcl	SpaceAfter=No
 20	,	,	PUNCT	MID	_	21	punct	21:punct	_
-21	säger	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	expl	3:expl	_
+21	säger	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	3:parataxis	_
 22	Canadian	Canadia	PROPN	PM|NOM	Case=Nom	24	amod	24:amod	_
 23	Blood	Blood	PROPN	PM|NOM	Case=Nom	24	compound	24:compound	_
 24	Services	service	NOUN	UO	Foreign=Yes	21	nsubj	21:nsubj	_
@@ -3165,7 +3165,7 @@
 3	teratom	teratom	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	nsubj	6:nsubj	_
 4	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 5	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	6	det	6:det	_
-6	tumör	tumör	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	8:nsubj:pass|12:nsubj:pass	_
+6	tumör	tumör	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	0:root|8:nsubj:pass|12:nsubj:pass	_
 7	som	som	PRON	HP|-|-|-	PronType=Int,Rel	8	nsubj:pass	6:ref	_
 8	utvecklas	utveckla	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	6	acl:relcl	6:acl:relcl	_
 9	före	före	ADP	PP	_	10	case	10:case	_
@@ -3188,7 +3188,7 @@
 5	förekommande	förekommande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Mood=Ind|Tense=Pres|VerbForm=Part	6	amod	6:amod	_
 6	tumören	tumör	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	0	root	0:root	_
 7	hos	hos	ADP	PP	_	8	case	8:case	_
-8	spädbarn	spädbarn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	6	advmod	6:advmod	SpaceAfter=No
+8	spädbarn	spädbarn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	6	nmod	6:nmod	SpaceAfter=No
 9	,	,	PUNCT	MID	_	6	punct	6:punct	_
 10	och	och	CCONJ	KN	_	11	cc	11:cc	_
 11	uppkommer	uppkomma	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	6:conj:och	_
@@ -3760,7 +3760,7 @@
 1	De	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur	4	nsubj	4:nsubj	_
 2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
 3	vanligtvis	vanligtvis	ADV	AB	_	4	advmod	4:advmod	_
-4	artister	artist	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	7:nsubj	_
+4	artister	artist	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	0:root|7:nsubj	_
 5	som	som	PRON	HP|-|-|-	PronType=Int,Rel	7	nsubj	4:ref	_
 6	vill	vilja	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
 7	göra	göra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	4	acl:relcl	4:acl:relcl	_

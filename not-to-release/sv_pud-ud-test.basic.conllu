@@ -1589,7 +1589,7 @@
 6	hos	hos	ADP	PP	_	7	case	_	_
 7	Sony	Sony	PROPN	PM|NOM	Case=Nom	5	nmod	_	_
 8	Australien	Australien	PROPN	PM|NOM	Case=Nom	7	flat:name	_	_
-9	typ	typ	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	advmod	_	_
+9	typ	typ	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obl	_	_
 10	”	”	PUNCT	MID	_	15	punct	_	SpaceAfter=No
 11	Jo	jo	INTJ	IN	_	15	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	MID	_	15	punct	_	_
@@ -2037,7 +2037,7 @@
 14	eller	eller	CCONJ	KN	_	15	cc	_	_
 15	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing	13	conj	_	_
 16	än	än	ADV	KN	_	12	advmod	_	_
-17	må	må	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	aux	_	_
+17	må	må	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	aux	_	_
 18	vara	vara	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	cop	_	SpaceAfter=No
 19	.	.	PUNCT	MAD	_	4	punct	_	_
 
@@ -2225,9 +2225,9 @@
 9	undersökningsbefogenheter	undersökningsbefogenhet	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	conj	_	_
 10	för	för	ADP	PP	_	13	case	_	_
 11	Real	real	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	12	compound	_	_
-12	Estate	Estate	PROPN	PM|NOM	Case=Nom	13	compound	_	_
-13	Council	Council	PROPN	PM|NOM	Case=Nom	7	nmod	_	_
-14	of	Of	PROPN	PM|NOM	Case=Nom	15	case	_	_
+12	Estate	Estate	NOUN	NN|SIN	Number=Singular	13	compound	_	_
+13	Council	Council	NOUN	NN|SIN	Number=Singular	7	nmod	_	_
+14	of	Of	ADP	PP	_	15	case	_	_
 15	Ontario	Ontario	PROPN	PM|NOM	Case=Nom	13	nmod	_	_
 16	(	(	PUNCT	PAD	_	17	punct	_	SpaceAfter=No
 17	RECO	RECO	PROPN	PM|NOM	Case=Nom	13	appos	_	SpaceAfter=No
@@ -3089,7 +3089,7 @@
 18	totalt	totalt	ADV	AB|POS	Degree=Pos	19	advmod	_	_
 19	sett	sedd	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	SpaceAfter=No
 20	,	,	PUNCT	MID	_	21	punct	_	_
-21	säger	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	expl	_	_
+21	säger	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
 22	Canadian	Canadia	PROPN	PM|NOM	Case=Nom	24	amod	_	_
 23	Blood	Blood	PROPN	PM|NOM	Case=Nom	24	compound	_	_
 24	Services	service	NOUN	UO	Foreign=Yes	21	nsubj	_	_
@@ -3186,7 +3186,7 @@
 5	förekommande	förekommande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Mood=Ind|Tense=Pres|VerbForm=Part	6	amod	_	_
 6	tumören	tumör	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	0	root	_	_
 7	hos	hos	ADP	PP	_	8	case	_	_
-8	spädbarn	spädbarn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	6	advmod	_	SpaceAfter=No
+8	spädbarn	spädbarn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	MID	_	6	punct	_	_
 10	och	och	CCONJ	KN	_	11	cc	_	_
 11	uppkommer	uppkomma	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
