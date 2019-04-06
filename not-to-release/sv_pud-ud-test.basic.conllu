@@ -134,9 +134,9 @@
 28	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	29	det	_	_
 29	idrottsplan	idrottsplan	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	26	obl	_	_
 30	på	på	ADP	PP	_	31	case	_	_
-31	University	University	PROPN	PM|NOM	Case=Nom	29	nmod	_	_
-32	of	Of	PROPN	PM|NOM	Case=Nom	34	case	_	_
-33	North	North	PROPN	PM|NOM	Case=Nom	34	amod	_	_
+31	University	University	NOUN	NN|SIN	Number=Sing	29	nmod	_	_
+32	of	Of	ADP	PP	_	34	case	_	_
+33	North	North	NOUN	NN|SIN	Number=Sing	34	amod	_	_
 34	Carolina	Carolina	PROPN	PM|NOM	Case=Nom	31	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	MAD	_	4	punct	_	_
 
@@ -209,16 +209,16 @@
 15	representanter	representant	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	obj	_	_
 16	från	från	ADP	PP	_	17	case	_	_
 17	Uber	Uber	PROPN	PM|NOM	Case=Nom	15	nmod	_	SpaceAfter=No
-18	,	,	PUNCT	MID	_	15	punct	_	_
-19	Motion	motion	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	compound	_	_
-20	Picture	Picture	PROPN	PM|NOM	Case=Nom	21	compound	_	_
-21	Association	Association	PROPN	PM|NOM	Case=Nom	17	conj	_	_
-22	of	Of	PROPN	PM|NOM	Case=Nom	23	case	_	_
+18	,	,	PUNCT	MID	_	21	punct	_	_
+19	Motion	motion	NOUN	NN|SIN	Number=Sing	20	compound	_	_
+20	Picture	Picture	NOUN	NN|SIN	Number=Sing	21	compound	_	_
+21	Association	Association	NOUN	NN|SIN	Number=Sing	17	conj	_	_
+22	of	Of	ADP	PP	_	23	case	_	_
 23	America	America	PROPN	PM|NOM	Case=Nom	21	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	MID	_	27	punct	_	_
-25	Consumer	Consumer	PROPN	PM|NOM	Case=Nom	26	compound	_	_
-26	Technology	Technology	PROPN	PM|NOM	Case=Nom	27	compound	_	_
-27	Association	Association	PROPN	PM|NOM	Case=Nom	17	conj	_	_
+25	Consumer	Consumer	NOUN	NN|SIN	Number=Sing	26	compound	_	_
+26	Technology	Technology	NOUN	NN|SIN	Number=Sing	27	compound	_	_
+27	Association	Association	NOUN	NN|SIN	Number=Sing	17	conj	_	_
 28	och	och	CCONJ	KN	_	30	cc	_	_
 29	andra	annan	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	30	amod	_	_
 30	grupper	grupp	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	17	conj	_	SpaceAfter=No
@@ -622,7 +622,7 @@
 8	efter	efter	ADP	PP	_	12	mark	_	_
 9	att	att	PART	IE	_	12	mark	_	_
 10	ha	ha	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	aux	_	_
-11	blivit	bliva	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	12	aux:pass	_	_
+11	blivit	bliva	AUX	VB|SUP|AKT	VerbForm=Sup|Voice=Act	12	aux:pass	_	_
 12	avskedad	avskedad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
 13	i	i	ADP	PP	_	14	case	_	_
 14	juli	juli	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	obl	_	SpaceAfter=No
@@ -928,7 +928,7 @@
 # text = 10-veckorskursen har ”certifierats” av brittiska spionmyndigheten GCHQ.
 # text_en = The 10-week course has been "certified" by UK spy agency GCHQ.
 1	10-veckorskursen	10-veckorskurs	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	nsubj:pass	_	_
-2	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+2	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 3	”	”	PUNCT	MID	_	4	punct	_	SpaceAfter=No
 4	certifierats	certifiera	VERB	VB|SUP|SFO	VerbForm=Sup|Voice=Pass	0	root	_	SpaceAfter=No
 5	”	”	PUNCT	PAD	_	4	punct	_	_
@@ -961,7 +961,7 @@
 # text = Tidigare hade jetplanen bara setts av bloggare.
 # text_en = Previously the jets had only been seen by bloggers.
 1	Tidigare	tidigt	ADV	AB|KOM	Degree=Cmp	5	advmod	_	_
-2	hade	ha	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+2	hade	ha	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
 3	jetplanen	jetplan	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	5	nsubj:pass	_	_
 4	bara	bara	ADV	AB	_	5	advmod	_	_
 5	setts	se	VERB	VB|SUP|SFO	VerbForm=Sup|Voice=Pass	0	root	_	_
@@ -1352,7 +1352,7 @@
 27	rymdfröer	rymdfröer	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	25	obl	_	_
 28	–	–	PUNCT	MID	_	32	punct	_	_
 29	just	just	ADV	AB	_	31	advmod	_	_
-30	över	över	ADP	PP	_	31	advmod	_	_
+30	över	över	ADP	PP	_	31	case	_	_
 31	66	66	NUM	RG|NOM	Case=Nom	32	nummod	_	_
 32	%	%	NOUN	NN|AN	Abbr=Yes	21	parataxis	_	SpaceAfter=No
 33	.	.	PUNCT	MAD	_	14	punct	_	_
@@ -1472,7 +1472,7 @@
 # text_en = Throughout history, the international hair market has always had a political dimension, says Tarlo.
 1	Genom	genom	ADP	PP	_	2	case	_	_
 2	historien	historia	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	obl	_	_
-3	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
+3	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
 4	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	6	det	_	_
 5	internationella	internationell	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	6	amod	_	_
 6	hårmarknaden	hårmarknad	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	nsubj	_	_
