@@ -1963,7 +1963,7 @@ w01067032	6	4:nmod:mellan
 w01067032	8	4:nmod:mellan|6:conj:och
 w01067032	11	2:advcl:att
 w01067032	17	11:obl:i
-w01067059	2	10:obl
+w01067059	2	0:root|10:obl
 w01067059	6	2:obl:i
 w01067059	8	2:ref
 w01067059	16	10:obl:i
