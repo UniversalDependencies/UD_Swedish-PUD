@@ -5159,9 +5159,9 @@
 20	smyckesdesign	smyckesdesign	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	19	obj	_	_
 21	vid	vid	ADP	PP	_	23	case	_	_
 22	Glasgow	Glasgow	PROPN	PM|NOM	Case=Nom	23	compound	_	_
-23	School	School	PROPN	PM|NOM	Case=Nom	19	obl	_	_
-24	of	Of	PROPN	PM|NOM	Case=Nom	25	case	_	_
-25	Art	Art	PROPN	PM|NOM	Case=Nom	23	nmod	_	SpaceAfter=No
+23	School	School	NOUN	NN|SIN	Number=Sing	19	obl	_	_
+24	of	of	ADP	PP	_	25	case	_	_
+25	Art	Art	NOUN	NN|SIN	Number=Sing	23	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	MAD	_	2	punct	_	_
 
 # sent_id = n01087035
@@ -5248,19 +5248,19 @@
 4	helt	helt	ADV	AB|POS	Degree=Pos	5	advmod	_	_
 5	kort	kort	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	MID	_	8	punct	_	_
-7	och	och	CCONJ	KN	_	8	cc	_	_
-8	blir	bli	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+7	och	och	CCONJ	KN	_	9	cc	_	_
+8	blir	bli	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
 9	filmad	filmad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
 10	när	när	SCONJ	HA	PronType=Int,Rel	12	mark	_	_
 11	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	nsubj	_	_
-12	tar	ta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	_
+12	tar	ta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_
 13	på	på	ADP	PL	_	12	compound:prt	_	_
 14	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def	12	iobj	_	_
 15	sina	sin	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes	16	nmod:poss	_	_
 16	solglasögon	solglasögon	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	12	obj	_	_
-17	innan	innan	SCONJ	SN	_	19	mark	_	_
+17	innan	innan	SCONJ	SN	_	20	mark	_	_
 18	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing	20	nsubj:pass	_	_
-19	blir	bli	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux:pass	_	_
+19	blir	bli	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux:pass	_	_
 20	intervjuad	intervjuad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	SpaceAfter=No
 21	.	.	PUNCT	MAD	_	3	punct	_	_
 
@@ -5756,7 +5756,7 @@
 9	internetdiskussion	internetdiskussion	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	nmod	_	_
 10	om	om	SCONJ	SN	_	11	case	_	_
 11	ämnet	ämne	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	9	nmod	_	_
-12	hade	ha	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	aux	_	_
+12	hade	ha	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	aux	_	_
 13	min	min	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes	14	nmod:poss	_	_
 14	lista	lista	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	nsubj	_	_
 15	vuxit	växa	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	_

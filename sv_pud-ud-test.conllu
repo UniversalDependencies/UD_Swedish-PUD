@@ -5161,9 +5161,9 @@
 20	smyckesdesign	smyckesdesign	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	19	obj	19:obj	_
 21	vid	vid	ADP	PP	_	23	case	23:case	_
 22	Glasgow	Glasgow	PROPN	PM|NOM	Case=Nom	23	compound	23:compound	_
-23	School	School	PROPN	PM|NOM	Case=Nom	19	obl	19:obl:vid	_
-24	of	Of	PROPN	PM|NOM	Case=Nom	25	case	25:case	_
-25	Art	Art	PROPN	PM|NOM	Case=Nom	23	nmod	23:nmod:of	SpaceAfter=No
+23	School	School	NOUN	NN|SIN	Number=Sing	19	obl	19:obl:vid	_
+24	of	of	ADP	PP	_	25	case	25:case	_
+25	Art	Art	NOUN	NN|SIN	Number=Sing	23	nmod	23:nmod:of	SpaceAfter=No
 26	.	.	PUNCT	MAD	_	2	punct	2:punct	_
 
 # sent_id = n01087035
@@ -5250,19 +5250,19 @@
 4	helt	helt	ADV	AB|POS	Degree=Pos	5	advmod	5:advmod	_
 5	kort	kort	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	advmod	3:advmod	SpaceAfter=No
 6	,	,	PUNCT	MID	_	8	punct	8:punct	_
-7	och	och	CCONJ	KN	_	8	cc	8:cc	_
-8	blir	bli	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	3:conj:och	_
+7	och	och	CCONJ	KN	_	9	cc	9:cc	_
+8	blir	bli	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	3:conj:och	_
 9	filmad	filmad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	3	conj	3:conj	_
 10	när	när	SCONJ	HA	PronType=Int,Rel	12	mark	12:mark	_
 11	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	nsubj	12:nsubj	_
-12	tar	ta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	8:advcl:när	_
+12	tar	ta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	8:advcl:när	_
 13	på	på	ADP	PL	_	12	compound:prt	12:compound:prt	_
 14	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def	12	iobj	12:iobj	_
 15	sina	sin	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes	16	nmod:poss	16:nmod:poss	_
 16	solglasögon	solglasögon	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	12	obj	12:obj	_
-17	innan	innan	SCONJ	SN	_	19	mark	19:mark	_
+17	innan	innan	SCONJ	SN	_	20	mark	20:mark	_
 18	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing	20	nsubj:pass	20:nsubj:pass	_
-19	blir	bli	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux:pass	20:aux:pass	_
+19	blir	bli	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux:pass	20:aux:pass	_
 20	intervjuad	intervjuad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	12:advcl:innan	SpaceAfter=No
 21	.	.	PUNCT	MAD	_	3	punct	3:punct	_
 
@@ -5758,7 +5758,7 @@
 9	internetdiskussion	internetdiskussion	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	nmod	7:nmod:av	_
 10	om	om	SCONJ	SN	_	11	case	11:case	_
 11	ämnet	ämne	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	9	nmod	9:nmod:om	_
-12	hade	ha	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	aux	15:aux	_
+12	hade	ha	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	aux	15:aux	_
 13	min	min	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes	14	nmod:poss	14:nmod:poss	_
 14	lista	lista	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	nsubj	15:nsubj|17:nsubj|19:nsubj	_
 15	vuxit	växa	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	0:root	_
@@ -5908,7 +5908,7 @@
 3	möjligen	möjligen	ADV	AB	_	6	advmod	6:advmod	_
 4	det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing	6	det	6:det	_
 5	mest	mycket	ADV	AB|SUV	Degree=Sup	6	advmod	6:advmod	_
-6	långtgående	långtgående	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	0	root	9:obl	_
+6	långtgående	långtgående	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	0	root	0:root|9:obl	_
 7	som	som	PRON	HP|-|-|-	PronType=Int,Rel	9	obj	6:ref	_
 8	Beijing	Beijing	PROPN	PM|NOM	Case=Nom	9	nsubj	9:nsubj	_
 9	gjort	göra	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	6	acl:relcl	6:acl:relcl	_
