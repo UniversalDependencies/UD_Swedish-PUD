@@ -5449,7 +5449,7 @@
 # text_en = On this, one diary point in Morocco will be the middle Saturday, when developed countries get to publicly question each other about their plans and ambitions.
 1	Om	om	SCONJ	SN	_	2	case	2:case	_
 2	detta	detta	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing	9	obl	9:obl:om	_
-3	kommer	komma	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	9:aux	_
+3	kommer	komma	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	9:aux	_
 4	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	5	det	5:det	_
 5	dagordningspunkt	dagordningspunkt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	nsubj	9:nsubj	_
 6	i	i	ADP	PP	_	7	case	7:case	_
@@ -6322,7 +6322,7 @@
 7	i	i	ADP	PP	_	8	case	8:case	_
 8	juli	juli	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obl	6:obl:i	SpaceAfter=No
 9	,	,	PUNCT	MID	_	11	punct	11:punct	_
-10	direkt	direkt	ADV	AB|POS	Degree=Pos	11	advmod	11:advmod	_
+10	direkt	direkt	ADV	AB|POS	Degree=Pos	12	advmod	12:advmod	_
 11	efter	efter	ADP	PP	_	12	case	12:case	_
 12	Brexitomröstningen	brexitomröstning	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	obl	3:obl:efter	SpaceAfter=No
 13	,	,	PUNCT	MID	_	18	punct	18:punct	_
@@ -6915,7 +6915,7 @@
 2	regissörens	regissör	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	4	nmod:poss	4:nmod:poss	_
 3	egen	egen	ADJ	JJ|POS|UTR|SIN|IND/DEF|NOM	Case=Nom|Degree=Pos|Gender=Com|Number=Sing	4	amod	4:amod	_
 4	beräkning	beräkning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	obl	10:obl:enligt	_
-5	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	10:aux	_
+5	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	10:aux	_
 6	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing	10	nsubj	10:nsubj	_
 7	till	till	ADP	PP	_	9	case	9:case	_
 8	dags	dag	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	9	nmod:poss	9:nmod:poss	_
@@ -7127,7 +7127,7 @@
 10	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
 11	det	det	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing	9	nsubj	9:nsubj	_
 12	här	här	ADV	AB	_	11	fixed	11:fixed	_
-13	med	med	ADP	PP	_	9	advmod	9:advmod	SpaceAfter=No
+13	med	med	ADV	AB	_	9	advmod	9:advmod	SpaceAfter=No
 14	,	,	PUNCT	MID	_	17	punct	17:punct	_
 15	så	så	CCONJ	KN	_	17	cc	17:cc	_
 16	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	nsubj	17:nsubj	_
@@ -7421,7 +7421,7 @@
 # text = Röstning har, i terrorns jargong, blivit det nya mjuka målet.
 # text_en = Voting has, in the vernacular of terror, become the new soft target.
 1	Röstning	röstning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nsubj	8:nsubj|12:nsubj	_
-2	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	8:aux	SpaceAfter=No
+2	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	8:aux	SpaceAfter=No
 3	,	,	PUNCT	MID	_	6	punct	6:punct	_
 4	i	i	ADP	PP	_	6	case	6:case	_
 5	terrorns	terror	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	6	nmod:poss	6:nmod:poss	_
@@ -7522,7 +7522,7 @@
 5	pompös	pompös	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	amod	8:amod	SpaceAfter=No
 6	,	,	PUNCT	MID	_	7	punct	7:punct	_
 7	arrogant	arrogant	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	amod	8:amod	_
-8	person	person	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	10:nsubj|12:nsubj	_
+8	person	person	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	0:root|10:nsubj|12:nsubj	_
 9	som	som	PRON	HP|-|-|-	PronType=Int,Rel	10	nsubj	8:ref	_
 10	känner	känna	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	8:acl:relcl	_
 11	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def	10	obj	10:obj	_
@@ -7610,8 +7610,8 @@
 8	inte	inte	PART	AB	Polarity=Neg	10	advmod	10:advmod	_
 9	”	”	PUNCT	PAD	_	10	punct	10:punct	SpaceAfter=No
 10	Game	game	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	conj	3:conj	_
-11	of	Of	PROPN	PM|NOM	Case=Nom	12	case	12:case	_
-12	Thrones	Thrones	PROPN	PM|NOM	Case=Nom	10	nmod	10:nmod:of	SpaceAfter=No
+11	of	of	ADP	PP	_	12	case	12:case	_
+12	Thrones	Thrones	NOUN	NN|PLU	Number=Sing	10	nmod	10:nmod:of	SpaceAfter=No
 13	”	”	PUNCT	PAD	_	10	punct	10:punct	SpaceAfter=No
 14	.	.	PUNCT	MAD	_	3	punct	3:punct	_
 
@@ -7658,7 +7658,7 @@
 1	De	den	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur	3	det	3:det	_
 2	nederländska	nederländsk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	3	amod	3:amod	_
 3	studenterna	student	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	7	nsubj	7:nsubj	_
-4	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
+4	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
 5	ännu	ännu	ADV	AB	_	7	advmod	7:advmod	_
 6	inte	inte	PART	AB	Polarity=Neg	7	advmod	7:advmod	_
 7	bestämt	bestämma	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	0:root	_
@@ -8008,7 +8008,7 @@
 8	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	10:cop	_
 9	under	under	ADP	PP	_	10	case	10:case	_
 10	uppbyggnad	uppbyggnad	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	conj	2:acl:relcl|5:conj:eller	_
-11	kommer	komma	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	15:aux	_
+11	kommer	komma	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	15:aux	_
 12	vårt	vår	PRON	PS|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes	13	nmod:poss	13:nmod:poss	_
 13	arbete	arbete	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	15	nsubj	15:nsubj	_
 14	att	att	PART	IE	_	15	mark	15:mark	_

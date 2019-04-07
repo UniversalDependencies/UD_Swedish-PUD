@@ -1087,7 +1087,7 @@ n01129021	9	2:nmod:i
 n01129021	14	12:obl:till
 n01129021	16	12:obl:på
 n01130003	8	4:obl:i
-n01130025	8	10:nsubj|12:nsubj
+n01130025	8	0:root|10:nsubj|12:nsubj
 n01130025	9	8:ref
 n01130025	20	8:acl:relcl|10:conj:och
 n01130025	23	20:obl:om
