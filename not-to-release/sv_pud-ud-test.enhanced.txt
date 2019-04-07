@@ -1338,7 +1338,7 @@ w01009017	6	4:obl:i
 w01009017	8	4:obl:under
 w01009017	11	10:nsubj|12:nsubj
 w01009017	18	15:obl:på
-w01009027	7	9:nsubj|17:nsubj
+w01009027	7	0:root|9:nsubj|17:nsubj
 w01009027	8	7:ref
 w01009027	14	9:obl:i
 w01009027	17	7:acl:relcl|9:conj:och
@@ -1469,7 +1469,7 @@ w01020018	28	23:nmod:av|26:conj:och
 w01020019	1	14:nsubj|16:nsubj
 w01020019	6	1:nmod:av
 w01020019	10	6:nmod:i
-w01020019	14	20:nsubj
+w01020019	14	0:root|20:nsubj
 w01020019	16	14:conj:och|20:nsubj
 w01020019	18	14:ref
 w01020019	25	20:obl:i
@@ -1477,7 +1477,7 @@ w01020020	5	9:advcl:när
 w01020020	12	9:obl:till
 w01020020	14	9:obl:som
 w01022033	5	6:obl:av
-w01022033	7	9:nsubj|16:nsubj
+w01022033	7	0:root|9:nsubj|16:nsubj
 w01022033	8	7:ref
 w01022033	11	9:obl:nära
 w01022033	14	11:nmod:i
@@ -1535,7 +1535,7 @@ w01027015	21	19:obl:med
 w01027035	2	7:nsubj|9:nsubj
 w01027035	9	7:conj:och
 w01028004	4	2:conj:och|6:nsubj
-w01028004	6	8:nsubj
+w01028004	6	0:root|8:nsubj
 w01028004	7	6:ref
 w01028004	11	8:obl:i
 w01028050	3	4:obl:i

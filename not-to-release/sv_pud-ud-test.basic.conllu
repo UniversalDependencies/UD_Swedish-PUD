@@ -9203,7 +9203,7 @@
 12	i	i	ADP	PP	_	14	case	_	_
 13	flera	flera	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	14	amod	_	_
 14	månader	månad	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	obl	_	SpaceAfter=No
-15	,	,	PUNCT	MID	_	7	punct	_	_
+15	,	,	PUNCT	MID	_	17	punct	_	_
 16	och	och	CCONJ	KN	_	17	cc	_	_
 17	för	för	ADP	PP	_	9	conj	_	_
 18	in	in	ADV	AB	_	17	compound:prt	_	_
@@ -9314,7 +9314,7 @@
 6	och	och	CCONJ	KN	_	7	cc	_	_
 7	ersatte	ersätta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
 8	Mojmír	Mojmír	PROPN	PM|NOM	Case=Nom	7	obj	_	_
-9	I	i	ADV	PL	_	8	nummod	_	_
+9	I	I	NUM	RG	_	8	nummod	_	_
 10	med	med	ADP	PP	_	13	case	_	_
 11	dennes	dennes	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes	12	nmod:poss	_	_
 12	brorson	brorson	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	nmod	_	_
@@ -9362,7 +9362,7 @@
 14	(	(	PUNCT	PAD	_	15	punct	_	SpaceAfter=No
 15	1918	1918	NUM	RG|NOM	Case=Nom	13	appos	_	SpaceAfter=No
 16	)	)	PUNCT	PAD	_	15	punct	_	_
-17	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux	_	_
+17	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux	_	_
 18	väldigt	väldigt	ADV	AB|POS	Degree=Pos	19	advmod	_	_
 19	lite	litet	ADV	AB|POS	Degree=Pos	20	amod	_	_
 20	inflytande	inflytande	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	25	nsubj	_	_
@@ -10438,7 +10438,7 @@
 14	,	,	PUNCT	MID	_	15	punct	_	_
 15	Ticino	Ticino	PROPN	PM|NOM	Case=Nom	9	conj	_	_
 16	och	och	CCONJ	KN	_	17	cc	_	_
-17	Po	Po	PROPN	PM|NOM	Case=Nom	9	fixed	_	SpaceAfter=No
+17	Po	Po	PROPN	PM|NOM	Case=Nom	9	conj	_	SpaceAfter=No
 18	,	,	PUNCT	MID	_	21	punct	_	_
 19	som	som	PRON	HP|-|-|-	PronType=Int,Rel	21	nsubj	_	_
 20	alla	alla	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur	21	acl	_	_
