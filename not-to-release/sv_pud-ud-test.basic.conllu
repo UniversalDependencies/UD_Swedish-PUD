@@ -622,7 +622,7 @@
 8	efter	efter	ADP	PP	_	12	mark	_	_
 9	att	att	PART	IE	_	12	mark	_	_
 10	ha	ha	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	aux	_	_
-11	blivit	bliva	AUX	VB|SUP|AKT	VerbForm=Sup|Voice=Act	12	aux:pass	_	_
+11	blivit	bli	AUX	VB|SUP|AKT	VerbForm=Sup|Voice=Act	12	aux:pass	_	_
 12	avskedad	avskedad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
 13	i	i	ADP	PP	_	14	case	_	_
 14	juli	juli	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	obl	_	SpaceAfter=No
@@ -5993,16 +5993,16 @@
 # text_en = Hong Kong, meanwhile, appears to be bracing for a wave of protests.
 1	Hong	Hong	PROPN	PM|NOM	Case=Nom	5	nsubj	_	_
 2	Kong	Kong	PROPN	PM|NOM	Case=Nom	1	flat:name	_	_
-3	verkar	verka	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
-4	samtidigt	samtidigt	ADV	AB	_	5	advmod	_	_
-5	bereda	bereda	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	_	_
+3	verkar	verka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	samtidigt	samtidigt	ADV	AB	_	3	advmod	_	_
+5	bereda	bereda	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	3	xcomp	_	_
 6	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def	5	obj	_	_
 7	för	för	ADP	PP	_	9	case	_	_
 8	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	9	det	_	_
 9	våg	våg	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obl	_	_
 10	av	av	ADP	PP	_	11	case	_	_
 11	protester	protest	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	nmod	_	SpaceAfter=No
-12	.	.	PUNCT	MAD	_	5	punct	_	_
+12	.	.	PUNCT	MAD	_	3	punct	_	_
 
 # newdoc id = n01102
 # sent_id = n01102006
@@ -7425,7 +7425,7 @@
 5	terrorns	terror	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	6	nmod:poss	_	_
 6	jargong	jargong	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	obl	_	SpaceAfter=No
 7	,	,	PUNCT	MID	_	6	punct	_	_
-8	blivit	bliva	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	_
+8	blivit	bli	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	_
 9	det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing	12	det	_	_
 10	nya	ny	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	amod	_	_
 11	mjuka	mjuk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	12	amod	_	_
@@ -10072,7 +10072,7 @@
 # text_en = The Danevirke has remained in German possession ever since.
 1	Danevirke	Danevirke	PROPN	PM|NOM	Case=Nom	3	nsubj	_	_
 2	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
-3	förblivit	förbliva	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	_
+3	förblivit	förbli	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	_
 4	i	i	ADP	PP	_	6	case	_	_
 5	tysk	tysk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	amod	_	_
 6	ägo	ägo	NOUN	NN|-|-|-|-	_	3	obl	_	_
@@ -10254,7 +10254,7 @@
 10	delat	delad	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	13	xcomp	_	_
 11	landet	land	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	13	nsubj	_	_
 12	hade	ha	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	13	aux	_	_
-13	blivit	bliva	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	7	ccomp	_	SpaceAfter=No
+13	blivit	bli	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	7	ccomp	_	SpaceAfter=No
 14	.	.	PUNCT	MAD	_	7	punct	_	_
 
 # newdoc id = w01029
@@ -11695,7 +11695,7 @@
 26	underkastelsen	underkastelse	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	22	obl	_	_
 27	till	till	ADP	PP	_	28	case	_	_
 28	manchuerna	manchu	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	26	nmod	_	_
-29	blivit	bliva	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	3	advcl	_	_
+29	blivit	bli	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	3	advcl	_	_
 30	ogiltigt	ogiltigt	ADV	AB|POS	Degree=Pos	29	xcomp	_	SpaceAfter=No
 31	.	.	PUNCT	MAD	_	3	punct	_	_
 
@@ -13080,7 +13080,7 @@
 # text_en = They had been so moved by the beauty of the Rudyard Lake area that when their first child was born they referenced it when naming him.
 1	De	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur	3	nsubj	_	_
 2	hade	ha	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	_
-3	blivit	bliva	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	_
+3	blivit	bli	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	_
 4	så	så	ADV	AB	_	5	advmod	_	_
 5	rörda	rörd	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part	3	xcomp	_	_
 6	av	av	ADP	PP	_	7	case	_	_
@@ -13543,7 +13543,7 @@
 15	alla	alla	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur	23	nsubj	_	_
 16	som	som	PRON	HP|-|-|-	PronType=Int,Rel	19	nsubj:pass	_	_
 17	hade	ha	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	19	aux	_	_
-18	blivit	bliva	AUX	VB|SUP|AKT	VerbForm=Sup|Voice=Act	19	aux:pass	_	_
+18	blivit	bli	AUX	VB|SUP|AKT	VerbForm=Sup|Voice=Act	19	aux:pass	_	_
 19	tvingade	tvingad	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
 20	till	till	ADP	PP	_	21	case	_	_
 21	dop	dop	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	19	obl	_	_
@@ -14370,7 +14370,7 @@
 7	kejsar	kejsar	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nmod	_	_
 8	Shōwa	Shōwa	PROPN	PM|NOM	Case=Nom	5	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	MID	_	5	punct	_	_
-10	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
+10	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
 11	kejsarna	kejsare	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	13	nsubj:pass	_	_
 12	ofta	ofta	ADV	AB|POS	Degree=Pos	13	advmod	_	_
 13	omtalats	omtala	VERB	VB|SUP|SFO	VerbForm=Sup|Voice=Pass	0	root	_	_
@@ -15497,8 +15497,8 @@
 3	in	in	ADV	PL	_	2	compound:prt	_	_
 4	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def	2	obj	_	_
 5	vid	vid	ADP	PP	_	6	case	_	_
-6	University	University	PROPN	PM|NOM	Case=Nom	2	obl	_	_
-7	of	Of	PROPN	PM|NOM	Case=Nom	8	case	_	_
+6	University	University	NOUN	NN|SIN	Number=Sing	2	obl	_	_
+7	of	of	ADP	PP	_	8	case	_	_
 8	Edinburgh	Edinburgh	PROPN	PM|NOM	Case=Nom	6	nmod	_	_
 9	där	där	ADV	HA	PronType=Int,Rel	11	advmod	_	_
 10	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	nsubj	_	_
@@ -15585,14 +15585,14 @@
 # text = 2009 hade den totala försäljningen av The Power of Now och A New Earth in North America uppskattats till tre miljoner respektive fem miljoner kopior.
 # text_en = By 2009, total sales of The Power of Now and A New Earth in North America had been estimated at three million and five million copies respectively.
 1	2009	2009	NUM	RG|NOM	Case=Nom	18	obl	_	_
-2	hade	ha	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	18	aux	_	_
+2	hade	ha	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	18	aux	_	_
 3	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	5	det	_	_
 4	totala	total	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	5	amod	_	_
 5	försäljningen	försäljning	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	18	nsubj:pass	_	_
 6	av	av	ADP	PP	_	8	case	_	_
 7	The	the	DET	DT|DEF	Definite=Def	8	det	_	_
 8	Power	power	NOUN	NN|SIN	Number=Sing	5	nmod	_	_
-9	of	of	ADP	PP	_	10	nummod	_	_
+9	of	of	ADP	PP	_	10	case	_	_
 10	Now	Now	ADV	AB	_	8	nmod	_	_
 11	och	och	CCONJ	KN	_	14	cc	_	_
 12	A	A	DET	DT|DEF	Definite=Def	14	det	_	_
@@ -15754,7 +15754,7 @@
 9	,	,	PUNCT	MID	_	11	punct	_	_
 10	social	social	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	11	amod	_	_
 11	hierarki	hierarki	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	conj	_	SpaceAfter=No
-12	,	,	PUNCT	MID	_	2	punct	_	_
+12	,	,	PUNCT	MID	_	15	punct	_	_
 13	såväl	såväl	ADV	AB	_	15	advmod	_	_
 14	som	som	CCONJ	KN	_	15	cc	_	_
 15	liv	liv	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	conj	_	SpaceAfter=No
@@ -15801,10 +15801,10 @@
 # sent_id = w01122031
 # text = Really Really Love You släpptes i augusti och nådde topp 50: ”Shaky Ground”, den tillhörande singeln, dök upp i september men Geyer var redan i USA.
 # text_en = Really Really Love You was released in August and reach the top 50; "Shaky Ground", the related single, appeared in September but Geyer was already in the US.
-1	Really	really	ADP	UO	Foreign=Yes	3	advmod	_	_
-2	Really	really	ADP	UO	Foreign=Yes	3	advmod	_	_
-3	Love	love	ADP	UO	Foreign=Yes	5	nsubj:pass	_	_
-4	You	you	NOUN	UO	Foreign=Yes	3	obj	_	_
+1	Really	really	ADV	AB	_	3	advmod	_	_
+2	Really	really	ADV	AB	_	3	advmod	_	_
+3	Love	love	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	nsubj:pass	_	_
+4	You	you	PRON	PN	Number=Sing	3	obj	_	_
 5	släpptes	släppa	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 6	i	i	ADP	PP	_	7	case	_	_
 7	augusti	augusti	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obl	_	_
@@ -15939,7 +15939,7 @@
 4	utestängdes	utestänga	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	2	conj	_	_
 5	två	två	NUM	RG|NOM	Case=Nom	6	nummod	_	_
 6	gånger	gång	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	obl	_	_
-7	till	till	ADP	PP	_	6	advmod	_	_
+7	till	till	ADV	AB	_	6	advmod	_	_
 8	innan	innan	SCONJ	SN	_	10	mark	_	_
 9	underhuset	underhus	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	10	nsubj	_	_
 10	beslöt	besluta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
@@ -16070,7 +16070,7 @@
 2	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	4	det	_	_
 3	här	här	ADV	AB	_	2	fixed	_	_
 4	tiden	tid	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	obl	_	_
-5	hade	ha	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	aux	_	_
+5	hade	ha	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	aux	_	_
 6	extravagant	extravagant	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
 7	spenderande	spenderande	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	17	nsubj	_	_
 8	och	och	CCONJ	KN	_	10	cc	_	_
@@ -16207,7 +16207,7 @@
 2	släppte	släppa	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	två	två	NUM	RG|NOM	Case=Nom	4	nummod	_	_
 4	album	album	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	2	obj	_	_
-5	till	till	ADP	PP	_	3	advmod	_	_
+5	till	till	ADV	AB	_	3	advmod	_	_
 6	under	under	ADP	PP	_	7	case	_	_
 7	1990-talet	1990-tal	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	_
 8	i	i	ADP	PP	_	9	case	_	_
@@ -16291,26 +16291,27 @@
 4	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	6	det	_	_
 5	ny	ny	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	amod	_	_
 6	version	version	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj	_	_
-7	av	av	ADP	PP	_	14	case	_	_
+7	av	av	ADP	PP	_	15	case	_	_
 8	sin	sin	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes	9	nmod:poss	_	_
-9	Humblebums-låt	humblebums-låt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	nmod	_	_
-10	”	”	PUNCT	PAD	_	14	punct	_	SpaceAfter=No
-11	Her	her	NOUN	UO	Foreign=Yes	12	nmod:poss	_	_
-12	Father	father	ADP	UO	Foreign=Yes	14	nsubj	_	_
-13	Didn't	didn't	NOUN	UO	Foreign=Yes	14	aux	_	_
-14	Like	lik	ADJ	JJ|POS|MAS|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
-15	Me	Me	PROPN	PM|NOM	Case=Nom	14	obj	_	_
-16	Anyway	Anyway	PROPN	PM|NOM	Case=Nom	14	advmod	_	SpaceAfter=No
-17	”	”	PUNCT	PAD	_	14	punct	_	_
-18	på	på	ADP	PP	_	22	case	_	_
-19	albumet	album	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	22	nmod	_	_
-20	Over	over	NOUN	UO	Foreign=Yes	22	case	_	_
-21	My	My	PROPN	PM|NOM	Case=Nom	22	nmod:poss	_	_
-22	Head	Head	PROPN	PM|NOM	Case=Nom	2	obl	_	_
-23	(	(	PUNCT	PAD	_	24	punct	_	SpaceAfter=No
-24	1994	1994	NUM	RG|NOM	Case=Nom	22	nummod	_	SpaceAfter=No
-25	)	)	PUNCT	PAD	_	24	punct	_	SpaceAfter=No
-26	.	.	PUNCT	MAD	_	2	punct	_	_
+9	Humblebums-låt	humblebums-låt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	nmod	_	_
+10	”	”	PUNCT	PAD	_	15	punct	_	SpaceAfter=No
+11	Her	her	PRON	PS|SIN	Number=Sing	12	nmod:poss	_	_
+12	Father	father	NOUN	NN|SIN	Number=Sing	15	nsubj	_	_
+13	Did	do	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	aux	_	SpaceAfter=No
+14	n't	not	PART	AB	_	15	advmod	_	_
+15	Like	like	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	6	nmod	_	_
+16	Me	me	PRON	PN|SIN	Case=Nom	15	obj	_	_
+17	Anyway	anyway	ADV	AB	Case=Nom	15	advmod	_	SpaceAfter=No
+18	”	”	PUNCT	PAD	_	15	punct	_	_
+19	på	på	ADP	PP	_	23	case	_	_
+20	albumet	album	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	23	nmod	_	_
+21	Over	over	NOUN	UO	Foreign=Yes	23	case	_	_
+22	My	My	PROPN	PM|NOM	Case=Nom	23	nmod:poss	_	_
+23	Head	Head	PROPN	PM|NOM	Case=Nom	2	obl	_	_
+24	(	(	PUNCT	PAD	_	25	punct	_	SpaceAfter=No
+25	1994	1994	NUM	RG|NOM	Case=Nom	23	nummod	_	SpaceAfter=No
+26	)	)	PUNCT	PAD	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	MAD	_	2	punct	_	_
 
 # sent_id = w01130103
 # text = Dessa var de två sista skivor Rafferty producerade med Hugh Murphy, som dog 1998.
@@ -17027,7 +17028,7 @@
 14	vilka	vilka	PRON	HP|UTR/NEU|PLU|IND	Definite=Ind|Number=Plur|PronType=Int,Rel	15	nsubj:pass	_	_
 15	användes	använda	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	10	acl:relcl	_	_
 16	i	i	ADP	PP	_	21	case	_	_
-17	mycket	mycket	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing	21	advmod	_	_
+17	mycket	mycket	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing	21	obl	_	_
 18	av	av	ADP	PP	_	21	case	_	_
 19	institutets	institut	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	21	nmod:poss	_	_
 20	efterföljande	efterföljande	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	21	amod	_	_
@@ -17067,8 +17068,8 @@
 9	Sara	Sara	PROPN	PM|NOM	Case=Nom	2	obj	_	_
 10	Errani	Errani	PROPN	PM|NOM	Case=Nom	9	flat:name	_	SpaceAfter=No
 11	,	,	PUNCT	MID	_	13	punct	_	_
-12	men	men	CCONJ	KN	_	13	cc	_	_
-13	blev	bli	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	aux:pass	_	_
+12	men	men	CCONJ	KN	_	14	cc	_	_
+13	blev	bli	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	aux:pass	_	_
 14	besegrad	besegrad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	SpaceAfter=No
 15	.	.	PUNCT	MAD	_	2	punct	_	_
 
@@ -17109,10 +17110,10 @@
 21	,	,	PUNCT	MID	_	23	punct	_	_
 22	inklusive	inklusive	ADP	PP	_	23	case	_	_
 23	Edward	Edward	PROPN	PM|NOM	Case=Nom	20	appos	_	_
-24	IV	4:e	ADJ	RO|NOM	Case=Nom	23	nummod	_	_
+24	IV	IV	NUM	RG	_	23	nummod	_	_
 25	och	och	CCONJ	KN	_	26	cc	_	_
 26	Richard	Richard	PROPN	PM|NOM	Case=Nom	23	conj	_	_
-27	III	3:e	ADJ	RO|NOM	Case=Nom	26	nummod	_	SpaceAfter=No
+27	III	III	NUM	RG	_	26	nummod	_	SpaceAfter=No
 28	,	,	PUNCT	MID	_	23	punct	_	_
 29	blev	bli	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 30	Joan	Joan	PROPN	PM|NOM	Case=Nom	29	nsubj	_	_
@@ -17153,7 +17154,7 @@
 # sent_id = w01143015
 # text = För inte så länge sedan skilde han sig från skådespelerskan, Gloria Holden, men var fortsatt kär efter det äktenskapliga uppbrottet.
 # text_en = Not long ago he was divorced from the actress, Gloria Holden, but carried the torch after the marital rift.
-1	För	för	CCONJ	KN	_	4	case	_	_
+1	För	för	ADP	PP	_	4	case	_	_
 2	inte	inte	PART	AB	Polarity=Neg	4	advmod	_	_
 3	så	så	ADV	AB	_	4	advmod	_	_
 4	länge	länge	ADV	AB|POS	Degree=Pos	6	advmod	_	_
@@ -17449,7 +17450,7 @@
 2	till	till	ADP	PP	_	3	case	_	_
 3	augusti	augusti	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	obl	_	_
 4	2015	2015	NUM	RG|NOM	Case=Nom	3	nummod	_	_
-5	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
+5	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
 6	Kesha	Kesha	PROPN	PM|NOM	Case=Nom	7	nsubj	_	_
 7	släppt	släppa	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	_
 8	väldigt	väldigt	ADV	AB|POS	Degree=Pos	9	advmod	_	_
@@ -17562,7 +17563,7 @@
 19	galaxen	galax	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	nmod	_	_
 20	och	och	CCONJ	KN	_	21	cc	_	_
 21	Son	so	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	conj	_	_
-22	of	Of	PROPN	PM|NOM	Case=Nom	23	case	_	_
+22	of	of	ADP	PP	_	23	case	_	_
 23	Rambow	Rambow	PROPN	PM|NOM	Case=Nom	21	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	MAD	_	4	punct	_	_
 
@@ -17904,7 +17905,7 @@
 13	landar	landa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	ccomp	_	_
 14	efter	efter	ADP	PP	_	19	case	_	_
 15	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	19	det	_	_
-16	2	2	ADJ	RO|NOM	Case=Nom	17	nummod	_	_
+16	2	2	NUM	RG	_	17	nummod	_	_
 17	månader	månad	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	nmod	_	_
 18	långa	lång	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
 19	parningsperioden	parningsperiode	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	13	obl	_	SpaceAfter=No
@@ -18519,7 +18520,7 @@
 # text_en = For the time being, the deal between Aoun and Hariri has brought the two enemy factions closer together.
 1	För	för	ADP	PP	_	2	case	_	_
 2	tillfället	tillfälle	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	9	obl	_	_
-3	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
+3	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
 4	överenskommelsen	överenskommelse	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nsubj	_	_
 5	mellan	mellan	ADP	PP	_	6	case	_	_
 6	Aoun	Aoun	PROPN	PM|NOM	Case=Nom	4	nmod	_	_
@@ -18692,7 +18693,7 @@
 # text = Därför kommer de irriterande tecknen inte helt försvinna: Enligt information från nyhetsbyrån dpa, kommer de bara aktiveras om, till exempel, artisten eller skivbolaget inte är medlem i GEMA och inte har ett avtal med YouTube.
 # text_en = Therefore the irksome signs will not completely disappear: According to information from the news agency dpa, they will only be activated if, for instance, the artist or record label is not a member of GEMA and does not have an agreement with YouTube.
 1	Därför	därför	ADV	AB	_	8	advmod	_	_
-2	kommer	komma	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
+2	kommer	komma	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
 3	de	den	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur	5	det	_	_
 4	irriterande	irriterande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Mood=Ind|Tense=Pres|VerbForm=Part	5	amod	_	_
 5	tecknen	tecken	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	8	nsubj	_	_
@@ -18706,7 +18707,7 @@
 13	nyhetsbyrån	nyhetsbyrå	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	nmod	_	_
 14	dpa	Dpa	PROPN	PM|NOM	Case=Nom	11	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	MID	_	11	punct	_	_
-16	kommer	komma	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux	_	_
+16	kommer	komma	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux	_	_
 17	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur	19	nsubj	_	_
 18	bara	bara	ADV	AB	_	19	advmod	_	_
 19	aktiveras	aktivera	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	8	parataxis	_	_
@@ -18812,7 +18813,7 @@
 5	från	från	ADP	PP	_	7	case	_	_
 6	28	28	NUM	RG|NOM	Case=Nom	7	nummod	_	_
 7	oktober	oktober	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	nmod	_	_
-8	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
+8	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
 9	mr	mr	NOUN	NN|AN	Abbr=Yes	11	nmod	_	_
 10	Comeys	Comey	PROPN	PM|GEN	Case=Gen	11	nmod:poss	_	_
 11	brev	brev	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	13	nsubj:pass	_	_
@@ -19537,7 +19538,7 @@
 # text_en = From the 1st of January there will be an increase in petrol and diesel.
 1	Från	från	ADP	PP	_	4	case	_	_
 2	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	4	det	_	_
-3	1	1:a	ADJ	RO|NOM	Case=Nom	4	nummod	_	_
+3	1	1	NUM	RG	_	4	nummod	_	_
 4	januari	januari	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obl	_	_
 5	kommer	komma	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
 6	det	det	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing	9	nsubj	_	_
@@ -19675,11 +19676,11 @@
 14	av	av	ADP	PP	_	16	case	_	_
 15	fullkomlig	fullkomlig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	16	amod	_	_
 16	slutenhet	slutenhet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	nmod	_	_
-17	som	som	PRON	HP|-|-|-	PronType=Int,Rel	20	advmod	_	_
+17	som	som	PRON	HP|-|-|-	PronType=Int,Rel	20	obj	_	_
 18	banken	bank	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	20	nsubj	_	_
 19	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	_	_
 20	visat	visa	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	13	acl:relcl	_	_
-21	oss	vi	PRON	PN|UTR|PLU|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Plur	20	obj	_	SpaceAfter=No
+21	oss	vi	PRON	PN|UTR|PLU|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Plur	20	iobj	_	SpaceAfter=No
 22	”	”	PUNCT	PAD	_	13	punct	_	SpaceAfter=No
 23	.	.	PUNCT	MAD	_	3	punct	_	_
 
@@ -19803,7 +19804,7 @@
 9	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	10	det	_	_
 10	motorcykelhjälm	motorcykelhjälm	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	obj	_	_
 11	som	som	PRON	HP|-|-|-	PronType=Int,Rel	14	nsubj	_	_
-12	kan	kunna	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	_
+12	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	_
 13	”	”	PUNCT	PAD	_	14	punct	_	SpaceAfter=No
 14	läsa	läsa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	10	acl:relcl	_	_
 15	tankar	tanke	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	14	obj	_	SpaceAfter=No
@@ -19902,7 +19903,7 @@
 # text_en = Amazon has become the fourth American company with the largest market capitalisation, surpassing ExxonMobil.
 1	Amazon	amazon	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nsubj	_	_
 2	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
-3	blivit	bliva	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	_
+3	blivit	bli	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	_
 4	det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing	7	det	_	_
 5	fjärde	fjärde	ADJ	RO|NOM	Case=Nom	7	amod	_	_
 6	amerikanska	amerikansk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	7	amod	_	_
@@ -20742,7 +20743,7 @@
 4	,	,	PUNCT	MID	_	10	punct	_	_
 5	som	som	PRON	HP|-|-|-	PronType=Int,Rel	10	nsubj	_	_
 6	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
-7	över	över	ADP	PP	_	8	advmod	_	_
+7	över	över	ADV	AB	_	8	advmod	_	_
 8	fyra	fyra	NUM	RG|NOM	Case=Nom	9	nummod	_	_
 9	kilometer	kilometer	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	obl	_	_
 10	lång	lång	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	acl:relcl	_	SpaceAfter=No
@@ -21249,13 +21250,13 @@
 6	kung	kung	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	conj	_	_
 7	Frans	Frans	PROPN	PM|NOM	Case=Nom	11	nsubj	_	_
 8	Josef	Josef	PROPN	PM|NOM	Case=Nom	7	flat:name	_	_
-9	I	I	PROPN	PM|NOM	Case=Nom	7	flat:name	_	_
+9	I	I	NUM	RG	_	7	flat:name	_	_
 10	mycket	mycket	ADV	AB|POS	Degree=Pos	11	advmod	_	_
 11	noga	noga	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	0	root	_	_
 12	med	med	ADP	PP	_	14	mark	_	_
 13	att	att	PART	IE	_	14	mark	_	_
 14	behandla	behandla	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	11	advcl	_	_
-15	båda	båda	PRON	PN|UTR/NEU|PLU|DEF|SUB/OBJ	Definite=Def|Number=Plur	17	advmod	_	_
+15	båda	båda	DET	PN|UTR/NEU|PLU|DEF|SUB/OBJ	Definite=Def|Number=Plur	17	det	_	_
 16	sina	sin	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes	17	nmod:poss	_	_
 17	monarkier	monarki	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	14	obj	_	_
 18	lika	lika	ADV	AB	_	14	advmod	_	SpaceAfter=No
@@ -21400,7 +21401,7 @@
 12	offentliga	offentlig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	13	amod	_	_
 13	livet	liv	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	9	nmod	_	_
 14	hade	ha	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	aux	_	_
-15	blivit	bliva	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	3	parataxis	_	_
+15	blivit	bli	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	3	parataxis	_	_
 16	i	i	ADP	PP	_	17	case	_	_
 17	praktiken	praktik	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	15	obl	_	_
 18	omöjligt	omöjlig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	xcomp	_	SpaceAfter=No
@@ -22446,7 +22447,7 @@
 13	I	1	NUM	RG|NOM	Case=Nom	12	flat:name	_	_
 14	och	och	CCONJ	KN	_	21	cc	_	_
 15	dessa	dessa	PRON	PN|UTR/NEU|PLU|DEF|SUB/OBJ	Definite=Def|Number=Plur	21	nsubj	_	_
-16	hade	ha	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	21	aux	_	_
+16	hade	ha	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	21	aux	_	_
 17	i	i	ADP	PP	_	21	advmod	_	_
 18	stort	stort	ADV	AB	_	17	fixed	_	_
 19	sett	sedd	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	17	fixed	_	_
@@ -22594,7 +22595,7 @@
 2	religiösa	religiös	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	_	_
 3	bruk	bruk	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	obl	_	_
 4	beträffar	beträffa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	fixed	_	_
-5	var	var	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	_
+5	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	_
 6	Fiorello	Fiorello	PROPN	PM|NOM	Case=Nom	7	nsubj	_	_
 7	utbildad	utbildad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	inom	inom	ADP	PP	_	9	case	_	_
@@ -22643,7 +22644,7 @@
 26	av	av	ADP	PP	_	28	case	_	_
 27	denna	denna	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	28	det	_	_
 28	anledning	anledning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	parataxis	_	_
-29	som	som	PRON	HP|-|-|-	PronType=Int,Rel	35	advmod	_	_
+29	som	som	PRON	HP|-|-|-	PronType=Int,Rel	35	obl	_	_
 30	Olivia	Olivia	PROPN	PM|NOM	Case=Nom	35	nsubj:pass	_	SpaceAfter=No
 31	,	,	PUNCT	MID	_	33	punct	_	_
 32	bland	bland	ADP	PP	_	33	case	_	_
@@ -22710,7 +22711,7 @@
 11	Metti	Metti	PROPN	PM|NOM	Case=Nom	7	obl	_	SpaceAfter=No
 12	,	,	PUNCT	MID	_	14	punct	_	_
 13	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	14	det	_	_
-14	kväll	kväll	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	advmod	_	_
+14	kväll	kväll	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obl	_	_
 15	vid	vid	ADP	PP	_	16	case	_	_
 16	middagen	middag	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	nmod	_	SpaceAfter=No
 17	;	;	PUNCT	MID	_	3	punct	_	_
@@ -22850,7 +22851,7 @@
 1	Innan	innan	SCONJ	SN	_	3	mark	_	_
 2	Anderna	Anderna	PROPN	PM|NOM	Case=Nom	3	nsubj:pass	_	_
 3	bildades	bilda	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	12	advcl	_	_
-4	hade	ha	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	aux	_	_
+4	hade	ha	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	aux	_	_
 5	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	7	det	_	_
 6	västra	väster	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	7	amod	_	_
 7	kanten	kant	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	nsubj	_	_
@@ -22877,9 +22878,9 @@
 7	kallade	kallad	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part	6	fixed	_	_
 8	”	”	PUNCT	PAD	_	9	punct	_	SpaceAfter=No
 9	Andes	ande	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	4	obj	_	_
-10	de	den	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur	11	case	_	_
-11	tipo	tipo	NUM	RG|NOM	Case=Nom	9	nmod	_	_
-12	andino	andino	NOUN	UO	Foreign=Yes	11	amod	_	SpaceAfter=No
+10	de	den	ADP	PP	_	11	case	_	_
+11	tipo	tipo	NOUN	NN|SIN	Number=Sing	9	nmod	_	_
+12	andino	andino	ADJ	JJ|SIN	Number=Sing	11	amod	_	SpaceAfter=No
 13	”	”	PUNCT	PAD	_	11	punct	_	_
 14	som	som	PRON	HP|-|-|-	PronType=Int,Rel	15	nsubj:pass	_	_
 15	formades	forma	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	9	acl:relcl	_	_
@@ -23170,7 +23171,7 @@
 1	Icke	icke	PART	AB	Polarity=Neg	24	advmod	_	_
 2	desto	desto	ADV	AB	_	1	fixed	_	_
 3	mindre	litet	ADV	AB|KOM	Degree=Cmp	1	fixed	_	_
-4	skulle	skola	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	24	aux	_	_
+4	skulle	skola	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	24	aux	_	_
 5	döttrarna	dotter	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	24	nsubj	_	_
 6	till	till	ADP	PP	_	7	case	_	_
 7	Luis	Luis	PROPN	PM|NOM	Case=Nom	5	nmod	_	_
@@ -23297,14 +23298,15 @@
 31	för	för	ADP	PP	_	32	case	_	_
 32	honom	han	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing	30	nmod	_	SpaceAfter=No
 33	:	:	PUNCT	MID	_	2	punct	_	_
-34	”	”	PUNCT	MID	_	36	punct	_	SpaceAfter=No
-35	Don't	Don't	PROPN	PM|NOM	Case=Nom	36	aux	_	_
-36	Go	go	NOUN	UO	Foreign=Yes	2	parataxis	_	_
-37	Breaking	Breaking	PROPN	PM|NOM	Case=Nom	36	xcomp	_	_
-38	My	My	PROPN	PM|NOM	Case=Nom	39	nmod:poss	_	_
-39	Heart	Heart	PROPN	PM|NOM	Case=Nom	37	obj	_	SpaceAfter=No
-40	”	”	PUNCT	PAD	_	36	punct	_	SpaceAfter=No
-41	.	.	PUNCT	MAD	_	2	punct	_	_
+34	”	”	PUNCT	MID	_	37	punct	_	SpaceAfter=No
+35	Do	do	AUX	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	37	aux	_	SpaceAfter=No
+36	n't	not	PART	AB	_	37	advmod	_	_
+37	Go	go	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	parataxis	_	_
+38	Breaking	Breaking	VERB	PC|PRS	VerbForm=Part|Voice=Act	37	xcomp	_	_
+39	My	my	PRON	PS|SIN	Number=Sing	40	nmod:poss	_	_
+40	Heart	heart	NOUN	NN|SIN	Number=Sing	38	obj	_	SpaceAfter=No
+41	”	”	PUNCT	PAD	_	37	punct	_	SpaceAfter=No
+42	.	.	PUNCT	MAD	_	2	punct	_	_
 
 # newdoc id = w05010
 # sent_id = w05010023
@@ -23446,7 +23448,7 @@
 # text = Den 1 januari 49 f.Kr. läste Markus Antonius upp ett tillkännagivande från Caesar i vilket prokonsuln förklarade sig som en fredens vän.
 # text_en = On the 1st January 49 BC, Marco Antonio read a declaration from Caesar in which the proconsul declared himself a friend of peace.
 1	Den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	3	det	_	_
-2	1	1:a	ADJ	RO|NOM	Case=Nom	3	nummod	_	_
+2	1	1	NUM	RG	_	3	nummod	_	_
 3	januari	januari	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obl	_	_
 4	49	49	NUM	RG|NOM	Case=Nom	3	nummod	_	_
 5	f.Kr.	f.kr.	NOUN	NN|AN	Abbr=Yes	4	nmod	_	_

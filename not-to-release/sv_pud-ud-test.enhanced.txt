@@ -2420,7 +2420,7 @@ w01108036	16	14:acl:att
 w01108063	18	14:nmod:vid
 w01109009	3	4:obl:i
 w01109009	5	4:nsubj:pass|9:nsubj
-w01109036	5	7:nsubj
+w01109036	5	0:root|7:nsubj
 w01109036	6	5:ref
 w01109036	10	7:obl:med
 w01109120	3	4:obl:vid
@@ -2455,7 +2455,7 @@ w01113046	10.1	10.1	byggde	bygga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fi
 w01113046	10.2	10.2	renoverade	renovera	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	_	_	10.1:conj:och	_
 w01113046	13	10.1:obj
 w01113046	14	10.1:obl
-w01113058	2	12:nsubj
+w01113058	2	0:root|12:nsubj
 w01113058	11	2:ref
 w01113058	16	12:obl:i
 w01113074	3	6:obl:före
@@ -2551,7 +2551,7 @@ w01125034	9	10:nsubj|17:nsubj
 w01125034	10	2:advcl:innan
 w01125034	17	2:advcl:innan|10:conj:och
 w01125034	18	17:obj|20:nsubj
-w01125035	3	6:nsubj
+w01125035	3	0:root|6:nsubj
 w01125035	5	3:ref
 w01125035	7	6:obj|13:nsubj
 w01125035	9	6:obl:under
@@ -2601,8 +2601,8 @@ w01130101	11	6:obl:med|20:nsubj
 w01130101	18	11:ref
 w01130101	24	20:obl:för
 w01130101	26	20:obl:på
-w01130102	14	6:nmod:av
-w01130102	22	2:obl:over
+w01130102	15	6:nmod:av
+w01130102	23	2:obl:over
 w01130103	10	8:obl:med|14:nsubj
 w01130103	13	10:ref
 w01131060	7	3:nmod:inklusive
@@ -2771,7 +2771,7 @@ w01144063	12	2:conj:och
 w01144063	16	14:nmod:i
 w01144063	20	2:conj:och
 w01144084	1	2:nsubj|5:nsubj
-w01144084	2	13:nsubj
+w01144084	2	0:root|13:nsubj
 w01144084	5	2:conj:och|13:nsubj
 w01144084	8	5:obl:från
 w01144084	12	2:ref
@@ -2852,7 +2852,7 @@ n02004007	8	3:obl:med
 n02004007	11	8:nmod:för
 n02006006	3	1:conj:eller|11:nsubj
 n02006006	5	1:conj:eller|11:nsubj
-n02006006	11	16:obl
+n02006006	11	0:root|16:obl
 n02006006	14	11:ref
 n02006006	20	16:obl:över
 n02007010	3	10:obl:med
@@ -3024,7 +3024,7 @@ n03005025	6	3:nsubj:pass|12:nsubj|16:nsubj|27:nsubj
 n03005025	16	3:xcomp|12:conj:och
 n03005025	22	16:nmod:för
 n03005025	27	3:xcomp|12:conj:och
-n03006003	3	6:nsubj
+n03006003	3	0:root|6:nsubj
 n03006003	4	3:ref
 n03006003	9	7:nmod:av
 n03006003	12	7:nmod:vid
@@ -3096,7 +3096,7 @@ n04006003	11	9:nmod:på
 n04006003	13	9:nmod:på|11:conj:och
 n04006004	7	4:obl:i
 n04006004	16	14:nmod:av
-n04006010	2	9:nsubj
+n04006010	2	0:root|9:nsubj
 n04006010	3	2:ref
 n04006010	6	9:obl:i
 n04006010	11	9:obl:för
@@ -3106,7 +3106,7 @@ n04006014	12	4:conj:och
 n04006014	21	19:nmod:per
 n04006014	25	22:obl:med
 n04006014	28	25:nmod:på
-n04006016	4	7:nsubj
+n04006016	4	0:root|7:nsubj
 n04006016	5	4:ref
 n04006016	8	7:obj|19:nsubj
 n04006016	11	8:nmod:för|13:nsubj
@@ -3124,7 +3124,7 @@ n04007015	20	16:obl:å
 n04007015	23	16:advcl:att
 n04007015	26	24:acl:att
 n04007015	29	26:obl:på
-n04007018	3	5:nsubj:pass
+n04007018	3	0:root|5:nsubj:pass
 n04007018	4	3:ref
 n04007018	8	5:obl:i
 n04007018	10	8:nmod:till
@@ -3513,7 +3513,7 @@ w03010099	16	15:ref
 w03010099	20	18:nmod:till
 w03010099	23	20:nmod:av
 w03010100	2	3:obl:under
-w03010100	3	15:obl
+w03010100	3	0:root|15:obl
 w03010100	11	3:obl:med
 w03010100	13	3:ref
 w04001027	4	5:obl:i
@@ -3533,7 +3533,7 @@ w04001053	20	18:conj:och|21:amod
 w04001053	21	15:nmod:mellan
 w04002008	2	4:nsubj|11:nsubj
 w04002008	3	2:ref
-w04002008	11	15:nsubj
+w04002008	11	0:root|15:nsubj
 w04002008	13	11:nmod:av
 w04002008	14	11:ref
 w04002008	18	15:obl:vid
@@ -3700,7 +3700,7 @@ w05005087	8	6:obl:till
 w05005087	10	6:obl:i
 w05005087	13	10:nmod:nära
 w05006024	4	1:conj:eller|7:nsubj
-w05006024	7	11:nsubj
+w05006024	7	0:root|11:nsubj
 w05006024	9	7:nmod:av
 w05006024	10	7:ref
 w05006024	14	12:nmod:från
