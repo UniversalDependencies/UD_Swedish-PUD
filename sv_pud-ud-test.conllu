@@ -10699,7 +10699,7 @@
 2	senaste	sen	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	4	amod	4:amod	_
 3	50	50	NUM	RG|NOM	Case=Nom	4	nummod	4:nummod	_
 4	åren	år	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	11	obl	11:obl	_
-5	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	11:aux	_
+5	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	11:aux	_
 6	förstörelse	förstörelse	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	nsubj	11:nsubj	_
 7	av	av	ADP	PP	_	8	case	8:case	_
 8	livmiljöer	livmiljö	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	nmod	6:nmod:av	_
@@ -10850,8 +10850,8 @@
 7	marken	mark	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	obj	4:obj	SpaceAfter=No
 8	,	,	PUNCT	MID	_	12	punct	12:punct	_
 9	sammanlagt	sammanlagd	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	12	acl	12:acl	_
-10	runt	runt	ADP	PP	_	11	advmod	11:advmod	_
-11	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	12	nummod	12:nummod	_
+10	runt	runt	ADV	AB	_	11	advmod	11:advmod	_
+11	en	en	NUM	RG|UTR|SIN	Gender=Com|Number=Sing	12	nummod	12:nummod	_
 12	procent	procent	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	appos	7:appos	_
 13	av	av	ADP	PP	_	14	case	14:case	_
 14	staten	stat	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	nmod	12:nmod:av	SpaceAfter=No
@@ -10887,7 +10887,7 @@
 6	bebodde	bebo	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 7	Alaska	Alaska	PROPN	PM|NOM	Case=Nom	6	obj	6:obj	_
 8	i	i	ADP	PP	_	10	case	10:case	_
-9	tusentals	tusentals	ADV	AB	_	10	nummod	10:nummod	_
+9	tusentals	tusentals	NOUN	NN|NEU|PLU|GEN	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	10	nmod:poss	10:nmod:poss	_
 10	år	år	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	6	obl	6:obl:i	_
 11	innan	innan	SCONJ	SN	_	13	mark	13:mark	_
 12	européer	europé	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	nsubj	13:nsubj	_
@@ -10973,7 +10973,7 @@
 3	dammstormar	dammstorm	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	conj	1:conj:och|6:nsubj	_
 4	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 5	naturliga	naturlig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	6	amod	6:amod	_
-6	fenomen	fenomen	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	0	root	8:nsubj	_
+6	fenomen	fenomen	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	0	root	0:root|8:nsubj	_
 7	som	som	PRON	HP|-|-|-	PronType=Int,Rel	8	nsubj	6:ref	_
 8	uppkommer	uppkomma	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	6:acl:relcl	_
 9	i	i	ADP	PP	_	11	case	11:case	_
@@ -11313,7 +11313,7 @@
 32	Karibiska	karibiska	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	33	amod	33:amod	_
 33	havet	hav	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	29	appos	29:appos	SpaceAfter=No
 34	,	,	PUNCT	MID	_	35	punct	35:punct	_
-35	norr	norr	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	33	advmod	33:advmod	_
+35	norr	norr	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	33	obl	33:obl	_
 36	om	om	ADP	PP	_	38	case	38:case	_
 37	samma	samma	DET	DT|UTR/NEU|SIN/PLU|IND	Definite=Ind	38	det	38:det	_
 38	näs	näs	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	35	nmod	35:nmod:om	SpaceAfter=No
@@ -11359,7 +11359,7 @@
 # text = Tyvärr har en snabb befolkningstillväxt och stadsspridning täckt mycket av dessa ekosystem med bebyggelse.
 # text_en = Unfortunately, rapid population growth and urban sprawl has covered much of these ecosystems with development.
 1	Tyvärr	tyvärr	ADV	AB	_	8	advmod	8:advmod	_
-2	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	8:aux	_
+2	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	8:aux	_
 3	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	5	det	5:det	_
 4	snabb	snabb	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	5	amod	5:amod	_
 5	befolkningstillväxt	befolkningstillväxt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nsubj	8:nsubj	_
@@ -11381,9 +11381,9 @@
 2	lokala	lokal	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	3	amod	3:amod	_
 3	styre	styre	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	nsubj	5:nsubj	_
 4	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
-5	City	City	PROPN	PM|NOM	Case=Nom	0	root	13:nsubj	_
-6	of	Of	PROPN	PM|NOM	Case=Nom	7	case	7:case	_
-7	Cape	cape	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nmod	5:nmod:of	_
+5	City	City	NOUN	NN|SIN	Number=Sing	0	root	0:root|13:nsubj	_
+6	of	of	ADP	PP	_	7	case	7:case	_
+7	Cape	Cape	PROPN	PM|NOM	Case=Nom	5	nmod	5:nmod:of	_
 8	Town	Town	PROPN	PM|NOM	Case=Nom	7	flat:name	7:flat:name	SpaceAfter=No
 9	,	,	PUNCT	MID	_	13	punct	13:punct	_
 10	vilket	vilket	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	13	nsubj	5:ref	_

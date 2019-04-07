@@ -1667,7 +1667,7 @@ w01039058	19	15:obl:än
 w01039058	22	15:obl:än|19:conj:och
 w01039065	6	2:obl:till
 w01040100	3	1:conj:och|6:nsubj
-w01040100	6	8:nsubj
+w01040100	6	0:root|8:nsubj
 w01040100	7	6:ref
 w01040100	11	8:obl:i
 w01040100	18	15:obl:av
@@ -1741,7 +1741,7 @@ w01045006	29	25:obl:till
 w01046011	7	5:conj:och|8:nsubj
 w01046011	12	9:nmod:av
 w01046011	14	8:obl:med
-w01046056	5	13:nsubj
+w01046056	5	0:root|13:nsubj
 w01046056	7	5:nmod:of
 w01046056	10	5:ref
 w01047008	5	3:obl:som
