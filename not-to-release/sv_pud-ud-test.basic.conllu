@@ -11524,7 +11524,7 @@
 # text_en = Since the 1960s, the South Korean economy has grown enormously and the economic structure was radically transformed.
 1	Sedan	sedan	ADP	PP	_	2	case	_	_
 2	1960-talet	1960-tal	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	_
-3	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
+3	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
 4	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	6	det	_	_
 5	sydkoreanska	sydkoreansk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	6	amod	_	_
 6	ekonomin	ekonomi	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	nsubj	_	_
@@ -11687,7 +11687,7 @@
 18	Qing-dynastins	qing-dynasti	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	19	nmod:poss	_	_
 19	fall	fall	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	29	obl	_	_
 20	1911	1911	NUM	RG|NOM	Case=Nom	19	obl	_	_
-21	hade	ha	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	29	aux	_	_
+21	hade	ha	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	29	aux	_	_
 22	kontraktet	kontrakt	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	29	nsubj	_	_
 23	för	för	ADP	PP	_	26	case	_	_
 24	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing	26	det	_	_
@@ -12060,7 +12060,7 @@
 # text = Senare skulle dramatiker, historiker och andra intellektuella skapa verk inspirerade av det trojanska kriget.
 # text_en = In later ages playwrights, historians, and other intellectuals would create works inspired by the Trojan War.
 1	Senare	sent	ADV	AB|KOM	Degree=Cmp	9	advmod	_	_
-2	skulle	skola	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	aux	_	_
+2	skulle	skola	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	aux	_	_
 3	dramatiker	dramatiker	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	MID	_	5	punct	_	_
 5	historiker	historiker	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	conj	_	_
@@ -12319,7 +12319,7 @@
 # text_en = He seems to have wished for the Senate and the state to simply act without him and his direct orders were rather vague, inspiring debate more on what he actually meant than on passing his legislation.
 1	Han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
 2	verkar	verka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	ha	ha	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	4	aux	_	_
+3	ha	ha	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	4	aux	_	_
 4	önskat	önska	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	2	ccomp	_	_
 5	att	att	SCONJ	SN	_	12	mark	_	_
 6	Senaten	senat	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	nsubj	_	_
@@ -12495,7 +12495,7 @@
 17	egyptiska	egyptisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	18	amod	_	_
 18	faraon	farao	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	19	nmod	_	_
 19	Thutmosis	Thutmosis	PROPN	PM|NOM	Case=Nom	14	nmod	_	_
-20	III	3:e	ADJ	RO|NOM	Case=Nom	19	nummod	_	SpaceAfter=No
+20	III	III	NUM	RG	_	19	nummod	_	SpaceAfter=No
 21	.	.	PUNCT	MAD	_	4	punct	_	_
 
 # sent_id = w01065021
@@ -12789,7 +12789,7 @@
 # text = Karl hade trots sina stränga handlingar setts som en härskare med empati för Nederländernas behov.
 # text_en = Charles, despite his harsh actions, had been seen as a ruler empathetic to the needs of the Netherlands.
 1	Karl	Karl	PROPN	PM|NOM	Case=Nom	7	nsubj	_	_
-2	hade	ha	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	aux	_	_
+2	hade	ha	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	aux	_	_
 3	trots	trots	ADP	PP	_	6	case	_	_
 4	sina	sin	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes	6	nmod:poss	_	_
 5	stränga	sträng	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
