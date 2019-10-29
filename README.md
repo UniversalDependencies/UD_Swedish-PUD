@@ -63,17 +63,20 @@ From v2.1 to v2.2:
 From v2.2 to v2.3:
 - Fixed a few errors in enhanced dependencies
 
+From v2.4 to v2.5
+- Corrected morphological annotation (LEMMA, UPOS, XPOS, FEATS)
+
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.1
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: news wiki
-Lemmas: automatic
-UPOS: automatic
-XPOS: automatic
-Features: automatic
+Lemmas: automatic with corrections
+UPOS: automatic with corrections
+XPOS: automatic with corrections
+Features: automatic with corrections
 Relations: manual native
-Contributors: Nivre, Joakim
+Contributors: Nivre, Joakim; Griciūtė, Bernadeta
 Contributing: here
 Contact: joakim.nivre@lingfil.uu.se
 ===============================================================================
