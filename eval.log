@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Swedish-PUD:
-commit a804cdc3a49ccd6ed70b16d136ea0c3540df2f0b
-Merge: cdb7845 e0193f9
+commit 4c2f7b9e71366f948dd875fce4f15d9a0cea9e37
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 12 17:47:07 2019 +0100
 Size: counted 19076 of 19076 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.89686200087196.
 Size: maximum value 13.815511 is for 1000000 words or more.
