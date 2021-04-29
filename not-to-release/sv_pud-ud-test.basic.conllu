@@ -16297,7 +16297,7 @@
 10	”	”	PUNCT	PAD	_	15	punct	_	SpaceAfter=No
 11	Her	her	PRON	PS|SIN	Number=Sing	12	nmod:poss	_	_
 12	Father	father	NOUN	NN|SIN	Number=Sing	15	nsubj	_	_
-13	Did	do	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	Lang=en	SpaceAfter=No
+13	Did	do	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	Lang=en|SpaceAfter=No
 14	n't	not	PART	AB	_	15	advmod	_	_
 15	Like	like	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	6	nmod	_	_
 16	Me	me	PRON	PN|SIN	Case=Nom	15	obj	_	_
@@ -23299,7 +23299,7 @@
 32	honom	han	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing	30	nmod	_	SpaceAfter=No
 33	:	:	PUNCT	MID	_	2	punct	_	_
 34	”	”	PUNCT	MID	_	37	punct	_	SpaceAfter=No
-35	Do	do	AUX	VB|IMP|AKT	Mood=Imp|VerbForm=Fin	37	aux	Lang=en	SpaceAfter=No
+35	Do	do	AUX	VB|IMP|AKT	Mood=Imp|VerbForm=Fin	37	aux	_	Lang=en|SpaceAfter=No
 36	n't	not	PART	AB	_	37	advmod	_	_
 37	Go	go	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	parataxis	_	_
 38	Breaking	Breaking	VERB	PC|PRS	VerbForm=Part|Voice=Act	37	xcomp	_	_
