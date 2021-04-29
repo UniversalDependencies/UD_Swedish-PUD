@@ -5247,7 +5247,7 @@
 3	syns	synas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	helt	helt	ADV	AB|POS	Degree=Pos	5	advmod	_	_
 5	kort	kort	ADV	AB	_	3	advmod	_	SpaceAfter=No
-6	,	,	PUNCT	MID	_	8	punct	_	_
+6	,	,	PUNCT	MID	_	9	punct	_	_
 7	och	och	CCONJ	KN	_	9	cc	_	_
 8	blir	bli	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
 9	filmad	filmad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
@@ -6319,7 +6319,7 @@
 6	minska	minska	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	3	xcomp	_	_
 7	i	i	ADP	PP	_	8	case	_	_
 8	juli	juli	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obl	_	SpaceAfter=No
-9	,	,	PUNCT	MID	_	11	punct	_	_
+9	,	,	PUNCT	MID	_	12	punct	_	_
 10	direkt	direkt	ADV	AB|POS	Degree=Pos	12	advmod	_	_
 11	efter	efter	ADP	PP	_	12	case	_	_
 12	Brexitomröstningen	brexitomröstning	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	obl	_	SpaceAfter=No
@@ -17067,7 +17067,7 @@
 8	toppseedade	toppseedad	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
 9	Sara	Sara	PROPN	PM|NOM	Case=Nom	2	obj	_	_
 10	Errani	Errani	PROPN	PM|NOM	Case=Nom	9	flat:name	_	SpaceAfter=No
-11	,	,	PUNCT	MID	_	13	punct	_	_
+11	,	,	PUNCT	MID	_	14	punct	_	_
 12	men	men	CCONJ	KN	_	14	cc	_	_
 13	blev	bli	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	aux:pass	_	_
 14	besegrad	besegrad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	SpaceAfter=No
