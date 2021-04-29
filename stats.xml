@@ -10,60 +10,63 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>1000</sentences><tokens>19076</tokens><words>19076</words><fused>0</fused></test>
   </size>
-  <lemmas unique="5011" /><!-- ., ,, i, och, en, den, att, som, av, vara, för, ha, på, till, det -->
+  <lemmas unique="5008" /><!-- ., ,, i, och, en, den, att, som, av, vara, för, ha, på, till, det -->
   <forms unique="6188" /><!-- ., ,, i, och, att, som, av, en, för, det, den, på, till, är, de -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">1569</tag><!-- stor, ny, annan, första, hög, mången, flera, hel, liten, sen -->
-    <tag name="ADP">2446</tag><!-- i, av, för, på, till, med, från, under, vid, om -->
-    <tag name="ADV">1021</tag><!-- mycket, så, in, ut, där, också, upp, bara, fram, här -->
-    <tag name="AUX">733</tag><!-- vara, ha, kunna, skola, komma, måste, vilja, bli, böra, behöva -->
-    <tag name="CCONJ">640</tag><!-- och, men, eller, som, såsom, både, så, antingen, fast, såväl -->
-    <tag name="DET">1022</tag><!-- en, den, denna, någon, all, varje, samma, ingen, the, A -->
-    <tag name="INTJ">2</tag><!-- baja, jo -->
-    <tag name="NOUN">4007</tag><!-- år, del, hav, stad, tid, person, plats, gång, värld, dag -->
-    <tag name="NUM">399</tag><!-- två, tre, 1, fyra, 3, sex, 10, tio, 000, 2 -->
-    <tag name="PART">410</tag><!-- att, inte, icke, not, ej -->
-    <tag name="PRON">1315</tag><!-- som, det, han, sin, de, sig, jag, hans, hon, vi -->
-    <tag name="PROPN">1252</tag><!-- Kina, USA, Storbritannien, Trump, Frankrike, Medelhavet, Hong, Italien, Kong, Ryssland -->
+    <tag name="ADJ">1559</tag><!-- stor, ny, annan, första, hög, mången, flera, hel, sen, liten -->
+    <tag name="ADP">2448</tag><!-- i, av, för, på, till, med, från, under, vid, om -->
+    <tag name="ADV">1018</tag><!-- mycket, så, in, ut, där, också, upp, bara, fram, här -->
+    <tag name="AUX">732</tag><!-- vara, ha, kunna, skola, komma, måste, vilja, bli, böra, behöva -->
+    <tag name="CCONJ">638</tag><!-- och, men, eller, som, såsom, både, så, antingen, fast, såväl -->
+    <tag name="DET">1021</tag><!-- en, den, denna, någon, all, varje, samma, the, ingen, A -->
+    <tag name="INTJ">1</tag><!-- jo -->
+    <tag name="NOUN">4035</tag><!-- år, del, hav, stad, tid, person, plats, gång, värld, dag -->
+    <tag name="NUM">402</tag><!-- två, tre, 1, fyra, 3, sex, 10, tio, 000, 2 -->
+    <tag name="PART">414</tag><!-- att, inte, icke, not, ej -->
+    <tag name="PRON">1318</tag><!-- som, det, han, sin, de, sig, jag, hans, hon, vi -->
+    <tag name="PROPN">1216</tag><!-- Kina, USA, Storbritannien, Trump, Frankrike, Medelhavet, Hong, Italien, Kong, North -->
     <tag name="PUNCT">1941</tag><!-- ., ,, ”, (, ), –, :, ", ?, ; -->
-    <tag name="SCONJ">369</tag><!-- att, som, när, om, än, medan, då, eftersom, innan, fastän -->
+    <tag name="SCONJ">364</tag><!-- att, som, när, om, än, medan, då, eftersom, innan, fastän -->
     <tag name="SYM">1</tag><!-- – -->
-    <tag name="VERB">1949</tag><!-- ha, säga, göra, ta, bli, börja, finnas, komma, få, använda -->
+    <tag name="VERB">1968</tag><!-- ha, säga, göra, ta, bli, börja, finnas, komma, använda, få -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="30">
-    <feat name="Abbr" value="Yes" upos="ADV,CCONJ,NOUN">52</feat><!-- %, f.Kr., md, Mps, e.Kr., nr, &, AIDS, AKP:s, BA -->
-    <feat name="Case" value="Acc" upos="PRON">126</feat><!-- sig, honom, dem, henne, oss, mig, dig, er, sej, varandra -->
-    <feat name="Case" value="Gen" upos="ADJ,NOUN,PROPN">228</feat><!-- stadens, USA:s, världens, års, Kinas, Kongs, företagets, Australiens, Clintons, Disneys -->
-    <feat name="Case" value="Nom" upos="ADJ,ADV,NOUN,NUM,PRON,PROPN,VERB">7181</feat><!-- han, de, jag, hon, två, vi, år, andra, första, nya -->
-    <feat name="Definite" value="Def" upos="ADJ,DET,NOUN,PRON">3174</feat><!-- det, den, de, han, sig, hans, jag, sin, hon, sina -->
-    <feat name="Definite" value="Ind" upos="ADJ,DET,NOUN,NUM,PRON,VERB">3719</feat><!-- en, ett, år, flera, vad, vilket, varje, personer, stor, fall -->
+  <feats unique="33">
+    <feat name="Abbr" value="Yes" upos="ADJ,ADV,CCONJ,NOUN,PROPN">54</feat><!-- %, f.Kr., md, St., Mps, e.Kr., nr, &, AIDS, AKP:s -->
+    <feat name="Case" value="Acc" upos="PRON">125</feat><!-- sig, honom, dem, henne, oss, mig, dig, er, varandra -->
+    <feat name="Case" value="Gen" upos="ADJ,NOUN,PROPN">226</feat><!-- stadens, USA:s, världens, års, Kinas, Kongs, företagets, Australiens, Clintons, Disneys -->
+    <feat name="Case" value="Nom" upos="ADJ,ADV,NOUN,NUM,PRON,PROPN,VERB">7134</feat><!-- han, de, jag, hon, två, år, vi, andra, första, nya -->
+    <feat name="Definite" value="Def" upos="ADJ,DET,NOUN,PRON,PROPN">3160</feat><!-- det, den, de, han, sig, hans, jag, sin, hon, sina -->
+    <feat name="Definite" value="Ind" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">3695</feat><!-- en, ett, år, flera, vad, vilket, varje, personer, stor, fall -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">117</feat><!-- mer, tidigare, senare, större, längre, högre, mindre, bättre, ytterligare, färre -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV">1298</feat><!-- nya, andra, många, flera, stora, stor, hela, helt, brittiska, mycket -->
-    <feat name="Degree" value="Sup" upos="ADJ,ADV">104</feat><!-- mest, senaste, sista, högsta, största, bästa, främsta, sist, främst, bäst -->
-    <feat name="Foreign" value="Yes" upos="NOUN">13</feat><!-- Business, Over, Protection, Rasa, Return, Services, Show, Things, Tulcea, View -->
-    <feat name="Gender" value="Com" upos="ADJ,DET,NOUN,NUM,PRON,VERB">4155</feat><!-- en, den, han, jag, sin, hon, vi, denna, honom, personer -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV">1300</feat><!-- nya, andra, många, flera, stora, stor, hela, helt, brittiska, mycket -->
+    <feat name="Degree" value="Sup" upos="ADJ,ADV">103</feat><!-- mest, senaste, sista, högsta, största, bästa, främsta, sist, främst, bäst -->
+    <feat name="Foreign" value="Yes" upos="ADJ,ADP,NOUN,PRON,PROPN,VERB">23</feat><!-- 'Ya, Business, Carolina, Controlled, Ground, Knew, My, North, Over, Protection -->
+    <feat name="Gender" value="Com" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">4128</feat><!-- en, den, han, jag, sin, hon, vi, denna, honom, personer -->
     <feat name="Gender" value="Masc" upos="ADJ">22</feat><!-- egyptiske, misstänkte, Simple, anglikanske, belgiske, brittiske, demokratiske, dominikanske, högste, kanadensiske -->
-    <feat name="Gender" value="Neut" upos="ADJ,DET,NOUN,NUM,PRON">1780</feat><!-- det, ett, år, detta, sitt, vad, havet, vilket, fall, kriget -->
+    <feat name="Gender" value="Neut" upos="ADJ,DET,NOUN,NUM,PRON,PROPN">1779</feat><!-- det, ett, år, detta, sitt, vad, havet, vilket, fall, kriget -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">4</feat><!-- Do, Låt, Släpp, Spola -->
-    <feat name="Mood" value="Ind" upos="ADJ,AUX,VERB">1971</feat><!-- är, har, var, hade, kan, kommer, skulle, sade, finns, säger -->
-    <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,PRON">1933</feat><!-- de, sina, vi, många, andra, alla, dessa, flera, nya, år -->
-    <feat name="Number" value="Sing" upos="ADJ,DET,NOUN,NUM,PRON,VERB">5151</feat><!-- en, det, den, ett, han, jag, sin, hon, detta, denna -->
+    <feat name="Mood" value="Ind" upos="ADJ,AUX,VERB">1978</feat><!-- är, har, var, hade, kan, kommer, skulle, sade, finns, säger -->
+    <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,PRON,PROPN">1936</feat><!-- de, sina, vi, många, andra, alla, dessa, flera, nya, år -->
+    <feat name="Number" value="Sing" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">5143</feat><!-- en, det, den, ett, han, jag, sin, hon, detta, denna -->
+    <feat name="NumType" value="Card" upos="NUM">6</feat><!-- I, IV, V, VI, X, en -->
+    <feat name="NumType" value="Ord" upos="ADJ">1</feat><!-- First -->
     <feat name="Polarity" value="Neg" upos="ADV,PART">104</feat><!-- inte, aldrig, icke, ej, föga, knappast -->
     <feat name="Poss" value="Yes" upos="PRON">254</feat><!-- hans, sin, sina, dess, deras, hennes, sitt, min, vars, vår -->
-    <feat name="PronType" value="Art" upos="DET">2</feat><!-- den, det -->
-    <feat name="PronType" value="Ind" upos="PRON">1</feat><!-- mycket -->
-    <feat name="PronType" value="Int,Rel" upos="ADV,DET,PRON,SCONJ">393</feat><!-- som, när, vad, där, vilket, vilka, då, hur, varför, vilken -->
-    <feat name="Tense" value="Past" upos="ADJ,AUX,VERB">1152</feat><!-- var, hade, skulle, sade, började, blev, gjorde, kunde, tog, användes -->
-    <feat name="Tense" value="Pres" upos="ADJ,AUX,VERB">1007</feat><!-- är, har, kan, kommer, finns, säger, måste, börjar, står, ger -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">1883</feat><!-- är, har, var, hade, kan, kommer, skulle, sade, finns, säger -->
-    <feat name="VerbForm" value="Inf" upos="AUX,VERB">578</feat><!-- ha, vara, få, göra, ta, bli, gå, se, hjälpa, spela -->
-    <feat name="VerbForm" value="Part" upos="ADJ,VERB">281</feat><!-- betydande, sett, följande, kända, allierade, känd, levande, omfattande, regisserad, anställd -->
-    <feat name="VerbForm" value="Sup" upos="AUX,VERB">218</feat><!-- varit, blivit, gjort, beslutat, fått, gått, haft, kommit, sett, skrivit -->
-    <feat name="Voice" value="Act" upos="AUX,VERB">2338</feat><!-- är, har, var, hade, kan, kommer, skulle, ha, vara, sade -->
-    <feat name="Voice" value="Pass" upos="VERB">342</feat><!-- finns, användes, fanns, lyckades, anses, tillämpas, behövs, bildades, finnas, föddes -->
+    <feat name="PronType" value="Art" upos="DET">6</feat><!-- det, de, den, en, the -->
+    <feat name="PronType" value="Ind" upos="PRON">2</feat><!-- mycket, någon -->
+    <feat name="PronType" value="Int,Rel" upos="ADV,DET,PRON,SCONJ">394</feat><!-- som, när, vad, där, vilket, vilka, då, hur, varför, vilken -->
+    <feat name="PronType" value="Prs" upos="PRON">3</feat><!-- de, det -->
+    <feat name="Tense" value="Past" upos="ADJ,AUX,VERB">1143</feat><!-- var, hade, skulle, sade, började, blev, gjorde, kunde, tog, användes -->
+    <feat name="Tense" value="Pres" upos="ADJ,AUX,VERB">1006</feat><!-- är, har, kan, kommer, finns, säger, måste, börjar, står, ger -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">1892</feat><!-- är, har, var, hade, kan, kommer, skulle, sade, finns, säger -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">580</feat><!-- ha, vara, få, göra, ta, bli, gå, se, använda, hjälpa -->
+    <feat name="VerbForm" value="Part" upos="ADJ,VERB">262</feat><!-- betydande, följande, kända, sett, allierade, känd, levande, omfattande, regisserad, anställd -->
+    <feat name="VerbForm" value="Sup" upos="AUX,VERB">221</feat><!-- varit, blivit, gjort, sett, beslutat, fått, gått, haft, kommit, skrivit -->
+    <feat name="Voice" value="Act" upos="AUX,VERB">2353</feat><!-- är, har, var, hade, kan, kommer, skulle, ha, vara, sade -->
+    <feat name="Voice" value="Pass" upos="VERB">341</feat><!-- finns, användes, fanns, lyckades, anses, tillämpas, behövs, bildades, finnas, föddes -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="41">
@@ -71,7 +74,7 @@
     <dep name="acl:cleft">6</dep>
     <dep name="acl:relcl">300</dep>
     <dep name="advcl">337</dep>
-    <dep name="advmod">913</dep>
+    <dep name="advmod">912</dep>
     <dep name="amod">1235</dep>
     <dep name="appos">97</dep>
     <dep name="aux">369</dep>
@@ -94,7 +97,7 @@
     <dep name="flat:name">201</dep>
     <dep name="iobj">25</dep>
     <dep name="mark">867</dep>
-    <dep name="nmod">1088</dep>
+    <dep name="nmod">1089</dep>
     <dep name="nmod:poss">461</dep>
     <dep name="nsubj">1511</dep>
     <dep name="nsubj:pass">254</dep>
