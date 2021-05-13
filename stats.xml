@@ -65,7 +65,7 @@
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">580</feat><!-- ha, vara, få, göra, ta, bli, gå, se, använda, hjälpa -->
     <feat name="VerbForm" value="Part" upos="ADJ,VERB">262</feat><!-- betydande, följande, kända, sett, allierade, känd, levande, omfattande, regisserad, anställd -->
     <feat name="VerbForm" value="Sup" upos="AUX,VERB">221</feat><!-- varit, blivit, gjort, sett, beslutat, fått, gått, haft, kommit, skrivit -->
-    <feat name="Voice" value="Act" upos="AUX,VERB">2353</feat><!-- är, har, var, hade, kan, kommer, skulle, ha, vara, sade -->
+    <feat name="Voice" value="Act" upos="AUX,VERB">2351</feat><!-- är, har, var, hade, kan, kommer, skulle, ha, vara, sade -->
     <feat name="Voice" value="Pass" upos="VERB">341</feat><!-- finns, användes, fanns, lyckades, anses, tillämpas, behövs, bildades, finnas, föddes -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
