@@ -66,6 +66,9 @@ From v2.2 to v2.3:
 From v2.4 to v2.5
 - Corrected morphological annotation (LEMMA, UPOS, XPOS, FEATS)
 
+From v2.10 to v2.11:
+- Removed incorrect case markers in enhanced dependencies (mostly English words).
+
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.1
 License: CC BY-SA 4.0
