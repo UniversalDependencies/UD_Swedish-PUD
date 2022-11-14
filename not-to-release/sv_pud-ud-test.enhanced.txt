@@ -21,7 +21,7 @@ n01002032	24	21:obl:till|26:nsubj
 n01002032	25	24:ref
 n01002032	29	26:obl:till
 n01002032	31	29:nmod:på
-n01002032	34	31:nmod:of
+n01002032	34	31:nmod
 n01002058	7	3:conj:och
 n01003007	4	2:nmod:per
 n01003007	8	2:appos|10:nsubj:pass
@@ -32,7 +32,7 @@ n01003010	10	4:advcl:att
 n01003010	13	4:conj:och
 n01003010	17	15:nmod:från
 n01003010	21	15:nmod:från|17:conj:och
-n01003010	23	21:nmod:of
+n01003010	23	21:nmod
 n01003010	27	15:nmod:från|17:conj:och
 n01003010	30	15:nmod:från|17:conj:och
 n01003012	8	4:obl:till
@@ -320,7 +320,7 @@ n01036002	25	20:advcl:att
 n01036002	28	25:obl:i
 n01036020	9	5:obj|7:conj:och
 n01036020	13	7:nmod:för|20:nsubj
-n01036020	15	13:nmod:of
+n01036020	15	13:nmod
 n01036020	19	13:ref
 n01036020	23	20:obl:i
 n01036033	2	6:obl:i
@@ -568,7 +568,7 @@ n01063043	3	5:obl:i
 n01063043	8	5:nsubj|6:conj:och
 n01063043	12	9:nmod:av
 n01063043	15	12:nmod:av
-n01063043	18	15:advcl:if
+n01063043	18	15:advcl
 n01063043	22	9:nmod:på
 n01063048	6	2:conj:och|8:nsubj|12:nsubj
 n01063048	7	6:ref
@@ -700,7 +700,7 @@ n01079065	14	15:nsubj:pass|20:nsubj:pass
 n01079065	18	15:obl:på
 n01079065	20	12:acl:relcl|15:conj:och
 n01079065	24	20:obl:åt
-n01079069	14	12:conj:and|15:compound
+n01079069	14	12:conj|15:compound
 n01079069	15	7:nmod:för
 n01079069	19	5:obj|7:conj:och
 n01079069	23	19:nmod:vid
@@ -726,7 +726,7 @@ n01083035	10	8:obl:mot
 n01084008	5	6:nsubj|10:nsubj
 n01084008	10	6:conj:och
 n01084008	14	12:nmod:på
-n01084023	5	3:nmod:of
+n01084023	5	3:nmod
 n01084023	10	2:obl:på
 n01084023	13	10:nmod:på
 n01084023	16	2:advcl:när
@@ -769,7 +769,7 @@ n01087023	9	2:advcl:att
 n01087023	11	9:obl:i
 n01087023	14	9:obl:i|11:conj:och
 n01087023	23	19:obl:vid
-n01087023	25	23:nmod:of
+n01087023	25	23:nmod
 n01087039	7	4:nmod:vid
 n01087039	10	3:advcl:att
 n01088026	4	15:advcl:när
@@ -1100,15 +1100,15 @@ n01131007	17	14:nmod:med
 n01131013	8	4:obl:av
 n01131013	19	17:obl:i
 n01132006	1	3:nsubj|10:nsubj
-n01132006	12	10:nmod:of
+n01132006	12	10:nmod
 n01132013	1	2:nsubj|8:nsubj
 n01132013	5	2:obj|17:nsubj
 n01132013	12	2:obl:i
 n01132013	14	5:ref
 n01132013	16	17:obl:i
-n01132013	23	21:nmod:of
+n01132013	23	21:nmod
 n01132013	28	18:nmod|21:conj:och
-n01132013	30	28:nmod:of
+n01132013	30	28:nmod
 n01133022	4	2:nmod:för
 n01133022	8	10:nsubj|20:nsubj
 n01133022	9	8:ref
@@ -1742,7 +1742,7 @@ w01046011	7	5:conj:och|8:nsubj
 w01046011	12	9:nmod:av
 w01046011	14	8:obl:med
 w01046056	5	0:root|13:nsubj
-w01046056	7	5:nmod:of
+w01046056	7	5:nmod
 w01046056	10	5:ref
 w01047008	5	3:obl:som
 w01047008	13	10:nmod:om
@@ -1990,7 +1990,7 @@ w01069056	10	8:nmod:ur
 w01069056	15	2:obl:till
 w01069056	17	15:nmod:av
 w01069056	19	2:advcl:att
-w01069056	25	19:advcl:dess
+w01069056	25	19:advcl:till_dess
 w01069094	6	2:nmod:mot
 w01069094	8	6:nmod:i
 w01069094	15	11:nmod:för
@@ -2472,7 +2472,7 @@ w01115022	11	13:nsubj|18:nsubj
 w01115022	15	13:obl:vid
 w01115022	18	13:conj:men
 w01115023	6	2:obl:vid
-w01115023	8	6:nmod:of
+w01115023	8	6:nmod
 w01115023	16	11:obl:för
 w01115024	1	2:nsubj|5:nsubj
 w01115024	5	2:conj:och
@@ -2488,7 +2488,7 @@ w01115026	5	2:obl:till
 w01116036	8	4:obl:av
 w01116088	8	5:nmod:av
 w01116088	14	5:nmod:av|8:conj:och
-w01116088	17	14:nmod:in
+w01116088	17	14:nmod
 w01116088	21	18:obl:till
 w01116088	25	18:obl:till|21:conj:respektive
 w01116100	9	4:advcl:medan
@@ -2592,7 +2592,7 @@ w01129053	27	24:acl:att
 w01130099	7	2:obl:under
 w01130099	9	2:obl:i|19:nsubj
 w01130099	21	19:nmod:till
-w01130100	6	3:conj:and|10:nsubj
+w01130100	6	3:conj|10:nsubj
 w01130100	15	16:nmod:med
 w01130100	19	10:obl:på
 w01130101	4	2:obj|6:nsubj:pass
@@ -2602,7 +2602,7 @@ w01130101	18	11:ref
 w01130101	24	20:obl:för
 w01130101	26	20:obl:på
 w01130102	15	6:nmod:av
-w01130102	23	2:obl:over
+w01130102	23	2:obl
 w01130103	10	8:obl:med|14:nsubj
 w01130103	13	10:ref
 w01131060	7	3:nmod:inklusive
@@ -2679,7 +2679,7 @@ w01136074	19	14:obl:i
 w01136074	21	19:nmod:av
 w01136074	23	19:nmod:av|21:conj:och
 w01137050	2	10:nsubj|16:nsubj
-w01137050	8	5:nmod:of
+w01137050	8	5:nmod
 w01137050	14	10:obl:i
 w01137050	16	10:conj:och
 w01137050	21	16:obj|17:conj:och
@@ -2822,7 +2822,7 @@ w01149088	11	4:conj:och
 w01149088	17	12:nmod:i
 w01149088	19	17:nmod:till
 w01149088	21	12:nmod:i|17:conj:och
-w01149088	23	21:nmod:of
+w01149088	23	21:nmod
 w01150044	6	4:nmod:för
 w01150044	8	6:nmod:av
 w01150045	2	8:obl:vid
@@ -3246,7 +3246,7 @@ n05008018	23	4:conj:men
 n05009025	8	4:nsubj|5:conj:och
 n05009025	20	16:obl:för
 n05009030	7	3:obl:på
-n05009030	10	7:nmod:de
+n05009030	10	7:nmod
 n05010004	9	3:advcl:att
 n05010004	12	3:advcl:att|9:conj:och
 n05010004	15	12:obl:till
@@ -3647,7 +3647,7 @@ w05002014	3	12:advcl:innan
 w05002014	9	7:nmod:av
 w05002014	16	12:nmod:för
 w05002032	9	4:obj|15:nsubj:pass
-w05002032	11	9:nmod:de
+w05002032	11	9:nmod
 w05002032	14	9:ref
 w05002032	19	17:nmod:av
 w05003012	5	3:nmod:mellan
