@@ -15,7 +15,7 @@
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">1559</tag><!-- stor, ny, annan, första, hög, mången, flera, hel, sen, liten -->
+    <tag name="ADJ">1560</tag><!-- stor, ny, annan, första, hög, mången, flera, hel, sen, liten -->
     <tag name="ADP">2448</tag><!-- i, av, för, på, till, med, från, under, vid, om -->
     <tag name="ADV">1018</tag><!-- mycket, så, in, ut, där, också, upp, bara, fram, här -->
     <tag name="AUX">732</tag><!-- vara, ha, kunna, skola, komma, måste, vilja, bli, böra, behöva -->
@@ -26,7 +26,7 @@
     <tag name="NUM">402</tag><!-- två, tre, 1, fyra, 3, sex, 10, tio, 000, 2 -->
     <tag name="PART">414</tag><!-- att, inte, icke, not, ej -->
     <tag name="PRON">1318</tag><!-- som, det, han, sin, de, sig, jag, hans, hon, vi -->
-    <tag name="PROPN">1216</tag><!-- Kina, USA, Storbritannien, Trump, Frankrike, Medelhavet, Hong, Italien, Kong, North -->
+    <tag name="PROPN">1215</tag><!-- Kina, USA, Storbritannien, Trump, Frankrike, Medelhavet, Hong, Italien, Kong, North -->
     <tag name="PUNCT">1941</tag><!-- ., ,, ”, (, ), –, :, ", ?, ; -->
     <tag name="SCONJ">364</tag><!-- att, som, när, om, än, medan, då, eftersom, innan, fastän -->
     <tag name="SYM">1</tag><!-- – -->
@@ -92,8 +92,8 @@
     <dep name="discourse">1</dep>
     <dep name="dislocated">7</dep>
     <dep name="expl">85</dep>
-    <dep name="fixed">179</dep>
-    <dep name="flat">1</dep>
+    <dep name="fixed">177</dep>
+    <dep name="flat">3</dep>
     <dep name="flat:name">201</dep>
     <dep name="iobj">25</dep>
     <dep name="mark">867</dep>
