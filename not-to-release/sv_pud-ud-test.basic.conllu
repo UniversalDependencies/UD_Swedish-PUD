@@ -4724,9 +4724,9 @@
 6	global	global	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	amod	_	_
 7	ambassadör	ambassadör	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obj	_	_
 8	för	för	ADP	PP	_	15	case	_	_
-9	New	New	PROPN	PM|NOM	Case=Nom	12	compound	_	_
-10	York	York	PROPN	PM|NOM	Case=Nom	9	fixed	_	_
-11	City	City	NOUN	NN|SIN|NOM	Case=Nom|Number=Sing	9	fixed	_	_
+9	New	New	ADJ	PM|NOM	Case=Nom	12	compound	_	_
+10	York	York	PROPN	PM|NOM	Case=Nom	9	flat	_	_
+11	City	City	NOUN	NN|SIN|NOM	Case=Nom|Number=Sing	9	flat	_	_
 12	Health	Health	NOUN	NN|SIN|NOM	Case=Nom|Number=Sing	15	compound	_	_
 13	and	And	CCONJ	KN	_	14	cc	_	_
 14	Hospitals	hospital	NOUN	NN|NEU|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	12	conj	_	_
