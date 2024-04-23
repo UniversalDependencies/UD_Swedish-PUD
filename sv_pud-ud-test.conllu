@@ -1843,7 +1843,7 @@
 
 # newdoc id = n01032
 # sent_id = n01032032
-# text = Emellertid finns det många MLA:er med djupt hållna religiösa trosuppfattningar som motsätter sig all nya lagstiftning.
+# text = Emellertid finns det många MLA:er med djupt hållna religiösa trosuppfattningar som motsätter sig all ny lagstiftning.
 # text_en = However there are many MLAs with deeply-held religious beliefs who oppose any new legislation.
 1	Emellertid	emellertid	ADV	AB	_	2	advmod	2:advmod	_
 2	finns	finnas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	_
