@@ -1402,7 +1402,7 @@
 # sent_id = n01024016
 # text = RHS samlade in kommentarer som skickats in av skolbarn och lärare som deltagit i experimentet.
 # text_en = The RHS collected comments sent in by schoolchildren and teachers involved in the experiment.
-1	RHS	refugee_health_screener	PROPN	PM	Abbr=Yes	2	nsubj	2:nsubj	_
+1	RHS	RHS	PROPN	PM	Abbr=Yes	2	nsubj	2:nsubj	_
 2	samlade	samla	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	in	in	ADV	PL	_	2	compound:prt	2:compound:prt	_
 4	kommentarer	kommentar	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	obj	2:obj|6:nsubj:pass	_
@@ -14851,7 +14851,7 @@
 24	och	och	CCONJ	KN	_	25	cc	25:cc	_
 25	död	död	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	conj	23:conj:och	_
 26	i	i	ADP	PP	_	27	case	27:case	_
-27	AIDS	förvärvat_immunbristsyndrom	NOUN	NN|AN	Abbr=Yes	25	nmod	25:nmod:i	_
+27	AIDS	AIDS	NOUN	NN|AN	Abbr=Yes	25	nmod	25:nmod:i	_
 28	i	i	ADP	PP	_	29	case	29:case	_
 29	mitten	mitt	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	25	nmod	25:nmod:i	_
 30	av	av	ADP	PP	_	31	case	31:case	_
@@ -19674,7 +19674,7 @@
 4	tillbaka	tillbaka	ADV	PL	_	3	compound:prt	3:compound:prt	_
 5	erbjudandet	erbjudande	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	obj	3:obj	_
 6	för	för	ADP	PP	_	7	case	7:case	_
-7	Mps	miljöpartiet	PROPN	PM|PLU|AN	Abbr=Yes|Number=Plur	3	obl	3:obl:för	_
+7	Mps	Mp	PROPN	PM|PLU|AN	Abbr=Yes|Number=Plur	3	obl	3:obl:för	_
 8	på	på	ADP	PP	_	13	case	13:case	_
 9	grund	grund	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	fixed	8:fixed	_
 10	av	av	ADP	PP	_	8	fixed	8:fixed	_
@@ -19738,7 +19738,7 @@
 7	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	8	det	8:det	_
 8	anteckning	anteckning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obl	5:obl:i	_
 9	till	till	ADP	PP	_	10	case	10:case	_
-10	Mps	miljöpartiet	PROPN	PM|PLU|AN	Abbr=Yes|Number=Plur	8	nmod	8:nmod:till	_
+10	Mps	Mp	PROPN	PM|PLU|AN	Abbr=Yes|Number=Plur	8	nmod	8:nmod:till	_
 11	efter	efter	ADP	PP	_	13	case	13:case	_
 12	ex-ministerns	ex-minister	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	13	nmod:poss	13:nmod:poss	_
 13	beslut	beslut	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	nmod	8:nmod:efter	_
@@ -20629,7 +20629,7 @@
 6	en	en	PRON	PN|UTR|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Com|Number=Sing	2	obl	2:obl:med	_
 7	av	av	ADP	PP	_	10	case	10:case	_
 8	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	10	det	10:det	_
-9	få	få	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Definite=Def|Degree=Pos|Gender=Com	10	amod	10:amod	_
+9	få	få	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	amod	10:amod	_
 10	byggnaderna	byggnad	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	6	nmod	6:nmod:av|14:nsubj	_
 11	i	i	ADP	PP	_	12	case	12:case	_
 12	stadskärnan	stadskärna	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	10	nmod	10:nmod:i	_
