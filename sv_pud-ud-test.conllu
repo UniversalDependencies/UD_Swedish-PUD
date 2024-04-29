@@ -197,7 +197,7 @@
 3	oktober	oktober	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obl	4:obl:i	_
 4	använde	använda	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	övergångsteamet	övergångsteam	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	4:nsubj|13:nsubj	_
-6	samma	samma	DET	DT|UTR/NEU|SIN/PLU|IND	Definite=Ind	7	det	7:det	_
+6	samma	samma	ADJ	DT|UTR/NEU|SIN/PLU|IND	Case=Nom|Definite=Ind|Degree=Pos	7	amod	7:det	_
 7	lokal	lokal	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obj	4:obj	_
 8	för	för	ADP	PP	_	10	mark	10:mark	_
 9	att	att	PART	IE	_	10	mark	10:mark	_
@@ -560,7 +560,7 @@
 18	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing	19	nsubj	19:nsubj|20:nsubj	_
 19	försökte	försöka	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	8:advcl:innan	_
 20	göra	göra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	19	xcomp	19:xcomp	_
-21	samma	samma	DET	DT|UTR/NEU|SIN/PLU|IND	Definite=Ind	22	det	22:det	_
+21	samma	samma	ADJ	DT|UTR/NEU|SIN/PLU|IND	Case=Nom|Definite=Ind|Degree=Pos	22	amod	22:det	_
 22	sak	sak	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	obj	20:obj	_
 23	mot	mot	ADP	PP	_	26	case	26:case	_
 24	sin	sin	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes	25	nmod:poss	25:nmod:poss	_
@@ -1646,7 +1646,7 @@
 6	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	7	det	7:det	_
 7	konsert	konsert	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obj	4:obj	_
 8	där	där	ADV	HA	PronType=Int,Rel	4	advmod	4:advmod	_
-9	samma	samma	DET	DT|UTR/NEU|SIN/PLU|IND	Definite=Ind	10	amod	10:amod	_
+9	samma	samma	ADJ	DT|UTR/NEU|SIN/PLU|IND	Case=Nom|Definite=Ind|Degree=Pos	10	amod	10:amod	_
 10	år	år	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	obl	4:obl	SpaceAfter=No
 11	.	.	PUNCT	MAD	_	4	punct	4:punct	_
 
@@ -1920,7 +1920,7 @@
 3	däremot	däremot	ADV	AB	_	5	advmod	5:advmod	_
 4	inte	inte	PART	AB	Polarity=Neg	5	advmod	5:advmod	_
 5	hitta	hitta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	0:root	_
-6	samma	samma	DET	DT|UTR/NEU|SIN/PLU|IND	Definite=Ind	7	det	7:det	_
+6	samma	samma	ADJ	DT|UTR/NEU|SIN/PLU|IND	Case=Nom|Definite=Ind|Degree=Pos	7	amod	7:det	_
 7	mönster	mönster	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	obj	5:obj	_
 8	i	i	ADP	PP	_	9	case	9:case	_
 9	vävnaden	vävnad	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	obl	5:obl:i	_
@@ -2699,7 +2699,7 @@
 11	dollar	dollar	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	0:root	SpaceAfter=No
 12	,	,	PUNCT	MID	_	15	punct	15:punct	_
 13	ungefär	ungefär	ADV	AB	_	14	advmod	14:advmod	_
-14	samma	samma	DET	DT|UTR/NEU|SIN/PLU|IND	Definite=Ind	15	det	15:det	_
+14	samma	samma	ADJ	DT|UTR/NEU|SIN/PLU|IND	Case=Nom|Definite=Ind|Degree=Pos	15	amod	15:det	_
 15	nivå	nivå	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	appos	11:appos	_
 16	som	som	SCONJ	KN	_	18	mark	18:mark	_
 17	för	för	ADP	PP	_	18	case	18:case	_
@@ -8511,7 +8511,7 @@
 4	tillträde	tillträde	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	obj	3:obj	_
 5	till	till	ADP	PP	_	6	case	6:case	_
 6	konserten	konsert	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	obl	3:obl:till	_
-7	samma	samma	DET	DT|UTR/NEU|SIN/PLU|IND	Definite=Ind	8	det	8:det	_
+7	samma	samma	ADJ	DT|UTR/NEU|SIN/PLU|IND	Case=Nom|Definite=Ind|Degree=Pos	8	amod	8:det	_
 8	dag	dag	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obl	3:obl	SpaceAfter=No
 9	.	.	PUNCT	MAD	_	3	punct	3:punct	_
 
@@ -9819,7 +9819,7 @@
 16	fenicierna	fenicier	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	14	conj	14:conj:och|20:nsubj	SpaceAfter=No
 17	,	,	PUNCT	MID	_	20	punct	20:punct	_
 18	vilka	vilka	PRON	HP|UTR/NEU|PLU|IND	Definite=Ind|Number=Plur|PronType=Int,Rel	20	nsubj	14:ref	_
-19	båda	båda	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Plur	20	amod	20:amod	_
+19	båda	båda	DET	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Definite=Def|Number=Plur|PronType=Tot	20	det	20:amod	_
 20	koloniserade	kolonisera	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	acl:relcl	14:acl:relcl	_
 21	Medelhavets	Medelhavet	PROPN	PM|GEN	Case=Gen	22	nmod:poss	22:nmod:poss	_
 22	kustlinjer	kustlinje	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	20	obj	20:obj	_
@@ -11315,7 +11315,7 @@
 34	,	,	PUNCT	MID	_	35	punct	35:punct	_
 35	norr	norr	ADV	AB	_	33	obl	33:obl	_
 36	om	om	ADP	PP	_	38	case	38:case	_
-37	samma	samma	DET	DT|UTR/NEU|SIN/PLU|IND	Definite=Ind	38	det	38:det	_
+37	samma	samma	ADJ	DT|UTR/NEU|SIN/PLU|IND	Case=Nom|Definite=Ind|Degree=Pos	38	amod	38:det	_
 38	näs	näs	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	35	nmod	35:nmod:om	SpaceAfter=No
 39	)	)	PUNCT	PAD	_	33	punct	33:punct	SpaceAfter=No
 40	.	.	PUNCT	MAD	_	3	punct	3:punct	_
@@ -11716,7 +11716,7 @@
 7	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	10:cop	_
 8	ungefärligen	ungefärligen	ADV	AB	_	10	advmod	10:advmod	_
 9	det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	10:det	_
-10	samma	samma	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Degree=Pos	0	root	0:root	_
+10	samma	samma	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos	0	root	0:root	_
 11	som	som	ADP	KN	_	13	case	13:case	_
 12	Yttre	yttre	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	13	amod	13:amod	_
 13	Mongoliet	Mongoliet	PROPN	PM|NOM	Case=Nom	10	obl	10:obl:som	_
@@ -12035,7 +12035,7 @@
 15	hela	hel	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	16	amod	16:amod	_
 16	Medelhavet	Medelhavet	PROPN	PM|NOM	Case=Nom	13	obl	13:obl:genom	_
 17	på	på	ADP	PP	_	19	case	19:case	_
-18	samma	samma	DET	DT|UTR/NEU|SIN/PLU|IND	Definite=Ind	19	det	19:det	_
+18	samma	samma	ADJ	DT|UTR/NEU|SIN/PLU|IND	Case=Nom|Definite=Ind|Degree=Pos	19	amod	19:det	_
 19	sätt	sätt	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	obl	13:obl:på	_
 20	som	som	SCONJ	KN	_	23	mark	23:mark	_
 21	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	22	det	22:det	_
@@ -12719,7 +12719,7 @@
 2	detta	detta	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing	3	obl	3:obl:trots	_
 3	verkar	verka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	3	nsubj	3:nsubj|7:nsubj	_
-5	båda	båda	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Plur	3	acl	3:acl	_
+5	båda	båda	PRON	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Plur|PronType=Tot	3	acl	3:acl	_
 6	ha	ha	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	7	aux	7:aux	_
 7	hållit	hålla	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	3	xcomp	3:xcomp	_
 8	åtminstone	åtminstone	ADV	AB	_	7	advmod	7:advmod	_
@@ -13799,7 +13799,7 @@
 2	stadsstat	stadsstat	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nsubj	3:nsubj	_
 3	uppkom	uppkomma	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	under	under	ADP	PP	_	6	case	6:case	_
-5	samma	samma	DET	DT|UTR/NEU|SIN/PLU|IND	Definite=Ind	6	det	6:det	_
+5	samma	samma	ADJ	DT|UTR/NEU|SIN/PLU|IND	Case=Nom|Definite=Ind|Degree=Pos	6	amod	6:det	_
 6	period	period	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obl	3:obl:under	_
 7	som	som	ADP	KN	_	8	case	8:case	_
 8	Sukhothai	Sukhothai	PROPN	PM|NOM	Case=Nom	5	obl	5:obl:som	SpaceAfter=No
@@ -16640,7 +16640,7 @@
 # sent_id = w01135036
 # text = Samma år syntes hon kort i Disneys The Muppets, som Miss Piggys receptionist.
 # text_en = Also that year, she briefly appeared in Disney's The Muppets, as Miss Piggy's receptionist.
-1	Samma	samma	DET	DT|UTR/NEU|SIN/PLU|IND	Definite=Ind	2	det	2:det	_
+1	Samma	samma	ADJ	DT|UTR/NEU|SIN/PLU|IND	Case=Nom|Definite=Ind|Degree=Pos	2	amod	2:det	_
 2	år	år	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	obl	3:obl	_
 3	syntes	synas	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	0:root	_
 4	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	nsubj	3:nsubj|14:nsubj	_
@@ -17886,7 +17886,7 @@
 5	vilket	vilken	DET	HD|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	6	det	6:det	_
 6	sätt	sätt	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	obl	12:obl:på	_
 7	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	9	det	9:det	_
-8	båda	båda	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Plur	9	amod	9:amod	_
+8	båda	båda	DET	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Definite=Def|Number=Plur|PronType=Tot	9	det	9:amod	_
 9	dramatikerna	dramatiker	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	12	nsubj	12:nsubj	_
 10	skulle	skola	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	aux	12:aux	_
 11	ha	ha	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	aux	12:aux	_
@@ -19594,7 +19594,7 @@
 2	nivå	nivå	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	0:root|9:nsubj	_
 3	som	som	PRON	HP|-|-|-	PronType=Int,Rel	9	nsubj	2:ref	_
 4	i	i	ADP	PP	_	6	case	6:case	_
-5	båda	båda	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Plur	6	amod	6:amod	_
+5	båda	båda	DET	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Definite=Def|Number=Plur|PronType=Tot	6	det	6:amod	_
 6	fall	fall	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	9	obl	9:obl:i	_
 7	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
 8	i	i	ADP	PP	_	9	case	9:case	_
@@ -20313,7 +20313,7 @@
 6	rättframma	rättfram	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	7	amod	7:amod	_
 7	antydningar	antydning	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	conj	1:conj:och|14:nsubj	_
 8	och	och	CCONJ	KN	_	13	cc	13:cc	_
-9	andra	andra	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur	13	det	13:det	_
+9	andra	andra	ADJ	PN|UTR/NEU|PLU|IND|SUB/OBJ	Case=Nom|Definite=Ind|Degree=Pos|NumType=Ord	13	amod	13:det	_
 10	väl	väl	ADV	AB|POS	Degree=Pos	11	advmod	11:advmod	_
 11	använda	använda	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	13	amod	13:amod	_
 12	verbala	verbal	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	13	amod	13:amod	_
@@ -22669,7 +22669,7 @@
 # sent_id = w04010027
 # text = Båda studenter till Goffredo Petrassi, träffades Ennio Morricone och Bruno Nicolai vid Santa Cecelia-konservatoriet.
 # text_en = Both students of Goffredo Petrassi, Ennio Morricone and Bruno Nicolai met at the Santa (Saint) Cecelia conservatory.
-1	Båda	båda	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Plur	2	amod	2:amod	_
+1	Båda	båda	DET	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Definite=Def|Number=Plur|PronType=Tot	2	det	2:amod	_
 2	studenter	student	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	acl	8:acl	_
 3	till	till	ADP	PP	_	4	case	4:case	_
 4	Goffredo	Goffredo	PROPN	PM|NOM	Case=Nom	2	nmod	2:nmod:till	_
@@ -22749,7 +22749,7 @@
 10	samarbeten	samarbete	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	obl	4:obl:på_grund_av	_
 11	mellan	mellan	ADP	PP	_	13	case	13:case	_
 12	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	13	det	13:det	_
-13	båda	båda	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Plur	10	nmod	10:nmod:mellan|16:nsubj	SpaceAfter=No
+13	båda	båda	PRON	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Plur|PronType=Tot	10	nmod	10:nmod:mellan|16:nsubj	SpaceAfter=No
 14	,	,	PUNCT	MID	_	16	punct	16:punct	_
 15	vilka	vilka	PRON	HP|UTR/NEU|PLU|IND	Definite=Ind|Number=Plur|PronType=Int,Rel	16	nsubj	13:ref	_
 16	gett	ge	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	13	acl:relcl	13:acl:relcl	_
