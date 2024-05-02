@@ -12719,7 +12719,7 @@
 2	detta	detta	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing	3	obl	3:obl:trots	_
 3	verkar	verka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	3	nsubj	3:nsubj|7:nsubj	_
-5	båda	båda	PRON	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Plur|PronType=Tot	3	acl	3:acl	_
+5	båda	båda	PRON	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Definite=Def|Number=Plur|PronType=Tot	3	acl	3:acl	_
 6	ha	ha	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	7	aux	7:aux	_
 7	hållit	hålla	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	3	xcomp	3:xcomp	_
 8	åtminstone	åtminstone	ADV	AB	_	7	advmod	7:advmod	_
@@ -22749,7 +22749,7 @@
 10	samarbeten	samarbete	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	obl	4:obl:på_grund_av	_
 11	mellan	mellan	ADP	PP	_	13	case	13:case	_
 12	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	13	det	13:det	_
-13	båda	båda	PRON	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Plur|PronType=Tot	10	nmod	10:nmod:mellan|16:nsubj	SpaceAfter=No
+13	båda	båda	PRON	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Definite=Def|Number=Plur|PronType=Tot	10	nmod	10:nmod:mellan|16:nsubj	SpaceAfter=No
 14	,	,	PUNCT	MID	_	16	punct	16:punct	_
 15	vilka	vilka	PRON	HP|UTR/NEU|PLU|IND	Definite=Ind|Number=Plur|PronType=Int,Rel	16	nsubj	13:ref	_
 16	gett	ge	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	13	acl:relcl	13:acl:relcl	_
