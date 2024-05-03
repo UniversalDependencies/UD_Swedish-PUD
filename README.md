@@ -4,19 +4,19 @@ Swedish-PUD is the Swedish part of the Parallel Universal Dependencies (PUD) tre
 
 # Introduction
 
-Swedish-PUD was created (together with the other parallel treebanks) for the CoNLL 
-2017 shared task on Multilingual Parsing from Raw Text to Universal Dependencies 
-(http://universaldependencies.org/conll17/). It consists of Swedish translations 
+Swedish-PUD was created (together with the other parallel treebanks) for the CoNLL
+2017 shared task on Multilingual Parsing from Raw Text to Universal Dependencies
+(http://universaldependencies.org/conll17/). It consists of Swedish translations
 of the 1000 sentences from the news domain and from Wikipedia, annotated according
 to the principles of the Swedish-PT treebank. The syntactic annotation has been manually validated in its entirety, while the morphological annotation has only been partially validated.
 
 # Acknowledgments
 
-Translations were produced by Jacob Nolskog at Teknotrans AB and checked by Joakim 
+Translations were produced by Jacob Nolskog at Teknotrans AB and checked by Joakim
 Nivre. The automatic annotation was carried out using SwePipe, a tool suite trained
-on the Stockholm-Umeå Corpus and the Swedish-TP treebank, developed by Robert Östling, 
+on the Stockholm-Umeå Corpus and the Swedish-TP treebank, developed by Robert Östling,
 Aaron Smith and Joakim, and available from https://github.com/robertostling/efselab.
-The syntactic annotation was checked and corrected manually by Joakim Nivre. 
+The syntactic annotation was checked and corrected manually by Joakim Nivre.
 
 # PUD Treebanks
 
@@ -81,7 +81,7 @@ UPOS: automatic with corrections
 XPOS: automatic with corrections
 Features: automatic with corrections
 Relations: manual native
-Contributors: Nivre, Joakim; Griciūtė, Bernadet; Norrman, Victor
+Contributors: Nivre, Joakim; Griciūtė, Bernadeta; Norrman, Victor
 Contributing: here
 Contact: joakim.nivre@lingfil.uu.se
 ===============================================================================
