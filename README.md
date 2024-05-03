@@ -8,8 +8,7 @@ Swedish-PUD was created (together with the other parallel treebanks) for the CoN
 2017 shared task on Multilingual Parsing from Raw Text to Universal Dependencies 
 (http://universaldependencies.org/conll17/). It consists of Swedish translations 
 of the 1000 sentences from the news domain and from Wikipedia, annotated according
-to the principles of the Swedish-PT treebank. The syntactic annotation has been 
-manually validated, but the morphological annotation is automatically predicted.
+to the principles of the Swedish-PT treebank. The syntactic annotation has been manually validated in its entirety, while the morphological annotation has only been partially validated.
 
 # Acknowledgments
 
@@ -69,6 +68,9 @@ From v2.4 to v2.5
 From v2.10 to v2.11:
 - Removed incorrect case markers in enhanced dependencies (mostly English words).
 
+From v2.13 to v2.14:
+- Harmonized lemmas and features for adjectives and determiners across all Swedish treebanks.
+
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.1
 License: CC BY-SA 4.0
@@ -79,7 +81,7 @@ UPOS: automatic with corrections
 XPOS: automatic with corrections
 Features: automatic with corrections
 Relations: manual native
-Contributors: Nivre, Joakim; Griciūtė, Bernadeta
+Contributors: Nivre, Joakim; Griciūtė, Bernadet; Norrman, Victor
 Contributing: here
 Contact: joakim.nivre@lingfil.uu.se
 ===============================================================================
