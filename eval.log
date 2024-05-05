@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Swedish-PUD:
-commit 01778acb40760f12344fbd4b7e2dee2d5c45778a
-Merge: 914b58d f029f89
+commit 5b33e0661ceeba66a71d04d602f05b3d8285bcf9
+Merge: b94152d ad08817
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 19076 of 19076 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.89686200087196.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.5.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL       2425
-Udapi: found 2425 bugs.
+               TOTAL       1686
+Udapi: found 1686 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 19076 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sv --max-err=10 UD_Swedish-PUD/sv_pud-ud-test.conllu
@@ -39,8 +39,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.426829104587276) = 0.109443360150584
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.0941176470588235) = 0.00723981900452489
-(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
+(weight=0.307692307692308) * (score{udapi}=0.11616691130216) = 0.0357436650160491
 (weight=0.0769230769230769) * (score{udeprels}=0.864864864864865) = 0.0665280665280665
-(TOTAL score=0.289696916874729) * (availability=1) * (validity=1) = 0.289696916874729
+(TOTAL score=0.322363658813855) * (availability=1) * (validity=1) = 0.322363658813855
 STARS = 1.5
-UD_Swedish-PUD	0.289696916874729	1.5
+UD_Swedish-PUD	0.322363658813855	1.5
