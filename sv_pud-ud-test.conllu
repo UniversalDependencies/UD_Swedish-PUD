@@ -2057,7 +2057,7 @@
 8	säger	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 9	polisen	polis	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	nsubj	8:nsubj	_
 10	i	i	ADP	PP	_	11	case	11:case	_
-11	B.C.	british_columbia	PROPN	PM|NOM	Abbr=Yes	9	nmod	9:nmod:i	_
+11	B.C.	B.C.	PROPN	PM|NOM	Abbr=Yes	9	nmod	9:nmod:i	_
 12	att	att	SCONJ	SN	_	14	mark	14:mark	_
 13	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	14	nsubj	14:nsubj	_
 14	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	8:ccomp	_
@@ -2096,7 +2096,7 @@
 # text_en = Police in B.C. said earlier Klein did not appear to have a criminal history and released vague details about his recent whereabouts.
 1	Polisen	polis	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	nsubj	4:nsubj|15:nsubj	_
 2	i	i	ADP	PP	_	3	case	3:case	_
-3	B.C.	british_columbia	PROPN	PM|NOM	Abbr=Yes	1	nmod	1:nmod:i	_
+3	B.C.	B.C.	PROPN	PM|NOM	Abbr=Yes	1	nmod	1:nmod:i	_
 4	sade	säga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	tidigare	tidigt	ADV	AB|KOM	Degree=Cmp	4	advmod	4:advmod	_
 6	att	att	SCONJ	SN	_	9	mark	9:mark	_
