@@ -17,6 +17,9 @@ Nivre. The automatic annotation was carried out using SwePipe, a tool suite trai
 on the Stockholm-Umeå Corpus and the Swedish-TP treebank, developed by Robert Östling,
 Aaron Smith and Joakim, and available from https://github.com/robertostling/efselab.
 The syntactic annotation was checked and corrected manually by Joakim Nivre.
+The morphological annotation was checked and corrected by Bernadeta Griciūtė.
+Later, a semi-automatic correction of features and lemmas was done by 
+Victor Norrman and Joakim Nivre.
 
 # PUD Treebanks
 
