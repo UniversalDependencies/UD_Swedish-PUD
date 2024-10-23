@@ -23310,8 +23310,8 @@
 34	”	”	PUNCT	MID	_	37	punct	37:punct	SpaceAfter=No
 35	Do	do	AUX	VB|IMP|AKT	Mood=Imp|VerbForm=Fin	37	aux	37:aux	Lang=en|SpaceAfter=No
 36	n't	not	PART	AB	_	37	advmod	37:advmod	Lang=en
-37	Go	go	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	parataxis	2:parataxis	Lang=en
-38	Breaking	Breaking	VERB	PC|PRS	VerbForm=Part|Voice=Act	37	xcomp	37:xcomp	Lang=en
+37	Go	go	VERB	VB|INF|AKT	VerbForm=Inf	2	parataxis	2:parataxis	Lang=en
+38	Breaking	Breaking	VERB	PC|PRS	VerbForm=Part	37	xcomp	37:xcomp	Lang=en
 39	My	my	PRON	PS|SIN	Number=Sing	40	nmod:poss	40:nmod:poss	Lang=en
 40	Heart	heart	NOUN	NN|SIN	Number=Sing	38	obj	38:obj	Lang=en|SpaceAfter=No
 41	”	”	PUNCT	PAD	_	37	punct	37:punct	SpaceAfter=No
