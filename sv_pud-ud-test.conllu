@@ -5539,9 +5539,9 @@
 5	redan	redan	ADV	AB	_	6	advmod	6:advmod	_
 6	skissats	skissa	VERB	VB|SUP|SFO	VerbForm=Sup|Voice=Pass	0	root	0:root	_
 7	ned	ned	ADP	PL	_	6	compound:prt	6:compound:prt	_
-8	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	10	case	10:case	_
-9	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	fixed	8:fixed	_
-10	torsk	torsk	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obl	6:obl:vad_gäller	SpaceAfter=No
+8	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	9	nsubj	9:nsubj	_
+9	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	6:advcl	_
+10	torsk	torsk	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obj	9:obj	SpaceAfter=No
 11	,	,	PUNCT	MID	_	12	punct	12:punct	_
 12	sjötunga	sjötunga	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	conj	6:obl:vad_gäller|10:conj:och	SpaceAfter=No
 13	,	,	PUNCT	MID	_	14	punct	14:punct	_
@@ -14438,12 +14438,12 @@
 7	krigsutbrottet	krigsutbrott	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	obl	3:obl:före	_
 8	betydande	betydande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Mood=Ind|Tense=Pres|VerbForm=Part	9	amod	9:amod	_
 9	övertag	övertag	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	obj	3:obj	_
-10	både	både	CCONJ	KN	_	13	advmod	13:advmod	_
-11	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	13	case	13:case	_
-12	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	fixed	11:fixed	_
-13	befolkning	befolkning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	nmod	9:nmod:vad_gäller	_
+10	både	både	CCONJ	KN	_	12	advmod	12:advmod	_
+11	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	12	nsubj	12:nsubj	_
+12	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	3:advcl	_
+13	befolkning	befolkning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	obj	12:obj	_
 14	och	och	CCONJ	KN	_	15	cc	15:cc	_
-15	ekonomi	ekonomi	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	conj	9:nmod:vad_gäller|13:conj:och	SpaceAfter=No
+15	ekonomi	ekonomi	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	conj	12:obj|13:conj:och	SpaceAfter=No
 16	.	.	PUNCT	MAD	_	3	punct	3:punct	_
 
 # sent_id = w01096074
@@ -22600,10 +22600,10 @@
 # sent_id = w04008006
 # text = Vad religiösa bruk beträffar var Fiorello utbildad inom Episkopalkyrkan och förblev medlem i den protestantiska kyrkan hela sitt liv.
 # text_en = With regards to religious practices, Fiorello was educated within the Episcopal Church, and remained a member of the Protestant Church throughout his life.
-1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	3	case	3:case	_
+1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	4	nsubj	4:nsubj	_
 2	religiösa	religiös	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	3	amod	3:amod	_
-3	bruk	bruk	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	obl	7:obl:vad_beträffar	_
-4	beträffar	beträffa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	fixed	1:fixed	_
+3	bruk	bruk	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	obj	4:obj	_
+4	beträffar	beträffa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	7:advcl	_
 5	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
 6	Fiorello	Fiorello	PROPN	PM|NOM	Case=Nom	7	nsubj	7:nsubj|11:nsubj	_
 7	utbildad	utbildad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
