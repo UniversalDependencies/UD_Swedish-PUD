@@ -1326,10 +1326,10 @@
 # text = Lite mer än 70 % av plantorna som odlats med jordfröer var vid liv efter 17 dagar – bara lite mer än plantorna som odlats från rymdfröer – just över 66 %.
 # text_en = Just over 70% of the plants grown from Earth seeds were alive after 17 days - just slightly more than the plants grown from space seeds - just over 66%.
 1	Lite	litet	ADV	AB|POS	Degree=Pos	2	advmod	2:advmod	_
-2	mer	mycket	ADV	AB|KOM	Degree=Cmp	4	advmod	4:advmod	_
-3	än	än	SCONJ	KN	_	2	fixed	2:fixed	_
+2	mer	mycket	ADV	AB|KOM	Degree=Cmp	14	nsubj	9:nsubj:pass|14:nsubj	_
+3	än	än	SCONJ	KN	_	5	case	5:case	_
 4	70	70	NUM	RG|NOM	Case=Nom	5	nummod	5:nummod	_
-5	%	procent	NOUN	NN|AN	Abbr=Yes	14	nsubj	9:nsubj:pass|14:nsubj	_
+5	%	procent	NOUN	NN|AN	Abbr=Yes	2	obl	2:obl:än	_
 6	av	av	ADP	PP	_	7	case	7:case	_
 7	plantorna	planta	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	5	nmod	5:nmod:av	_
 8	som	som	PRON	HP|-|-|-	PronType=Int,Rel	9	nsubj:pass	5:ref	_
@@ -2631,20 +2631,20 @@
 2	årliga	årlig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	3	amod	3:amod	_
 3	budget	budget	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	nsubj	9:nsubj	_
 4	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
-5	mer	mycket	ADV	AB|KOM	Degree=Cmp	7	advmod	7:advmod	_
-6	än	än	SCONJ	KN	_	5	fixed	5:fixed	_
+5	mer	mycket	ADV	AB|KOM	Degree=Cmp	0	root	0:root	_
+6	än	än	SCONJ	KN	_	9	case	9:case	_
 7	1,4	1,4	NUM	RG|NOM	Case=Nom	8	nummod	8:nummod	_
 8	miljarder	miljard	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	nmod	9:nmod	_
-9	dollar	dollar	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	0:root	SpaceAfter=No
+9	dollar	dollar	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	obl	5:obl:än	SpaceAfter=No
 10	,	,	PUNCT	MID	_	13	punct	13:punct	_
 11	och	och	CCONJ	KN	_	13	cc	13:cc	_
 12	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	nsubj	13:nsubj	_
 13	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	9:conj:och	_
-14	mer	mycket	ADV	AB|KOM	Degree=Cmp	16	advmod	16:advmod	_
-15	än	än	SCONJ	KN	_	14	fixed	14:fixed	_
+14	mer	mycket	ADV	AB|KOM	Degree=Cmp	13	obj	13:obj	_
+15	än	än	SCONJ	KN	_	18	case	18:case	_
 16	6	6	NUM	RG|NOM	Case=Nom	18	nummod	18:nummod	_
 17	000	000	NUM	RG|NOM	Case=Nom	16	nummod	16:nummod	_
-18	anställda	anställd	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	obj	13:obj	SpaceAfter=No
+18	anställda	anställd	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	14	obl	14:obl:än	SpaceAfter=No
 19	.	.	PUNCT	MAD	_	9	punct	9:punct	_
 
 # sent_id = n01043025
@@ -6256,11 +6256,11 @@
 15	sett	se	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	4	conj	4:conj:och	_
 16	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	15	obj	15:obj|17:nsubj	_
 17	ta	ta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	15	xcomp	15:xcomp	_
-18	mer	mycket	ADV	AB|KOM	Degree=Cmp	20	advmod	20:advmod	_
-19	än	än	SCONJ	KN	_	18	fixed	18:fixed	_
+18	mer	mycket	ADV	AB|KOM	Degree=Cmp	17	obj	17:obj	_
+19	än	än	SCONJ	KN	_	22	case	22:case	_
 20	16	16	NUM	RG|NOM	Case=Nom	21	nummod	21:nummod	_
 21	md	miljard	NOUN	NN|AN	Abbr=Yes	22	nmod	22:nmod	_
-22	euro	euro	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	obj	17:obj	_
+22	euro	euro	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	obl	18:obl:än	_
 23	i	i	ADP	PP	_	24	case	24:case	_
 24	avskrivningar	avskrivning	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	17	obl	17:obl:i	SpaceAfter=No
 25	.	.	PUNCT	MAD	_	4	punct	4:punct	_
@@ -7553,11 +7553,11 @@
 # sent_id = n01131007
 # text = Mer än 5,7 miljoner floridabor har redan gått och röstat efter cirka två veckor med personligt förtidsröstande.
 # text_en = More than 5.7 million Floridians have already hit the polls after about two weeks of in-person early voting.
-1	Mer	mycket	ADV	AB|KOM	Degree=Cmp	3	advmod	3:advmod	_
-2	än	än	SCONJ	KN	_	1	fixed	1:fixed	_
+1	Mer	mycket	ADV	AB|KOM	Degree=Cmp	8	nsubj	8:nsubj|10:nsubj	_
+2	än	än	SCONJ	KN	_	5	case	5:case	_
 3	5,7	5,7	NUM	RG|NOM	Case=Nom	4	nummod	4:nummod	_
 4	miljoner	miljon	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	nmod	5:nmod	_
-5	floridabor	floridabor	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	nsubj	8:nsubj|10:nsubj	_
+5	floridabor	floridabor	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	obl	1:obl:än	_
 6	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	8:aux	_
 7	redan	redan	ADV	AB	_	8	advmod	8:advmod	_
 8	gått	gå	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	0:root	_
@@ -7704,11 +7704,11 @@
 1	Amerikanska	amerikansk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	2	amod	2:amod	_
 2	aktiespekulationer	aktiespekulation	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	nsubj	3:nsubj	_
 3	stiger	stiga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-4	med	med	ADP	PP	_	8	case	8:case	_
-5	mer	mycket	ADV	AB|KOM	Degree=Cmp	7	advmod	7:advmod	_
-6	än	än	SCONJ	KN	_	5	fixed	5:fixed	_
+4	med	med	ADP	PP	_	5	case	5:case	_
+5	mer	mycket	ADV	AB|KOM	Degree=Cmp	3	obl	3:obl:med	_
+6	än	än	SCONJ	KN	_	8	case	8:case	_
 7	1	1	NUM	RG|NOM	Case=Nom	8	nummod	8:nummod	_
-8	%	procent	NOUN	NN|AN	Abbr=Yes	3	obl	3:obl:med	_
+8	%	procent	NOUN	NN|AN	Abbr=Yes	5	obl	5:obl:än	_
 9	vid	vid	ADP	PP	_	13	case	13:case	_
 10	sidan	sida	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	fixed	9:fixed	_
 11	av	av	ADP	PP	_	9	fixed	9:fixed	_
@@ -14406,10 +14406,10 @@
 8	3	3	NUM	RG|NOM	Case=Nom	9	nummod	9:nummod	_
 9	miljoner	miljon	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	15	nmod	15:nmod:mellan	_
 10	och	och	CCONJ	KN	_	14	cc	14:cc	_
-11	mer	mycket	ADV	AB|KOM	Degree=Cmp	13	advmod	13:advmod	_
-12	än	än	SCONJ	KN	_	11	fixed	11:fixed	_
+11	mer	mycket	ADV	AB|KOM	Degree=Cmp	9	conj	9:conj:och|15:nmod:mellan	_
+12	än	än	SCONJ	KN	_	14	case	14:case	_
 13	10	10	NUM	RG|NOM	Case=Nom	14	nummod	14:nummod	_
-14	miljoner	miljon	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	conj	9:conj:och|15:nmod:mellan	_
+14	miljoner	miljon	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	11	obl	11:obl	_
 15	civila	civil	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	6	nsubj:pass	6:nsubj:pass	SpaceAfter=No
 16	,	,	PUNCT	MID	_	18	punct	18:punct	_
 17	mestadels	mestadels	ADV	AB	_	18	advmod	18:advmod	_
