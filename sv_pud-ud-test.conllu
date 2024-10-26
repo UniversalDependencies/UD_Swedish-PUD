@@ -8136,11 +8136,11 @@
 10	på	på	ADP	PP	_	12	case	12:case	_
 11	dess	dess	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes	12	nmod:poss	12:nmod:poss	_
 12	produkter	produkt	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	obl	9:obl:på|17:nsubj	_
-13	som	som	SCONJ	KN	_	17	mark	17:mark	_
-14	mer	mycket	ADV	AB|KOM	Degree=Cmp	17	advmod	17:advmod	_
-15	än	än	SCONJ	KN	_	14	fixed	14:fixed	_
-16	bara	bara	ADV	AB	_	14	fixed	14:fixed	_
-17	produktivitetsverktyg	produktivitetsverktyg	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	8	xcomp	8:xcomp	SpaceAfter=No
+13	som	som	SCONJ	KN	_	14	mark	14:mark	_
+14	mer	mycket	ADV	AB|KOM	Degree=Cmp	9	advcl	9:advcl	_
+15	än	än	SCONJ	KN	_	17	case	17:case	_
+16	bara	bara	ADV	AB	_	17	advmod	17:advmod	_
+17	produktivitetsverktyg	produktivitetsverktyg	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	14	obl	14:obl:än	SpaceAfter=No
 18	.	.	PUNCT	MAD	_	2	punct	2:punct	_
 
 # sent_id = n01141022
