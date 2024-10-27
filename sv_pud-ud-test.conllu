@@ -15739,13 +15739,13 @@
 9	icke-vita	icke-vit	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	10	amod	10:amod	_
 10	prinsessa	prinsessa	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	xcomp	5:xcomp	_
 11	i	i	ADP	PP	_	12	case	12:case	_
-12	motsats	motsats	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	advcl	5:advcl	_
-13	till	till	ADP	PP	_	18	case	18:case	_
+12	motsats	motsats	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obl	5:obl:i	_
+13	till	till	ADP	PP	_	18	mark	18:mark	_
 14	att	att	PART	IE	_	18	mark	18:mark	_
 15	vara	vara	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	18	cop	18:cop	_
 16	av	av	ADP	PP	_	18	case	18:case	_
 17	europeisk	europeisk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	18	amod	18:amod	_
-18	härkomst	härkomst	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	nmod	12:nmod:till:av	SpaceAfter=No
+18	härkomst	härkomst	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	acl	12:acl:att	SpaceAfter=No
 19	.	.	PUNCT	MAD	_	5	punct	5:punct	_
 
 # sent_id = w01119100
