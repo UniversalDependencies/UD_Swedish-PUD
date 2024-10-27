@@ -4254,13 +4254,13 @@
 2	föreslog	föreslå	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	att	att	PART	IE	_	14	mark	14:mark	_
 4	många	många	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur	14	nsubj	14:nsubj	SpaceAfter=No
-5	,	,	PUNCT	MID	_	10	punct	10:punct	_
+5	,	,	PUNCT	MID	_	7	punct	7:punct	_
 6	på	på	ADP	PP	_	7	case	7:case	_
 7	grund	grund	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	obl	14:obl:på	_
 8	av	av	ADP	PP	_	10	case	10:case	_
 9	sin	sin	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes	10	nmod:poss	10:nmod:poss	_
 10	ålder	ålder	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	nmod	7:nmod:av	SpaceAfter=No
-11	,	,	PUNCT	MID	_	10	punct	10:punct	_
+11	,	,	PUNCT	MID	_	7	punct	7:punct	_
 12	skulle	skola	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	aux	14:aux	_
 13	vara	vara	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	14	cop	14:cop	_
 14	omedvetna	omedveten	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	2	ccomp	2:ccomp	_
@@ -7331,7 +7331,7 @@
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	5	expl	5:expl	_
 2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 3	trots	trots	ADP	PP	_	4	case	4:case	_
-4	allt	allt	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing	5	nmod	5:nmod:trots	_
+4	allt	allt	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing	5	obl	5:obl:trots	_
 5	så	så	ADV	AB	_	0	root	0:root	_
 6	att	att	SCONJ	SN	_	11	mark	11:mark	_
 7	vår	vår	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes	8	nmod:poss	8:nmod:poss	_
