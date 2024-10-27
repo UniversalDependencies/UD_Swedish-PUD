@@ -11589,7 +11589,7 @@
 # text_en = First and foremost was the provision of open space for the benefit of townspeople and local residents within an area that was being rapidly built up.
 1	Först	först	ADV	AB	_	10	advmod	10:advmod	_
 2	och	och	CCONJ	KN	_	3	cc	3:cc	_
-3	främst	främst	ADV	AB|SUV	Degree=Sup	1	conj	10:advmod|1:conj:och	_
+3	främst	främst	ADV	AB|SUV	Degree=Sup	1	conj	1:conj:och|10:advmod	_
 4	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	10:cop	_
 5	villkoret	villkor	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	10	nsubj	10:nsubj	_
 6	på	på	ADP	PP	_	8	case	8:case	_
@@ -12835,10 +12835,10 @@
 19	avbryta	avbryta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	advcl	2:advcl:att	_
 20	förföljelsen	förföljelse	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	19	obj	19:obj	_
 21	till	till	ADP	PP	_	22	case	22:case	_
-22	dess	dess	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes	25	mark	25:mark	_
+22	dess	dess	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes	19	obl	19:obl	_
 23	resten	rest	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	25	nsubj	25:nsubj	_
 24	hade	ha	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	25	aux	25:aux	_
-25	återvänt	återvända	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	19	advcl	19:advcl:till_dess	SpaceAfter=No
+25	återvänt	återvända	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	22	acl:relcl	22:acl:relcl	SpaceAfter=No
 26	.	.	PUNCT	MAD	_	2	punct	2:punct	_
 
 # sent_id = w01069094
