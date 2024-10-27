@@ -18720,10 +18720,10 @@
 18	bara	bara	ADV	AB	_	19	advmod	19:advmod	_
 19	aktiveras	aktivera	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	8	parataxis	8:parataxis	_
 20	om	om	ADP	PL	_	30	compound:prt	30:compound:prt	SpaceAfter=No
-21	,	,	PUNCT	MID	_	22	punct	22:punct	_
+21	,	,	PUNCT	MID	_	23	punct	23:punct	_
 22	till	till	ADP	PP	_	23	case	23:case	_
 23	exempel	exempel	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	30	obl	30:obl:till	SpaceAfter=No
-24	,	,	PUNCT	MID	_	22	punct	22:punct	_
+24	,	,	PUNCT	MID	_	23	punct	23:punct	_
 25	artisten	artist	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	30	nsubj	30:nsubj|35:nsubj	_
 26	eller	eller	CCONJ	KN	_	27	cc	27:cc	_
 27	skivbolaget	skivbolag	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	25	conj	25:conj:eller|30:nsubj	_
@@ -19248,7 +19248,7 @@
 7	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
 8	mer	mycket	ADV	AB|KOM	Degree=Cmp	11	advmod	11:advmod	_
 9	eller	eller	CCONJ	KN	_	10	cc	10:cc	_
-10	mindre	litet	ADV	AB|KOM	Degree=Cmp	8	conj	11:advmod|8:conj:eller	_
+10	mindre	litet	ADV	AB|KOM	Degree=Cmp	8	conj	8:conj:eller|11:advmod	_
 11	lika	lik	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos	0	root	0:root	_
 12	med	med	ADP	PP	_	14	case	14:case	_
 13	45	45	NUM	RG|NOM	Case=Nom	14	nummod	14:nummod	_
@@ -21787,7 +21787,7 @@
 14	i	i	ADP	PP	_	15	case	15:case	_
 15	mångt	mångt	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing	18	nmod	18:nmod:i	_
 16	och	och	CCONJ	KN	_	17	cc	17:cc	_
-17	mycket	mycket	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing	15	conj	18:nmod:i|15:conj:och	_
+17	mycket	mycket	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing	15	conj	15:conj:och|18:nmod:i	_
 18	dikteras	diktera	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	12	acl:relcl	12:acl:relcl	_
 19	av	av	ADP	PP	_	21	case	21:case	_
 20	grekisk	grekisk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	21	amod	21:amod	_
