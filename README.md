@@ -17,6 +17,9 @@ Nivre. The automatic annotation was carried out using SwePipe, a tool suite trai
 on the Stockholm-Umeå Corpus and the Swedish-TP treebank, developed by Robert Östling,
 Aaron Smith and Joakim, and available from https://github.com/robertostling/efselab.
 The syntactic annotation was checked and corrected manually by Joakim Nivre.
+The morphological annotation was checked and corrected by Bernadeta Griciūtė.
+Later, a semi-automatic correction of features and lemmas was done by 
+Victor Norrman and Joakim Nivre.
 
 # PUD Treebanks
 
@@ -70,6 +73,9 @@ From v2.10 to v2.11:
 
 From v2.13 to v2.14:
 - Harmonized lemmas and features for adjectives and determiners across all Swedish treebanks.
+
+From v2.14 to v2.15:
+- Revised the annotation of fixed expressions, reducing the number of fixed expressions in Swedish to 27.
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.1
