@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Swedish-PUD:
-commit 5b33e0661ceeba66a71d04d602f05b3d8285bcf9
-Merge: b94152d ad08817
+commit 4236c3fbbd938b00ef411ea773f9219cc0548959
+Merge: be2a807 205f660
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 19076 of 19076 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.89686200087196.
@@ -15,7 +15,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.5.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.1.
-Features: 12706 out of 19076 total words have one or more features.
+Features: 12708 out of 19076 total words have one or more features.
 Features: source of annotation (from README) factor is 0.5.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
@@ -29,8 +29,7 @@ Genres: found 2 out of 17 known.
 [Line 14121 Sent w01091016 Node 24]: [L3 Warning fixed-gap] Gaps in fixed expression [24, 27] 'för * * sedan'
 [Line 17165 Sent w01143015 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 5] 'För * * * sedan'
 [Line 20035 Sent n05002004 Node 27]: [L3 Warning fixed-gap] Gaps in fixed expression [27, 30] 'för * * sedan'
-[Line 22603 Sent w04008006 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'Vad * * beträffar'
-Warnings: 5
+Warnings: 4
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.5) = 0.0384615384615385
