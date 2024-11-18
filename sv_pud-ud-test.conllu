@@ -156,9 +156,9 @@
 # sent_id = n01002058
 # text = Det hon säger och det hon gör, det – faktiskt, det är otroligt.
 # text_en = What she’s saying and what she’s doing, it — actually, it’s unbelievable.
-1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	3	obj	3:obj	_
+1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	15	dislocated	15:dislocated	_
 2	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	nsubj	3:nsubj	_
-3	säger	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	dislocated	15:dislocated	_
+3	säger	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	1:acl:relcl	_
 4	och	och	CCONJ	KN	_	7	cc	7:cc	_
 5	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	7	obj	7:obj	_
 6	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	nsubj	7:nsubj	_
@@ -1188,8 +1188,8 @@
 11	sakta	sakta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	parataxis	2:parataxis	_
 12	ner	ner	ADV	PL	_	11	compound:prt	11:compound:prt	_
 13	klimatförändringarna	klimatförändring	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	11	obj	11:obj	SpaceAfter=No
-14	,	,	PUNCT	MID	_	19	punct	19:punct	_
-15	vilket	vilket	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	19	nsubj	19:nsubj	_
+14	,	,	PUNCT	MID	_	26	punct	26:punct	_
+15	vilket	vilket	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	26	obj	26:obj	_
 16	även	även	ADV	AB	_	19	advmod	19:advmod	_
 17	det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	19:det	_
 18	nyliga	nylig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	19	amod	19:amod	_
@@ -1452,9 +1452,9 @@
 3	stoppas	stoppa	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	_
 4	håret	hår	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj:pass	3:nsubj:pass	_
 5	vanligtvis	vanligtvis	ADV	AB	_	3	advmod	3:advmod	_
-6	i	i	ADP	PP	_	9	mark	9:mark	_
-7	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	9	nsubj	9:nsubj	_
-8	kemiskt	kemiskt	ADV	AB|POS	Degree=Pos	9	advmod	9:advmod	_
+6	i	i	ADP	PP	_	9	case	9:case	_
+7	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	9	det	9:det	_
+8	kemiskt	kemisk	ADV	AB|POS	Degree=Pos	9	amod	9:amod	_
 9	bad	be	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	obl	3:obl	_
 10	för	för	ADP	PP	_	12	mark	12:mark	_
 11	att	att	PART	IE	_	12	mark	12:mark	_
@@ -2629,8 +2629,8 @@
 # text_en = Its annual budget is more than $1.4 billion, and it employs more than 6,000 people.
 1	Dess	dess	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes	3	nmod:poss	3:nmod:poss	_
 2	årliga	årlig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	3	amod	3:amod	_
-3	budget	budget	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	nsubj	9:nsubj	_
-4	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
+3	budget	budget	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nsubj	5:nsubj	_
+4	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 5	mer	mycket	ADV	AB|KOM	Degree=Cmp	0	root	0:root	_
 6	än	än	SCONJ	KN	_	9	case	9:case	_
 7	1,4	1,4	NUM	RG|NOM	Case=Nom	8	nummod	8:nummod	_
@@ -4384,7 +4384,7 @@
 # text = Var deras gudsgivna rätt till manteln som världens bästa icke längre önskade?
 # text_en = Was their divine right to the mantle as the world’s best no longer warranted?
 1	Var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
-2	deras	deras	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes	4	nsubj:pass	4:nsubj:pass	_
+2	deras	deras	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes	4	nmod:poss	4:nmod:poss	_
 3	gudsgivna	gudsgiven	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	4	amod	4:amod	_
 4	rätt	rätt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	nsubj	12:nsubj	_
 5	till	till	ADP	PP	_	6	case	6:case	_
@@ -7788,7 +7788,7 @@
 # sent_id = n01135002
 # text = Kina omättliga aptit på friterad kyckling brukade vara en stor anledning till att investerare älskade KFC:s moderföretag Yum Brands.
 # text_en = China's insatiable appetite for fried chicken used to be a big reason why investors loved KFC-parent Yum Brands.
-1	Kina	Kina	PROPN	PM|NOM	Case=Nom	3	nsubj	3:nsubj	_
+1	Kina	Kina	PROPN	PM|NOM	Case=Gen|Typo=Yes	3	nmod:poss	3:nmod:poss	CorrectForm=Kinas
 2	omättliga	omättlig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	3	amod	3:amod	_
 3	aptit	aptit	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	nsubj	7:nsubj|11:nsubj	_
 4	på	på	ADP	PP	_	6	case	6:case	_
@@ -8438,8 +8438,8 @@
 # text_en = "There are 1200 volunteers working for the parade alone," González Anaya says.
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	expl	2:expl	_
 2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-3	1	1	NUM	RG|NOM	Case=Nom	4	nummod	4:nummod	_
-4	200	200	NUM	RG|NOM	Case=Nom	5	nsubj	5:nsubj	_
+3	1	1	NUM	RG|NOM	Case=Nom	5	nummod	5:nummod	_
+4	200	200	NUM	RG|NOM	Case=Nom	3	flat	3:flat	_
 5	frivilliga	frivillig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	2	nsubj	2:nsubj|7:nsubj	_
 6	som	som	PRON	HP|-|-|-	PronType=Int,Rel	7	nsubj	5:ref	_
 7	arbetar	arbeta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	5:acl:relcl	_
@@ -8974,7 +8974,7 @@
 10	makedoniske	makedonisk	ADJ	JJ|POS|MAS|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Gender=Com|Number=Sing	11	amod	11:amod	_
 11	kungen	kung	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	nmod	12:nmod	_
 12	Amyntas	Amyntas	PROPN	PM|NOM	Case=Nom	8	nsubj	8:nsubj|18:nsubj	_
-13	I	i	ADP	PP	_	12	nsubj:pass	12:nsubj:pass	_
+13	I	i	ADP	PP	_	12	nmod	12:nmod	_
 14	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	16	det	16:det	_
 15	akemenidiska	akemenidisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	16	amod	16:amod	_
 16	överhögheten	överhöghet	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	obj	8:obj	_
@@ -10032,7 +10032,7 @@
 21	till	till	ADP	PP	_	22	case	22:case	_
 22	Flensburg	Flensburg	PROPN	PM|NOM	Case=Nom	20	nmod	20:nmod:till	_
 23	aldrig	aldrig	ADV	AB	Polarity=Neg	24	advmod	24:advmod	_
-24	användes	använda	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	15	nsubj	15:nsubj	_
+24	användes	använda	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	15	csubj	15:csubj	_
 25	ordentligt	ordentligt	ADV	AB|POS	Degree=Pos	24	advmod	24:advmod	_
 26	för	för	ADP	PP	_	27	case	27:case	_
 27	evakueringen	evakuering	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	24	obl	24:obl:för	SpaceAfter=No
@@ -10277,10 +10277,10 @@
 9	grönt	grön	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	nmod	7:nmod:av|11:nsubj	_
 10	som	som	PRON	HP|-|-|-	PronType=Int,Rel	11	nsubj	9:ref	_
 11	löper	löpa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	9:acl:relcl	_
-12	från	från	ADP	PP	_	15	case	15:case	_
-13	gulaktig	gulaktig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	15	nsubj	15:nsubj	_
-14	till	till	ADV	AB	_	15	advmod	15:advmod	_
-15	blåaktig	blåaktig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	11	advmod	11:advmod	SpaceAfter=No
+12	från	från	ADP	PP	_	13	case	13:case	_
+13	gulaktig	gulaktig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	11	obl	11:obl	_
+14	till	till	ADV	AB	_	15	case	15:case	_
+15	blåaktig	blåaktig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	11	obl	11:obl	SpaceAfter=No
 16	.	.	PUNCT	MAD	_	3	punct	3:punct	_
 
 # sent_id = w01029049
@@ -17065,7 +17065,7 @@
 # sent_id = w01141077
 # text = Hon mötte härnäst den regerande mästaren och toppseedade Sara Errani, men blev besegrad.
 # text_en = She next faced defending champion and top seed Sara Errani, but was defeated.
-1	Hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	2:nsubj|13:nsubj|14:nsubj:pass	_
+1	Hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	2:nsubj|14:nsubj:pass	_
 2	mötte	möta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	härnäst	härnäst	ADV	AB	_	2	advmod	2:advmod	_
 4	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	6	det	6:det	_
@@ -18037,7 +18037,7 @@
 2	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	4	det	4:det	_
 3	turkisk	turkisk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	amod	4:amod	_
 4	anställd	anställd	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	5	nsubj	5:nsubj	_
-5	slutar	sluta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	dislocated	7:dislocated	_
+5	slutar	sluta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	7:advcl	_
 6	så	så	ADV	AB	_	7	advcl	7:advcl	_
 7	kommer	komma	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 8	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	10	det	10:det	_
@@ -18073,7 +18073,7 @@
 22	i	i	ADP	PP	_	25	case	25:case	_
 23	så	så	ADV	AB	_	24	advmod	24:advmod	_
 24	dåligt	dålig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	25	amod	25:amod	_
-25	skick	skick	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	nmod	11:nmod:i	SpaceAfter=No
+25	skick	skick	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	acl	11:acl:till	SpaceAfter=No
 26	.	.	PUNCT	MAD	_	11	punct	11:punct	_
 
 # newdoc id = n02033
