@@ -1455,7 +1455,7 @@
 6	i	i	ADP	PP	_	9	case	9:case	_
 7	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	9	det	9:det	_
 8	kemiskt	kemisk	ADV	AB|POS	Degree=Pos	9	amod	9:amod	_
-9	bad	be	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	obl	3:obl	_
+9	bad	be	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	obl	3:obl	_
 10	för	för	ADP	PP	_	12	mark	12:mark	_
 11	att	att	PART	IE	_	12	mark	12:mark	_
 12	ta	ta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	3	advcl	3:advcl:att	_
@@ -7829,8 +7829,8 @@
 14	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing	15	det	15:det	_
 15	fall	fall	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	8	obl	8:obl:i|19:nsubj:pass	_
 16	som	som	PRON	HP|-|-|-	PronType=Int,Rel	19	nsubj:pass	15:ref	_
-17	till	till	ADP	PP	_	19	case	19:case	_
-18	sist	sist	ADV	AB|SUV	Degree=Sup	19	advmod	19:advmod	_
+17	till	till	ADP	PP	_	18	case	18:case	_
+18	sist	sist	ADJ	JJ|SUV|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Sup|Number=Sing	19	obl	19:obl:till	_
 19	fördes	föra	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	15	acl:relcl	15:acl:relcl	_
 20	till	till	ADP	PP	_	23	case	23:case	_
 21	USA:s	USA	PROPN	PM|GEN	Case=Gen	23	nmod:poss	23:nmod:poss	_
@@ -14870,7 +14870,7 @@
 6	under	under	ADP	PP	_	7	case	7:case	_
 7	kriget	krig	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	obl	3:obl:under	SpaceAfter=No
 8	;	;	PUNCT	MID	_	3	punct	3:punct	_
-9	fastän	fastän	SCONJ	SN	_	13	case	13:case	_
+9	fastän	fastän	SCONJ	SN	_	13	mark	13:mark	_
 10	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing	11	det	11:det	_
 11	antal	antal	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	nmod	12:nmod	_
 12	B-29:or	b-29	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	nsubj:pass	13:nsubj:pass	_
@@ -21553,10 +21553,10 @@
 6	knuten	knuten	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
 7	till	till	ADP	PP	_	8	case	8:case	_
 8	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	obl	6:obl:till	_
-9	för	för	ADP	PP	_	11	case	11:case	_
-10	dess	dess	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes	11	nmod:poss	11:nmod:poss	_
-11	befästa	befästa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	8	nmod	8:nmod:för	_
-12	stad	stad	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	obj	11:obj	SpaceAfter=No
+9	för	för	ADP	PP	_	12	case	12:case	_
+10	dess	dess	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes	12	nmod:poss	12:nmod:poss	_
+11	befästa	befästa	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NON	Case=Nom|Definite=Def|Degree=Pos|Tens=Past|VerbForm=Part	12	amod	12:amod	_
+12	stad	stad	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nmod	8:nmod:för	SpaceAfter=No
 13	.	.	PUNCT	MAD	_	6	punct	6:punct	_
 
 # newdoc id = w03002
