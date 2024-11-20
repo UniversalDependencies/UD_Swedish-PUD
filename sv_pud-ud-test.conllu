@@ -21555,7 +21555,7 @@
 8	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	obl	6:obl:till	_
 9	för	för	ADP	PP	_	12	case	12:case	_
 10	dess	dess	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes	12	nmod:poss	12:nmod:poss	_
-11	befästa	befästa	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NON	Case=Nom|Definite=Def|Degree=Pos|Tens=Past|VerbForm=Part	12	amod	12:amod	_
+11	befästa	befästa	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NON	Case=Nom|Definite=Def|Degree=Pos|Tense=Past|VerbForm=Part	12	amod	12:amod	_
 12	stad	stad	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nmod	8:nmod:för	SpaceAfter=No
 13	.	.	PUNCT	MAD	_	6	punct	6:punct	_
 
