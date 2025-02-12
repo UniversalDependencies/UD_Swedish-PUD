@@ -22887,7 +22887,7 @@
 7	kallade	kallad	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	9	amod	9:amod	_
 8	”	”	PUNCT	PAD	_	9	punct	9:punct	SpaceAfter=No
 9	Andes	ande	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	4	obj	4:obj|15:nsubj:pass	_
-10	de	den	ADP	PP	_	11	case	11:case	_
+10	de	de	ADP	PP	_	11	case	11:case	_
 11	tipo	tipo	NOUN	NN|SIN	Number=Sing	9	nmod	9:nmod	_
 12	andino	andino	ADJ	JJ|SIN	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	11	amod	11:amod	SpaceAfter=No
 13	”	”	PUNCT	PAD	_	11	punct	11:punct	_
