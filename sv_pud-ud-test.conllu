@@ -3208,7 +3208,7 @@
 3	84	84	NUM	RG|NOM	Case=Nom	4	nummod	4:nummod	_
 4	år	år	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	5	obl	5:obl	_
 5	gammal	gammal	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	0	root	0:root	SpaceAfter=No
-6	.	.	PUNCT	MAD	_	0	punct	0:punct	_
+6	.	.	PUNCT	MAD	_	5	punct	5:punct	_
 
 # sent_id = n01052006
 # text = Han beskrev henne som en ”anmärkningsvärd” och ”kärleksfull och underbar” kvinna som gjorde avtryck i den skönlitterära världen med sina historier.
