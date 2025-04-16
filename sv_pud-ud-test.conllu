@@ -1585,13 +1585,13 @@
 # text_en = "Luckily, someone in Sony Australia was like, 'Hey, by the way, did you guys notice this?'" says Pall.
 1	Som	som	SCONJ	KN	_	3	mark	3:mark	_
 2	tur	tur	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nsubj	3:nsubj	_
-3	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	4:advcl:som	_
-4	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-5	någon	någon	PRON	PN|UTR|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Com|Number=Sing	4	nsubj	4:nsubj	_
+3	är	vara	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	9:advcl:som	_
+4	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
+5	någon	någon	PRON	PN|UTR|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Com|Number=Sing	9	nsubj	9:nsubj	_
 6	hos	hos	ADP	PP	_	7	case	7:case	_
 7	Sony	Sony	PROPN	PM|NOM	Case=Nom	5	nmod	5:nmod:hos	_
 8	Australien	Australien	PROPN	PM|NOM	Case=Nom	7	flat:name	7:flat:name	_
-9	typ	typ	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obl	4:obl	_
+9	typ	typ	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	0:root	_
 10	”	”	PUNCT	MID	_	15	punct	15:punct	SpaceAfter=No
 11	Jo	jo	INTJ	IN	_	15	discourse	15:discourse	SpaceAfter=No
 12	,	,	PUNCT	MID	_	15	punct	15:punct	_
@@ -4497,12 +4497,12 @@
 # sent_id = n01075028
 # text = Det var som om han snärtade bollen fram och tillbaka under tre upp och ner-vända muggar.
 # text_en = It was as though he was flicking the ball back and forth underneath three upturned cups.
-1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	nsubj	2:nsubj	_
-2	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	nsubj:outer	2:nsubj:outer	_
+2	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 3	som	som	SCONJ	KN	_	6	mark	6:mark	_
 4	om	om	SCONJ	SN	_	6	mark	6:mark	_
 5	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	nsubj	6:nsubj	_
-6	snärtade	snärta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	2:ccomp	_
+6	snärtade	snärta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 7	bollen	boll	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	obj	6:obj	_
 8	fram	fram	ADV	AB	_	6	advmod	6:advmod	_
 9	och	och	CCONJ	KN	_	10	cc	10:cc	_
@@ -4513,7 +4513,7 @@
 14	och	och	CCONJ	KN	_	15	cc	15:cc	_
 15	ner-vända	ner-vänd	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	13	conj	13:conj:och|16:amod	_
 16	muggar	mugg	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	obl	6:obl:under	SpaceAfter=No
-17	.	.	PUNCT	MAD	_	2	punct	2:punct	_
+17	.	.	PUNCT	MAD	_	6	punct	6:punct	_
 
 # sent_id = n01075044
 # text = Australien, som härdats av sina matcher i Rugbymästerskapen nyligen, hade en högre växel.
@@ -4847,11 +4847,11 @@
 # text = Hennes anledning är att det ger otillräckligt skydd för amerikanska arbetare vilkas jobb och levnadsstandard det kan skada.
 # text_en = Her reason is that it provides insufficient protection to American workers whose jobs and living standards it might harm.
 1	Hennes	hennes	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes	2	nmod:poss	2:nmod:poss	_
-2	anledning	anledning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nsubj	3:nsubj	_
-3	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	anledning	anledning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nsubj:outer	6:nsubj:outer	_
+3	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 4	att	att	SCONJ	SN	_	6	mark	6:mark	_
 5	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	6	nsubj	6:nsubj	_
-6	ger	ge	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	3:ccomp	_
+6	ger	ge	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 7	otillräckligt	otillräcklig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	amod	8:amod	_
 8	skydd	skydd	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	obj	6:obj	_
 9	för	för	ADP	PP	_	11	case	11:case	_
@@ -4864,7 +4864,7 @@
 16	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	18	nsubj	18:nsubj	_
 17	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	18:aux	_
 18	skada	skada	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	11	acl:relcl	11:acl:relcl	SpaceAfter=No
-19	.	.	PUNCT	MAD	_	3	punct	3:punct	_
+19	.	.	PUNCT	MAD	_	6	punct	6:punct	_
 
 # sent_id = n01083035
 # text = I detta sammanhang är det rimligt att rasa mot handeln.
@@ -8436,21 +8436,21 @@
 # sent_id = n01145028
 # text = Det är 1 200 frivilliga som arbetar med bara paraden, säger González Anaya.
 # text_en = "There are 1200 volunteers working for the parade alone," González Anaya says.
-1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	expl	2:expl	_
-2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	5	expl	5:expl	_
+2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 3	1	1	NUM	RG|NOM	Case=Nom	5	nummod	5:nummod	_
 4	200	200	NUM	RG|NOM	Case=Nom	3	flat	3:flat	_
-5	frivilliga	frivillig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	2	nsubj	2:nsubj|7:nsubj	_
-6	som	som	PRON	HP|-|-|-	PronType=Int,Rel	7	nsubj	5:ref	_
-7	arbetar	arbeta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	5:acl:relcl	_
+5	frivilliga	frivillig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	0	root	0:root	_
+6	som	som	PRON	HP|-|-|-	PronType=Int,Rel	7	nsubj	7:nsubj	_
+7	arbetar	arbeta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:cleft	5:acl:cleft	_
 8	med	med	ADP	PP	_	10	case	10:case	_
 9	bara	bara	ADV	AB	_	10	advmod	10:advmod	_
 10	paraden	parad	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	obl	7:obl:med	SpaceAfter=No
 11	,	,	PUNCT	MID	_	12	punct	12:punct	_
-12	säger	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	2:parataxis	_
+12	säger	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	5:parataxis	_
 13	González	González	PROPN	PM|NOM	Case=Nom	12	nsubj	12:nsubj	_
 14	Anaya	Anaya	PROPN	PM|NOM	Case=Nom	13	flat:name	13:flat:name	SpaceAfter=No
-15	.	.	PUNCT	MAD	_	2	punct	2:punct	_
+15	.	.	PUNCT	MAD	_	5	punct	5:punct	_
 
 # sent_id = n01145034
 # text = Så det är underbart att kunna rädda det och ta med det till ett nytt format och en ny tradition för mexikaner.
@@ -18170,8 +18170,8 @@
 # sent_id = n02040023
 # text = Det är för att varje mirakel och varje specialiserat distrikt tar upp ett helt fält.
 # text_en = That is because each and every miracle and each specialized district occupies an entire field.
-1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	expl	2:expl	_
-2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	11	nsubj:outer	11:nsubj:outer	_
+2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
 3	för	för	ADP	PP	_	11	mark	11:mark	_
 4	att	att	SCONJ	SN	_	11	mark	11:mark	_
 5	varje	varje	DET	DT|UTR/NEU|SIN|IND	Definite=Ind|Number=Sing	6	det	6:det	_
@@ -18180,12 +18180,12 @@
 8	varje	varje	DET	DT|UTR/NEU|SIN|IND	Definite=Ind|Number=Sing	10	det	10:det	_
 9	specialiserat	specialiserad	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	10	amod	10:amod	_
 10	distrikt	distrikt	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	conj	6:conj:och|11:nsubj	_
-11	tar	ta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	2:ccomp	_
+11	tar	ta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 12	upp	upp	ADV	PL	_	11	compound:prt	11:compound:prt	_
 13	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing	15	det	15:det	_
 14	helt	hel	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	amod	15:amod	_
 15	fält	fält	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	obj	11:obj	SpaceAfter=No
-16	.	.	PUNCT	MAD	_	2	punct	2:punct	_
+16	.	.	PUNCT	MAD	_	11	punct	11:punct	_
 
 # newdoc id = n02041
 # sent_id = n02041014
@@ -20022,7 +20022,7 @@
 14	%	procent	NOUN	NN|AN	Abbr=Yes	11	obl	11:obl:under	_
 15	och	och	CCONJ	KN	_	17	cc	17:cc	_
 16	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	17	expl	17:expl	_
-17	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	11:conj:och	_
+17	är	vara	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	11:conj:och	_
 18	redan	redan	ADV	AB	_	17	advmod	17:advmod	_
 19	600	600	NUM	RG|NOM	Case=Nom	20	nummod	20:nummod	_
 20	000	000	NUM	RG|NOM	Case=Nom	21	nummod	21:nummod	_
@@ -20031,7 +20031,7 @@
 23	anställda	anställd	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	17	nsubj	17:nsubj	_
 24	än	än	SCONJ	KN	_	26	mark	26:mark	_
 25	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	26	expl	26:expl	_
-26	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	22	advcl	22:advcl:än	_
+26	var	vara	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	22	advcl	22:advcl:än	_
 27	för	för	ADP	PP	ExtPos=ADP	29	case	29:case	_
 28	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing	29	det	29:det	_
 29	år	år	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	26	obl	26:obl:för_sedan	_
@@ -20238,16 +20238,16 @@
 5	gång	gång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obl	3:obl	SpaceAfter=No
 6	:	:	PUNCT	MID	_	3	punct	3:punct	_
 7	”	”	PUNCT	PAD	_	9	punct	9:punct	SpaceAfter=No
-8	Clownen	clown	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nsubj	9:nsubj	_
-9	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	3:parataxis	_
+8	Clownen	clown	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	nsubj:outer	12:nsubj:outer	_
+9	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
 10	för	för	ADP	PP	_	11	case	11:case	_
-11	mänskligheten	mänsklighet	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	obl	9:obl:för	_
-12	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	9	ccomp	9:ccomp	_
+11	mänskligheten	mänsklighet	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	obl	12:obl:för	_
+12	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	0	parataxis	0:parataxis	_
 13	skuggan	skugga	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	nsubj	12:nsubj	_
 14	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
 15	för	för	ADP	PP	_	16	case	16:case	_
 16	människan	människa	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	obl	12:obl:för	SpaceAfter=No
-17	”	”	PUNCT	PAD	_	9	punct	9:punct	SpaceAfter=No
+17	”	”	PUNCT	PAD	_	12	punct	12:punct	SpaceAfter=No
 18	.	.	PUNCT	MAD	_	3	punct	3:punct	_
 
 # sent_id = n05005016
