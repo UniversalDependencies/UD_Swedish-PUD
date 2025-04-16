@@ -1597,7 +1597,7 @@
 12	,	,	PUNCT	MID	_	15	punct	15:punct	_
 13	förresten	förresten	ADV	AB	_	15	advmod	15:advmod	SpaceAfter=No
 14	,	,	PUNCT	MID	_	15	punct	15:punct	_
-15	märkte	märka	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	4:parataxis	_
+15	märkte	märka	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	9:parataxis	_
 16	ni	ni	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing	15	nsubj	15:nsubj	_
 17	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	15	obj	15:obj	_
 18	här	här	ADV	AB	_	17	advmod	17:advmod	SpaceAfter=No
@@ -4497,7 +4497,7 @@
 # sent_id = n01075028
 # text = Det var som om han snärtade bollen fram och tillbaka under tre upp och ner-vända muggar.
 # text_en = It was as though he was flicking the ball back and forth underneath three upturned cups.
-1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	nsubj:outer	2:nsubj:outer	_
+1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	6	nsubj:outer	6:nsubj:outer	_
 2	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 3	som	som	SCONJ	KN	_	6	mark	6:mark	_
 4	om	om	SCONJ	SN	_	6	mark	6:mark	_
@@ -20237,7 +20237,7 @@
 4	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing	5	det	5:det	_
 5	gång	gång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obl	3:obl	SpaceAfter=No
 6	:	:	PUNCT	MID	_	3	punct	3:punct	_
-7	”	”	PUNCT	PAD	_	9	punct	9:punct	SpaceAfter=No
+7	”	”	PUNCT	PAD	_	12	punct	12:punct	SpaceAfter=No
 8	Clownen	clown	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	nsubj:outer	12:nsubj:outer	_
 9	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
 10	för	för	ADP	PP	_	11	case	11:case	_
