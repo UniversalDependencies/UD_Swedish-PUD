@@ -3558,8 +3558,8 @@
 11	,	,	PUNCT	MID	_	14	punct	14:punct	_
 12	eller	eller	CCONJ	KN	_	14	cc	14:cc	_
 13	borde	böra	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	aux	14:aux	_
-14	vara	vara	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	10	conj	10:conj:eller	_
-15	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	14	obj	14:obj	SpaceAfter=No
+14	vara	vara	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	15	cop	15:cop	_
+15	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	10	conj	10:conj:eller	SpaceAfter=No
 16	.	.	PUNCT	MAD	_	10	punct	10:punct	_
 
 # sent_id = n01059019
@@ -4555,7 +4555,7 @@
 14	än	än	SCONJ	KN	_	17	mark	17:mark	_
 15	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	17	nsubj	17:nsubj	_
 16	redan	redan	ADV	AB	_	17	advmod	17:advmod	_
-17	är	vara	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	11:advcl:än	SpaceAfter=No
+17	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	11:advcl:än	SpaceAfter=No
 18	.	.	PUNCT	MAD	_	8	punct	8:punct	_
 
 # sent_id = n01076017
@@ -6276,19 +6276,19 @@
 6	med	med	ADP	PP	_	7	case	7:case	_
 7	fokus	fokus	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	obl	2:obl:med	_
 8	på	på	ADP	PP	_	9	case	9:case	_
-9	Mr	mr	NOUN	NN|NOM	Case=Nom	7	nmod	7:nmod:på|18:nsubj	_
-10	Winterkorn	Winterkorn	PROPN	PM|NOM	Case=Nom	9	flat:name	9:flat:name	_
+9	Mr	mr	NOUN	NN|NOM	Case=Nom	10	nmod	10:nmod	_
+10	Winterkorn	Winterkorn	PROPN	PM|NOM	Case=Nom	7	nmod	7:nmod:på|19:nsubj	_
 11	och	och	CCONJ	KN	_	13	cc	13:cc	_
 12	märkeschef	märkechef	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	nmod	13:nmod	_
-13	Herbert	Herbert	PROPN	PM|NOM	Case=Nom	9	conj	7:nmod:på|9:conj:och|18:nsubj	_
+13	Herbert	Herbert	PROPN	PM|NOM	Case=Nom	10	conj	7:nmod:på|10:conj:och|19:nsubj	_
 14	Diess	Diess	PROPN	PM|NOM	Case=Nom	13	flat:name	13:flat:name	SpaceAfter=No
 15	,	,	PUNCT	MID	_	13	punct	13:punct	_
-16	som	som	PRON	HP|-|-|-	PronType=Int,Rel	18	nsubj	9:ref	_
+16	som	som	PRON	HP|-|-|-	PronType=Int,Rel	18	nsubj	10:ref	_
 17	ännu	ännu	ADV	AB	_	18	advmod	18:advmod	_
-18	är	vara	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	9:acl:relcl	_
-19	kvar	kvar	ADV	PL	_	18	compound:prt	18:compound:prt	_
+18	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	19:cop	_
+19	kvar	kvar	ADV	PL	_	10	acl:relcl	10:acl:relcl	_
 20	hos	hos	ADP	PP	_	21	case	21:case	_
-21	biltillverkaren	biltillverkare	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	18	obl	18:obl:hos	SpaceAfter=No
+21	biltillverkaren	biltillverkare	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	19	obl	19:obl:hos	SpaceAfter=No
 22	.	.	PUNCT	MAD	_	2	punct	2:punct	_
 
 # sent_id = n01107010
