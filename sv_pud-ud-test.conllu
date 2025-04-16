@@ -1604,9 +1604,9 @@
 19	?	?	PUNCT	MID	_	15	punct	15:punct	SpaceAfter=No
 20	”	”	PUNCT	PAD	_	15	punct	15:punct	SpaceAfter=No
 21	,	,	PUNCT	MID	_	22	punct	22:punct	_
-22	säger	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	4:parataxis	_
+22	säger	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	9:parataxis	_
 23	Pall	pall	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	nsubj	22:nsubj	SpaceAfter=No
-24	.	.	PUNCT	MAD	_	4	punct	4:punct	_
+24	.	.	PUNCT	MAD	_	9	punct	9:punct	_
 
 # newdoc id = n01029
 # sent_id = n01029006
@@ -20242,7 +20242,7 @@
 9	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
 10	för	för	ADP	PP	_	11	case	11:case	_
 11	mänskligheten	mänsklighet	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	obl	12:obl:för	_
-12	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	0	parataxis	0:parataxis	_
+12	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	3	parataxis	3:parataxis	_
 13	skuggan	skugga	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	nsubj	12:nsubj	_
 14	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
 15	för	för	ADP	PP	_	16	case	16:case	_
