@@ -77,6 +77,10 @@ From v2.13 to v2.14:
 From v2.14 to v2.15:
 - Revised the annotation of fixed expressions, reducing the number of fixed expressions in Swedish to 27.
 
+From v2.15 to v2.16
+- Fixed errors in the annotation of "vara" (be) as AUX vs. VERB.
+- Removed "behöva" (need) from the inventory of auxiliaries. 
+
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.1
 License: CC BY-SA 4.0
