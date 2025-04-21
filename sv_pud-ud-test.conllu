@@ -17178,7 +17178,7 @@
 14	,	,	PUNCT	MID	_	12	punct	12:punct	_
 15	men	men	CCONJ	KN	_	18	cc	18:cc	_
 16	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	18	cop	18:cop	_
-17	fortsatt	fortsatt	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	18	advmod	18:advmod	_
+17	fortsatt	fortsatt	ADV	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	18	advmod	18:advmod	_
 18	kär	kär	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	conj	6:conj:men	_
 19	efter	efter	ADP	PP	_	22	case	22:case	_
 20	det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	22	det	22:det	_
