@@ -6130,7 +6130,7 @@
 2	just	just	ADV	AB	_	3	advmod	3:advmod	_
 3	nu	nu	ADV	AB	_	6	advmod	6:advmod	_
 4	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
-5	allting	allting	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing	6	nsubj	6:nsubj	_
+5	allting	allting	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Def|Number=Sing|PronType=Tot	6	nsubj	6:nsubj	_
 6	paj	paj	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	0:root	_
 7	och	och	CCONJ	KN	_	9	cc	9:cc	_
 8	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nsubj	9:nsubj|10:nsubj	_
@@ -13523,7 +13523,7 @@
 9	att	att	PART	IE	_	10	mark	10:mark	_
 10	tro	tro	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	advcl	2:advcl:att	_
 11	på	på	ADP	PP	_	12	case	12:case	_
-12	allting	allting	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing	10	obl	10:obl:på|15:obl	_
+12	allting	allting	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Def|Number=Sing|PronType=Tot	10	obl	10:obl:på|15:obl	_
 13	som	som	PRON	HP|-|-|-	PronType=Int,Rel	15	obj	12:ref	_
 14	Malleus	Malleus	PROPN	PM|NOM	Case=Nom	15	nsubj	15:nsubj	_
 15	sade	säga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	acl:relcl	12:acl:relcl	SpaceAfter=No
