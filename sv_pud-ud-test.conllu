@@ -9685,7 +9685,7 @@
 4	,	,	PUNCT	MID	_	8	punct	8:punct	_
 5	men	men	CCONJ	KN	_	8	cc	8:cc	_
 6	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
-7	mindre	liten	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	8	advmod	8:advmod	_
+7	mindre	lite	ADV	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Degree=Cmp	8	advmod	8:advmod	_
 8	extremt	extrem	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	conj	3:conj:men	_
 9	än	än	ADV	AB	_	8	advcl	8:advcl	SpaceAfter=No
 10	,	,	PUNCT	MID	_	8	punct	8:punct	_
