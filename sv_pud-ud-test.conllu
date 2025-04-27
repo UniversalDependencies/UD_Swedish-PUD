@@ -9367,7 +9367,7 @@
 16	)	)	PUNCT	PAD	_	15	punct	15:punct	_
 17	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux	25:aux	_
 18	väldigt	väldigt	ADV	AB|POS	Degree=Pos	19	advmod	19:advmod	_
-19	lite	litet	DET	AB|POS	Definte=Ind|PronType=Ind	20	det	20:det	_
+19	lite	litet	DET	AB|POS	Definite=Ind|PronType=Ind	20	det	20:det	_
 20	inflytande	inflytande	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	25	nsubj	25:nsubj	_
 21	och	och	CCONJ	KN	_	22	cc	22:cc	_
 22	inlån	inlån	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	20	conj	20:conj:och|25:nsubj	_
