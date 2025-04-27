@@ -13361,7 +13361,7 @@
 18	inbördeskrig	inbördeskrig	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	16	nmod	16:nmod:i	SpaceAfter=No
 19	)	)	PUNCT	PAD	_	11	punct	11:punct	_
 20	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	22	cop	22:cop	_
-21	mindre	litet	ADV	AB|KOM	Degree=Cmp	22	advmod	22:advmod	_
+21	mindre	lite	ADV	AB|KOM	Degree=Cmp	22	advmod	22:advmod	_
 22	troliga	trolig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	1	parataxis	1:parataxis	_
 23	att	att	PART	IE	_	24	mark	24:mark	_
 24	gå	gå	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	22	advcl	22:advcl:att	_
@@ -16345,7 +16345,7 @@
 # sent_id = w01131060
 # text = Minst 330 000 personer, inklusive 10 000 tekniker, var inblandade.
 # text_en = At least 330,000 people, including 10,000 technicians, were involved.
-1	Minst	litet	ADV	AB|SUV	Degree=Sup	2	advmod	2:advmod	_
+1	Minst	lite	ADV	AB|SUV	Degree=Sup	2	advmod	2:advmod	_
 2	330 000	330 000	NUM	RG|NOM	Case=Nom	3	nummod	3:nummod	_
 3	personer	person	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	nsubj	10:nsubj	SpaceAfter=No
 4	,	,	PUNCT	MID	_	7	punct	7:punct	_
@@ -19248,7 +19248,7 @@
 7	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
 8	mer	mycket	ADV	AB|KOM	Degree=Cmp	11	advmod	11:advmod	_
 9	eller	eller	CCONJ	KN	_	10	cc	10:cc	_
-10	mindre	litet	ADV	AB|KOM	Degree=Cmp	8	conj	8:conj:eller|11:advmod	_
+10	mindre	lite	ADV	AB|KOM	Degree=Cmp	8	conj	8:conj:eller|11:advmod	_
 11	lika	lik	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos	0	root	0:root	_
 12	med	med	ADP	PP	_	14	case	14:case	_
 13	45	45	NUM	RG|NOM	Case=Nom	14	nummod	14:nummod	_
@@ -23179,7 +23179,7 @@
 # text_en = Nonetheless, if the English law had been accepted, the daughters of Luis X, Felipe V and Carlos IV would have had more of a claim to the throne, above their aunt Isabella of France.
 1	Icke	icke	PART	AB	ExtPos=ADV|Polarity=Neg	24	advmod	24:advmod	_
 2	desto	desto	ADV	AB	_	1	fixed	1:fixed	_
-3	mindre	litet	ADV	AB|KOM	Degree=Cmp	1	fixed	1:fixed	_
+3	mindre	lite	ADV	AB|KOM	Degree=Cmp	1	fixed	1:fixed	_
 4	skulle	skola	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	24	aux	24:aux	_
 5	döttrarna	dotter	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	24	nsubj	24:nsubj	_
 6	till	till	ADP	PP	_	7	case	7:case	_
