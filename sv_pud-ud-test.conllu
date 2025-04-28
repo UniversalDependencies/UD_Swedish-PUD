@@ -1999,7 +1999,7 @@
 17	att	att	PART	IE	_	18	mark	18:mark	_
 18	driva	driva	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	13	advcl	13:advcl:att	_
 19	fram	fram	ADV	PL	_	18	compound:prt	18:compound:prt	_
-20	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	26	dislocated	26:dislocated	_
+20	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int,Rel	26	dislocated	26:dislocated	_
 21	för	för	ADP	PP	_	23	case	23:case	_
 22	gemensam	gemensam	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	23	amod	23:amod	_
 23	agenda	agenda	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	nmod	20:nmod:för	_
@@ -2407,7 +2407,7 @@
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	4	nsubj	4:nsubj	_
 2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
 3	inte	inte	PART	AB	Polarity=Neg	4	advmod	4:advmod	_
-4	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	0	root	0:root	_
+4	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int,Rel	0	root	0:root	_
 5	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur	6	nsubj	6:nsubj	_
 6	behöver	behöva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	4:acl:relcl	_
 7	i	i	ADP	PP	_	9	case	9:case	_
@@ -3119,7 +3119,7 @@
 # sent_id = n01051004
 # text = Vad som började som en rutinmässig ultraljudsundersökning blev komplicerad när den väntande modern Margaret Boemer från Plano, Texas fick höra att hennes ofödda barn hade en ovanlig åkomma och behövde en operation för att överleva.
 # text_en = What started as a routine ultrasound became complicated when expectant mother Margaret Boemer, of Plano, Texas, was told her unborn child had a rare condition and needed surgery to survive.
-1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	8	nsubj	3:nsubj|7:nsubj|8:nsubj|9:nsubj	_
+1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int,Rel	8	nsubj	3:nsubj|7:nsubj|8:nsubj|9:nsubj	_
 2	som	som	PRON	HP|-|-|-	PronType=Int,Rel	3	nsubj	1:ref	_
 3	började	börja	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	acl:relcl	1:acl:relcl	_
 4	som	som	SCONJ	KN	_	7	mark	7:mark	_
@@ -3593,7 +3593,7 @@
 2	Jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	nsubj	3:nsubj	_
 3	vet	veta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	inte	inte	PART	AB	Polarity=Neg	3	advmod	3:advmod	_
-5	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	4	ccomp	4:ccomp	_
+5	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int,Rel	4	ccomp	4:ccomp	_
 6	BNP-tillväxten	BNP-tillväxt	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	nsubj	5:nsubj	_
 7	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
 8	under	under	ADP	PP	_	12	case	12:case	_
@@ -5437,7 +5437,7 @@
 # text = Och vad är då Australiens ståndpunkt?
 # text_en = And what about Australia’s position?
 1	Och	och	CCONJ	KN	_	6	cc	6:cc	_
-2	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	6	nsubj	6:nsubj	_
+2	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int,Rel	6	nsubj	6:nsubj	_
 3	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 4	då	då	ADV	AB	_	6	advmod	6:advmod	_
 5	Australiens	Australien	PROPN	PM|GEN	Case=Gen	6	nmod:poss	6:nmod:poss	_
@@ -5539,7 +5539,7 @@
 5	redan	redan	ADV	AB	_	6	advmod	6:advmod	_
 6	skissats	skissa	VERB	VB|SUP|SFO	VerbForm=Sup|Voice=Pass	0	root	0:root	_
 7	ned	ned	ADP	PL	_	6	compound:prt	6:compound:prt	_
-8	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	9	nsubj	9:nsubj	_
+8	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int,Rel	9	nsubj	9:nsubj	_
 9	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	6:advcl	_
 10	torsk	torsk	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obj	9:obj	SpaceAfter=No
 11	,	,	PUNCT	MID	_	12	punct	12:punct	_
@@ -9934,7 +9934,7 @@
 # sent_id = w01023120
 # text = Vad än reglerna var slutade ofta striderna med att en av hingstarna dog.
 # text_en = Whatever the rules were, the fights often resulted in the death of one of the stallions.
-1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	5	advcl	5:advcl	_
+1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int,Rel	5	advcl	5:advcl	_
 2	än	än	ADV	KN	_	1	advmod	1:advmod	_
 3	reglerna	regel	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	1	nsubj	1:nsubj	_
 4	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	cop	1:cop	_
@@ -12350,7 +12350,7 @@
 25	debatt	debatt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	obj	24:obj	_
 26	mer	mycket	ADV	AB|KOM	Degree=Cmp	31	advmod	31:advmod	_
 27	om	om	ADP	PP	_	31	mark	31:mark	_
-28	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	31	obj	31:obj	_
+28	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int,Rel	31	obj	31:obj	_
 29	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing	31	nsubj	31:nsubj	_
 30	faktiskt	faktiskt	ADV	AB|POS	Degree=Pos	31	advmod	31:advmod	_
 31	menade	mena	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	24	advcl	24:advcl:om	_
@@ -13010,7 +13010,7 @@
 14	baseras	basera	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	7	conj	7:conj:och	_
 15	enbart	enbart	ADV	AB	_	14	advmod	14:advmod	_
 16	på	på	ADP	PP	_	17	case	17:case	_
-17	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	14	obl:agent	14:obl:agent|24:nsubj	_
+17	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int,Rel	14	obl:agent	14:obl:agent|24:nsubj	_
 18	som	som	PRON	HP|-|-|-	PronType=Int,Rel	24	nsubj	17:ref	_
 19	i	i	ADP	PP	_	21	case	21:case	_
 20	bästa	god	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	21	amod	21:amod	_
@@ -14439,7 +14439,7 @@
 8	betydande	betydande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Mood=Ind|Tense=Pres|VerbForm=Part	9	amod	9:amod	_
 9	övertag	övertag	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	obj	3:obj	_
 10	både	både	CCONJ	KN	_	12	advmod	12:advmod	_
-11	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	12	nsubj	12:nsubj	_
+11	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int,Rel	12	nsubj	12:nsubj	_
 12	gäller	gälla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	3:advcl	_
 13	befolkning	befolkning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	obj	12:obj	_
 14	och	och	CCONJ	KN	_	15	cc	15:cc	_
@@ -16011,7 +16011,7 @@
 1	George	George	PROPN	PM|NOM	Case=Nom	2	nsubj:pass	2:nsubj:pass	_
 2	förfärades	förfära	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	0:root	_
 3	av	av	ADP	PP	_	4	case	4:case	_
-4	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	2	obl:agent	2:obl:agent|10:nsubj	_
+4	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int,Rel	2	obl:agent	2:obl:agent|10:nsubj	_
 5	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	nsubj	6:nsubj	_
 6	såg	se	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	4:acl:relcl	_
 7	som	som	SCONJ	KN	_	10	mark	10:mark	_
@@ -16219,7 +16219,7 @@
 6	under	under	ADP	PP	_	7	case	7:case	_
 7	1990-talet	1990-tal	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	obl	2:obl:under	_
 8	i	i	ADP	PP	_	9	case	9:case	_
-9	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	2	obl	2:obl:i|19:nsubj	_
+9	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int,Rel	2	obl	2:obl:i|19:nsubj	_
 10	musikern	musiker	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	nmod	11:nmod	_
 11	Tom	Tom	PROPN	PM|NOM	Case=Nom	14	nsubj	14:nsubj	_
 12	Robinson	Robinson	PROPN	PM|NOM	Case=Nom	11	flat:name	11:flat:name	_
@@ -19062,7 +19062,7 @@
 # sent_id = n03006003
 # text = Vad är gränserna som kan förhindra uttrycket av trosuppfattningar vid privata företag?
 # text_en = What are the limits that could inhibit the expression of religious beliefs in private companies?
-1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	3	nsubj	3:nsubj	_
+1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int,Rel	3	nsubj	3:nsubj	_
 2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
 3	gränserna	gräns	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	0	root	0:root|6:nsubj	_
 4	som	som	PRON	HP|-|-|-	PronType=Int,Rel	6	nsubj	3:ref	_
@@ -19731,7 +19731,7 @@
 # text_en = This is what has been written in a note to Mps after the decision of the ex-minister to leave the party.
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	3	nsubj	3:nsubj	_
 2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
-3	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	0	root	0:root|5:nsubj:pass	_
+3	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int,Rel	0	root	0:root|5:nsubj:pass	_
 4	som	som	PRON	HP|-|-|-	PronType=Int,Rel	5	nsubj:pass	3:ref	_
 5	skrivits	skriva	VERB	VB|SUP|SFO	VerbForm=Sup|Voice=Pass	3	acl:relcl	3:acl:relcl	_
 6	i	i	ADP	PP	_	8	case	8:case	_
@@ -20214,13 +20214,13 @@
 # text = Och vad är det med partierna i vad, i historiska rättigheter?
 # text_en = And what about the parties in what, in historical rights?
 1	Och	och	CCONJ	KN	_	2	cc	2:cc	_
-2	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	0	root	0:root	_
+2	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int,Rel	0	root	0:root	_
 3	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	2:cop	_
 4	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	expl	2:expl	_
 5	med	med	ADP	PP	_	6	case	6:case	_
 6	partierna	parti	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	2	obl	2:obl:med	_
 7	i	i	ADP	PP	_	8	case	8:case	_
-8	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	2	obl	2:obl:i	SpaceAfter=No
+8	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int,Rel	2	obl	2:obl:i	SpaceAfter=No
 9	,	,	PUNCT	MID	_	12	punct	12:punct	_
 10	i	i	ADP	PP	_	12	case	12:case	_
 11	historiska	historisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	12	amod	12:amod	_
@@ -20242,7 +20242,7 @@
 9	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
 10	för	för	ADP	PP	_	11	case	11:case	_
 11	mänskligheten	mänsklighet	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	obl	12:obl:för	_
-12	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	3	parataxis	3:parataxis	_
+12	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int,Rel	3	parataxis	3:parataxis	_
 13	skuggan	skugga	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	nsubj	12:nsubj	_
 14	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
 15	för	för	ADP	PP	_	16	case	16:case	_
@@ -22600,7 +22600,7 @@
 # sent_id = w04008006
 # text = Vad religiösa bruk beträffar var Fiorello utbildad inom Episkopalkyrkan och förblev medlem i den protestantiska kyrkan hela sitt liv.
 # text_en = With regards to religious practices, Fiorello was educated within the Episcopal Church, and remained a member of the Protestant Church throughout his life.
-1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	4	nsubj	4:nsubj	_
+1	Vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int,Rel	4	nsubj	4:nsubj	_
 2	religiösa	religiös	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	3	amod	3:amod	_
 3	bruk	bruk	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	obj	4:obj	_
 4	beträffar	beträffa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	7:advcl	_
@@ -23296,7 +23296,7 @@
 20	att	att	PART	IE	_	21	mark	21:mark	_
 21	spela	spela	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	advcl	2:advcl:att	_
 22	in	in	ADV	PL	_	21	compound:prt	21:compound:prt	_
-23	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int,Rel	21	obj	21:obj|26:nsubj|30:nsubj	_
+23	vad	vad	PRON	HP|NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Int,Rel	21	obj	21:obj|26:nsubj|30:nsubj	_
 24	som	som	PRON	HP|-|-|-	PronType=Int,Rel	26	nsubj	23:ref	_
 25	skulle	skola	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	26	aux	26:aux	_
 26	bli	bli	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	23	acl:relcl	23:acl:relcl	_
