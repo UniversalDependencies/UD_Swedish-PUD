@@ -56,7 +56,7 @@
 13	kommer	komma	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	15:aux	_
 14	detta	detta	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing	15	nsubj	15:nsubj|17:nsubj	_
 15	bli	bli	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	0:root	_
-16	lite	litet	ADV	AB|POS	Degree=Pos	17	advmod	17:advmod	_
+16	lite	lite	ADV	AB|POS	Degree=Pos	17	advmod	17:advmod	_
 17	annorlunda	annorlunda	ADV	AB	_	15	xcomp	15:xcomp	SpaceAfter=No
 18	.	.	PUNCT	MAD	_	15	punct	15:punct	_
 
@@ -9367,7 +9367,7 @@
 16	)	)	PUNCT	PAD	_	15	punct	15:punct	_
 17	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux	25:aux	_
 18	väldigt	väldigt	ADV	AB|POS	Degree=Pos	19	advmod	19:advmod	_
-19	lite	litet	DET	AB|POS	Definite=Ind|PronType=Ind	20	det	20:det	_
+19	lite	lite	ADJ	AB|POS	Case=Nom|Degree=Pos	20	amod	20:amod	_
 20	inflytande	inflytande	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	25	nsubj	25:nsubj	_
 21	och	och	CCONJ	KN	_	22	cc	22:cc	_
 22	inlån	inlån	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	20	conj	20:conj:och|25:nsubj	_
