@@ -1089,7 +1089,7 @@
 23	Spotify	Spotify	PROPN	PM|NOM	Case=Nom	19	conj	17:acl:som|19:conj:och	_
 24	såväl	såväl	CCONJ	KN	_	27	advmod	27:advmod	_
 25	som	som	CCONJ	KN	_	27	cc	27:cc	_
-26	många	mången	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	27	amod	27:amod	_
+26	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	27	amod	27:amod	_
 27	andra	andra	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur	19	conj	17:acl:som|19:conj:som	SpaceAfter=No
 28	.	.	PUNCT	MAD	_	8	punct	8:punct	_
 
@@ -1150,7 +1150,7 @@
 # sent_id = n01022005
 # text = Många vetenskapsmän säger att teknologi för att avlägsna kol från luften nu kommer behövas för att möta målen från Paris.
 # text_en = Many scientists say that technology to remove carbon from the air will now be needed to meet the Paris targets.
-1	Många	mången	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	2	amod	2:amod	_
+1	Många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	2	amod	2:amod	_
 2	vetenskapsmän	vetenskapsman	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	nsubj	3:nsubj	_
 3	säger	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	att	att	SCONJ	SN	_	5	mark	5:mark	_
@@ -1292,7 +1292,7 @@
 13	och	och	CCONJ	KN	_	23	cc	23:cc	_
 14	för	för	ADP	PP	_	17	case	17:case	_
 15	så	så	ADV	AB	_	16	advmod	16:advmod	_
-16	många	mången	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	17	amod	17:amod	_
+16	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	17	amod	17:amod	_
 17	arter	art	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	23	obl	23:obl:för	_
 18	–	–	PUNCT	MID	_	21	punct	21:punct	_
 19	inte	inte	PART	AB	Polarity=Neg	21	advmod	21:advmod	_
@@ -1848,7 +1848,7 @@
 1	Emellertid	emellertid	ADV	AB	_	2	advmod	2:advmod	_
 2	finns	finnas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	_
 3	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	expl	2:expl	_
-4	många	mången	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	5	amod	5:amod	_
+4	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	5	amod	5:amod	_
 5	MLA:er	MLA	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	nsubj	2:nsubj|12:nsubj	_
 6	med	med	ADP	PP	_	10	case	10:case	_
 7	djupt	djupt	ADV	AB|POS	Degree=Pos	8	advmod	8:advmod	_
@@ -2299,9 +2299,9 @@
 # text_en = "We are seeing many, many countries and especially large new emitters like Brazil, South Africa, India and China stepping up to the plate in terms of playing a role in reducing emissions," said Guilbeault.
 1	Vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur	2	nsubj	2:nsubj	_
 2	ser	se	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-3	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	6	amod	6:amod	SpaceAfter=No
+3	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	6	amod	6:amod	SpaceAfter=No
 4	,	,	PUNCT	MID	_	6	punct	6:punct	_
-5	många	mången	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	6	amod	6:amod	_
+5	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	6	amod	6:amod	_
 6	länder	land	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	2	obj	2:obj	SpaceAfter=No
 7	,	,	PUNCT	MID	_	12	punct	12:punct	_
 8	och	och	CCONJ	KN	_	12	cc	12:cc	_
@@ -3336,7 +3336,7 @@
 # sent_id = n01054017
 # text = Många personer, inklusive inhemska grupper, anser att de trivialiserar First Nations-kultur.
 # text_en = Many people, including Indigenous groups, argue they trivialize First Nations culture.
-1	Många	mången	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	2	amod	2:amod	_
+1	Många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	2	amod	2:amod	_
 2	personer	person	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	nsubj	8:nsubj	SpaceAfter=No
 3	,	,	PUNCT	MID	_	6	punct	6:punct	_
 4	inklusive	inklusive	ADP	PP	_	6	case	6:case	_
@@ -3906,7 +3906,7 @@
 # text = Som många jag känner har jag tillbringat de senaste månaderna med att sitta uppe sent och i skräck läsa opinionsundersökningar.
 # text_en = Like many people I know, I’ve spent recent months staying up late, reading polls in terror.
 1	Som	som	ADP	KN	_	2	case	2:case	_
-2	många	många	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur	7	obl	7:obl:som	_
+2	många	många	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	7	obl	7:obl:som	_
 3	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	nsubj	4:nsubj	_
 4	känner	känna	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	2:acl:relcl	_
 5	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
@@ -4253,7 +4253,7 @@
 1	Vega	Vega	PROPN	PM|NOM	Case=Nom	2	nsubj	2:nsubj	_
 2	föreslog	föreslå	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	att	att	PART	IE	_	14	mark	14:mark	_
-4	många	många	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur	14	nsubj	14:nsubj	SpaceAfter=No
+4	många	många	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	14	nsubj	14:nsubj	SpaceAfter=No
 5	,	,	PUNCT	MID	_	7	punct	7:punct	_
 6	på	på	ADP	PP	_	7	case	7:case	_
 7	grund	grund	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	obl	14:obl:på	_
@@ -4342,7 +4342,7 @@
 1	Ett	ett	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing	7	nsubj	7:nsubj	_
 2	av	av	ADP	PP	_	6	case	6:case	_
 3	deras	deras	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes	6	nmod:poss	6:nmod:poss	_
-4	många	mången	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	6	amod	6:amod	_
+4	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	6	amod	6:amod	_
 5	sörjande	sörjande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Mood=Ind|Tense=Pres|VerbForm=Part	6	amod	6:amod	_
 6	facebookinlägg	facebookinlägg	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	nmod	1:nmod:av	_
 7	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
@@ -5232,7 +5232,7 @@
 2	bjuder	bjuda	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	kontorslandskapet	kontorslandskap	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	nsubj	2:nsubj|8:nsubj	_
 4	på	på	ADP	PP	_	6	case	6:case	_
-5	många	mången	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	6	amod	6:amod	_
+5	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	6	amod	6:amod	_
 6	kläder	kläder	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	obl	2:obl:på	_
 7	men	men	CCONJ	KN	_	8	cc	8:cc	_
 8	erbjuder	erbjuda	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	2:conj:men	_
@@ -5587,7 +5587,7 @@
 5	för	för	ADP	PP	_	6	case	6:case	_
 6	inbjudna	inbjuden	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	0	root	0:root	_
 7	men	men	CCONJ	KN	_	13	cc	13:cc	_
-8	många	många	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur	13	nsubj	13:nsubj	_
+8	många	många	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	13	nsubj	13:nsubj	_
 9	av	av	ADP	PP	_	11	case	11:case	_
 10	dessa	denna	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur	11	det	11:det	_
 11	marknadsplatser	marknadsplats	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	nmod	8:nmod:av	_
@@ -7348,7 +7348,7 @@
 18	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	16:cop	_
 19	eller	eller	CCONJ	KN	_	24	cc	24:cc	_
 20	hur	hur	ADV	HA	PronType=Int,Rel	21	advmod	21:advmod	_
-21	många	mången	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	22	amod	22:amod	_
+21	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	22	amod	22:amod	_
 22	regler	regel	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	24	obj	24:obj	_
 23	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur	24	nsubj	24:nsubj	_
 24	följer	följa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	13:acl:av|16:conj:eller	SpaceAfter=No
@@ -7361,7 +7361,7 @@
 2	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing	3	det	3:det	_
 3	resultat	resultat	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	obl	4:obl:som	_
 4	öppnar	öppna	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-5	många	mången	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	6	amod	6:amod	_
+5	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	6	amod	6:amod	_
 6	personer	person	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	nsubj	4:nsubj|9:nsubj	_
 7	e-postmeddelanden	e-postmeddelande	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	obj	4:obj	_
 8	eller	eller	CCONJ	KN	_	9	cc	9:cc	_
@@ -7481,7 +7481,7 @@
 # text = Tillräckligt många av dem i ett hårt omtvistat område kommer att leda till kaos på valdagen.
 # text_en = Enough of those, in a highly contested area, will lead to chaos election day.
 1	Tillräckligt	tillräckligt	ADV	AB|POS	Degree=Pos	2	advmod	2:advmod	_
-2	många	mången	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	12	nsubj	12:nsubj	_
+2	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	12	nsubj	12:nsubj	_
 3	av	av	ADP	PP	_	4	case	4:case	_
 4	dem	de	PRON	PN|UTR/NEU|PLU|DEF|OBJ	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	2	obl	2:obl:av	_
 5	i	i	ADP	PP	_	9	case	9:case	_
@@ -8999,7 +8999,7 @@
 3	akamenidiska	akamenidisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	4	amod	4:amod	_
 4	armén	armé	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	nsubj	5:nsubj	_
 5	innehöll	innehålla	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-6	många	mången	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	7	amod	7:amod	_
+6	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	7	amod	7:amod	_
 7	soldater	soldat	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	obj	5:obj	_
 8	från	från	ADP	PP	_	9	case	9:case	_
 9	Balkan	Balkan	PROPN	PM|NOM	Case=Nom	7	nmod	7:nmod:från	SpaceAfter=No
@@ -9010,7 +9010,7 @@
 # text_en = Moreover, many of the Macedonian and Persian elite intermarried.
 1	Dessutom	dessutom	ADV	AB	_	2	advmod	2:advmod	_
 2	förenades	förena	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	0:root	_
-3	många	många	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur	2	nsubj:pass	2:nsubj:pass	_
+3	många	många	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	2	nsubj:pass	2:nsubj:pass	_
 4	ur	ur	ADP	PP	_	9	case	9:case	_
 5	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	9	det	9:det	_
 6	makedoniska	makedonisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	9	amod	9:amod	_
@@ -11426,7 +11426,7 @@
 7	personliga	personlig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	8	amod	8:amod	_
 8	kontakter	kontakt	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	obl	2:obl:av	_
 9	med	med	ADP	PP	_	12	case	12:case	_
-10	många	mången	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	12	amod	12:amod	_
+10	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	12	amod	12:amod	_
 11	statsanställda	statsanställd	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	12	amod	12:amod	_
 12	vetenskapsmän	vetenskapsman	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	8	nmod	8:nmod:med|15:nsubj	SpaceAfter=No
 13	,	,	PUNCT	MID	_	15	punct	15:punct	_
@@ -12706,7 +12706,7 @@
 15	ofullständiga	ofullständig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	16	amod	16:amod	_
 16	naturen	natur	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	10	obl	10:obl:i	_
 17	hos	hos	ADP	PP	_	18	case	18:case	_
-18	många	många	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur	16	nmod	16:nmod:hos	_
+18	många	många	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	16	nmod	16:nmod:hos	_
 19	av	av	ADP	PP	_	21	case	21:case	_
 20	hans	hans	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes	21	nmod:poss	21:nmod:poss	_
 21	byggnadsverk	byggnadsverk	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	18	nmod	18:nmod:av	SpaceAfter=No
@@ -13572,7 +13572,7 @@
 8	befolkning	befolkning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obj	4:obj	_
 9	1492	1492	NUM	RG|NOM	Case=Nom	4	obl	4:obl	SpaceAfter=No
 10	;	;	PUNCT	MID	_	4	punct	4:punct	_
-11	många	många	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur	16	nsubj	16:nsubj|21:nsubj	_
+11	många	många	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	16	nsubj	16:nsubj|21:nsubj	_
 12	av	av	ADP	PP	_	15	case	15:case	_
 13	dessa	denna	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur	15	det	15:det	_
 14	spanska	spansk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	15	amod	15:amod	_
@@ -15008,7 +15008,7 @@
 9	använda	använda	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	7	xcomp	7:xcomp	_
 10	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	9	obj	9:obj	_
 11	i	i	ADP	PP	_	13	case	13:case	_
-12	många	mången	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	13	amod	13:amod	_
+12	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	13	amod	13:amod	_
 13	år	år	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	9	obl	9:obl:i	_
 14	efter	efter	ADP	PP	_	15	case	15:case	_
 15	kriget	krig	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	9	obl	9:obl:efter	SpaceAfter=No
@@ -17849,7 +17849,7 @@
 8	gamla	gammal	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	13	advcl	13:advcl:eftersom	SpaceAfter=No
 9	,	,	PUNCT	MID	_	13	punct	13:punct	_
 10	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	13:aux	_
-11	många	mången	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	12	amod	12:amod	_
+11	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	12	amod	12:amod	_
 12	användare	användare	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	nsubj	13:nsubj	_
 13	spara	spara	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	0:root	_
 14	100	100	NUM	RG|NOM	Case=Nom	15	nummod	15:nummod	_
@@ -20193,7 +20193,7 @@
 2	Sánchez	Sánchez	PROPN	PM|NOM	Case=Nom	1	flat:name	1:flat:name	SpaceAfter=No
 3	,	,	PUNCT	MID	_	7	punct	7:punct	_
 4	liksom	liksom	ADP	PP	_	7	mark	7:mark	_
-5	många	mången	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	7	amod	7:amod	_
+5	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	7	amod	7:amod	_
 6	andra	annan	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	7	amod	7:amod	_
 7	socialister	socialist	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	acl	1:acl:liksom	SpaceAfter=No
 8	,	,	PUNCT	MID	_	7	punct	7:punct	_
@@ -20952,7 +20952,7 @@
 12	,	,	PUNCT	MID	_	18	punct	18:punct	_
 13	för	för	ADP	PP	_	14	case	14:case	_
 14	vilken	vilken	PRON	HP|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Int,Rel	18	obl	11:ref	_
-15	många	mången	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	16	amod	16:amod	_
+15	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	16	amod	16:amod	_
 16	platser	plats	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	nsubj	18:nsubj	_
 17	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	18:cop	_
 18	kända	känd	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	11	acl:relcl	11:acl:relcl	SpaceAfter=No
@@ -21475,7 +21475,7 @@
 12	folket	folk	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	5	obl	5:obl:med	_
 13	och	och	CCONJ	KN	_	14	cc	14:cc	_
 14	företog	företa	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	5:conj:och	_
-15	många	mången	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	16	amod	16:amod	_
+15	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	16	amod	16:amod	_
 16	resor	resa	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	14	obj	14:obj	_
 17	till	till	ADP	PP	_	18	case	18:case	_
 18	Israel	Israel	PROPN	PM|NOM	Case=Nom	14	obl	14:obl:till	SpaceAfter=No
@@ -21775,7 +21775,7 @@
 2	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
 3	uppdelat	uppdelad	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
 4	i	i	ADP	PP	_	9	case	9:case	_
-5	många	mången	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	9	amod	9:amod	_
+5	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	9	amod	9:amod	_
 6	små	liten	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	9	amod	9:amod	SpaceAfter=No
 7	,	,	PUNCT	MID	_	8	punct	8:punct	_
 8	självstyrande	självstyrande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Mood=Ind	9	amod	9:amod	_
@@ -22350,7 +22350,7 @@
 # text_en = There are many prehistoric artifacts, including several different menhirs and dolmens.
 1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	expl	2:expl	_
 2	finns	finnas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	_
-3	många	mången	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	5	amod	5:amod	_
+3	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	5	amod	5:amod	_
 4	förhistoriska	förhistorisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	5	amod	5:amod	_
 5	artefakter	artefakt	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	nsubj	2:nsubj	SpaceAfter=No
 6	,	,	PUNCT	MID	_	5	punct	5:punct	_
@@ -22824,7 +22824,7 @@
 6	vid	vid	ADP	PP	_	7	case	7:case	_
 7	absiden	absid	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	nmod	5:nmod:vid	_
 8	och	och	CCONJ	KN	_	10	cc	10:cc	_
-9	många	mången	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	10	amod	10:amod	_
+9	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Number=Plur	10	amod	10:amod	_
 10	sidokapell	sidokapell	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	5	conj	2:obj|5:conj:och	_
 11	mellan	mellan	ADP	PP	_	12	case	12:case	_
 12	strävpelarna	strävpelare	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	10	nmod	10:nmod:mellan	SpaceAfter=No
