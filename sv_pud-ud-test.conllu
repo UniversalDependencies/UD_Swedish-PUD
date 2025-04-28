@@ -11053,7 +11053,7 @@
 3	landar	landa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	4:advcl:när	_
 4	träffar	träffa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	4	nsubj	4:nsubj	_
-6	andra	annan	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	7	amod	7:amod	_
+6	andra	annan	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	7	amod	7:amod	_
 7	partiklar	partikel	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	obj	4:obj|13:nsubj:pass	_
 8	som	som	PRON	HP|-|-|-	PronType=Int,Rel	13	nsubj:pass	7:ref	_
 9	i	i	ADP	PP	_	11	case	11:case	_
@@ -18247,7 +18247,7 @@
 # text = Å andra sidan var Vine konst på sex sekunder.
 # text_en = On the other hand, Vine was art in six seconds.
 1	Å	å	ADP	PP	_	3	case	3:case	_
-2	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	3	amod	3:amod	_
+2	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	3	amod	3:amod	_
 3	sidan	sida	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	obl	6:obl:å	_
 4	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 5	Vine	Vine	PROPN	PM|NOM	Case=Nom	6	amod	6:amod	_
@@ -18909,7 +18909,7 @@
 # text = Å andra sidan lämnar Ms Clintons relationer med kontinenten över de senaste tjugo åren mycket övrigt att önska.
 # text_en = On the other hand, Ms. Clinton's relations with the continent over the past twenty years leave much to be desired.
 1	Å	å	ADP	PP	_	3	case	3:case	_
-2	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	3	amod	3:amod	_
+2	andra	annan	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	3	amod	3:amod	_
 3	sidan	sida	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	nmod	4:nmod:å	_
 4	lämnar	lämna	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	Ms	ms	NOUN	NN|NOM	Case=Nom	6	nmod	6:nmod	_
@@ -20313,7 +20313,7 @@
 6	rättframma	rättfram	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	7	amod	7:amod	_
 7	antydningar	antydning	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	conj	1:conj:och|14:nsubj	_
 8	och	och	CCONJ	KN	_	13	cc	13:cc	_
-9	andra	andra	ADJ	PN|UTR/NEU|PLU|IND|SUB/OBJ	Case=Nom|Definite=Ind|Degree=Pos|NumType=Ord	13	amod	13:amod	_
+9	andra	annan	ADJ	PN|UTR/NEU|PLU|IND|SUB/OBJ	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	13	amod	13:amod	_
 10	väl	väl	ADV	AB|POS	Degree=Pos	11	advmod	11:advmod	_
 11	använda	använda	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	13	amod	13:amod	_
 12	verbala	verbal	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	13	amod	13:amod	_
