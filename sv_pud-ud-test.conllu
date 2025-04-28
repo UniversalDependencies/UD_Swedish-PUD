@@ -18343,7 +18343,7 @@
 5	Män	man	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	nsubj	7:nsubj	_
 6	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
 7	ha	ha	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	parataxis	2:parataxis	_
-8	mer	mycket	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	9	det	9:det	_
+8	mer	mycket	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	9	amod	9:amod	_
 9	ansvar	ansvar	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	7	obj	7:obj	_
 10	i	i	ADP	PP	_	11	case	11:case	_
 11	preventivmedelsfrågor	preventivmedelsfråga	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	obl	7:obl:i	SpaceAfter=No
