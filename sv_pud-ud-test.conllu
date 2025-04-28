@@ -7705,7 +7705,7 @@
 2	aktiespekulationer	aktiespekulation	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	nsubj	3:nsubj	_
 3	stiger	stiga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	med	med	ADP	PP	_	5	case	5:case	_
-5	mer	mycket	PRON	AB|KOM	Case=Nom|Degree=Cmp	3	obl	3:obl:med	_
+5	mer	mycket	PRON	AB|KOM	Definite=Ind|PronType=Ind	3	obl	3:obl:med	_
 6	än	än	SCONJ	KN	_	8	case	8:case	_
 7	1	1	NUM	RG|NOM	Case=Nom	8	nummod	8:nummod	_
 8	%	procent	NOUN	NN|AN	Abbr=Yes	5	nmod	5:nmod:än	_
