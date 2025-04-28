@@ -7553,7 +7553,7 @@
 # sent_id = n01131007
 # text = Mer än 5,7 miljoner floridabor har redan gått och röstat efter cirka två veckor med personligt förtidsröstande.
 # text_en = More than 5.7 million Floridians have already hit the polls after about two weeks of in-person early voting.
-1	Mer	mycket	PRON	AB|KOM	Case=Nom|Degree=Cmp	8	nsubj	8:nsubj|10:nsubj	_
+1	Mer	mycket	PRON	AB|KOM	Definite=Ind|PronType=Ind	8	nsubj	8:nsubj|10:nsubj	_
 2	än	än	SCONJ	KN	_	5	case	5:case	_
 3	5,7	5,7	NUM	RG|NOM	Case=Nom	4	nummod	4:nummod	_
 4	miljoner	miljon	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	nmod	5:nmod	_
