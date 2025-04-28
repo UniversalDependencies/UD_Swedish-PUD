@@ -14259,7 +14259,7 @@
 2	konvention	konvention	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nsubj	6:nsubj	_
 3	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 4	bara	bara	ADV	AB	_	6	advmod	6:advmod	_
-5	något	något	ADV	AB	_	6	advmod	6:advmod	_
+5	något	någon	ADV	AB	_	6	advmod	6:advmod	_
 6	avslappnad	avslappnad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
 7	i	i	ADP	PP	_	9	case	9:case	_
 8	modern	modern	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	9	amod	9:amod	_
