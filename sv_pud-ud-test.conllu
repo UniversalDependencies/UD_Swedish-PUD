@@ -4066,7 +4066,7 @@
 8	historia	historia	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obj	5:obj	SpaceAfter=No
 9	,	,	PUNCT	MID	_	5	punct	5:punct	_
 10	inte	inte	PART	AB	Polarity=Neg	11	advmod	11:advmod	_
-11	alla	all	DET	DT|UTR/NEU|PLU|IND/DEF	Number=Plur	12	nsubj	12:nsubj	_
+11	alla	all	PRON	DT|UTR/NEU|PLU|IND/DEF	Number=Plur	12	nsubj	12:nsubj	_
 12	faktiska	faktisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	5	parataxis	5:parataxis	SpaceAfter=No
 13	.	.	PUNCT	MAD	_	5	punct	5:punct	_
 
@@ -12255,7 +12255,7 @@
 12	söderut	söderut	ADV	AB	_	9	advmod	9:advmod	SpaceAfter=No
 13	,	,	PUNCT	MID	_	16	punct	16:punct	_
 14	medan	medan	SCONJ	SN	_	16	mark	16:mark	_
-15	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	16	nsubj	16:nsubj	_
+15	de	de	PRON	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	16	nsubj	16:nsubj	_
 16	manipulerade	manipulera	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	3:advcl:medan	_
 17	flera	många	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Degree=Cmp|Number=Plur	20	amod	20:amod	_
 18	inkompetenta	inkompetent	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	20	amod	20:amod	_
@@ -12578,7 +12578,7 @@
 16	enligt	enligt	ADP	PP	_	17	case	17:case	_
 17	månkalender	månkalender	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	nmod	15:nmod:enligt	_
 18	och	och	CCONJ	KN	_	22	cc	22:cc	_
-19	det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	22	nsubj	22:nsubj	_
+19	det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	21	det	21:det	_
 20	tillämpbara	tillämpbar	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	21	amod	21:amod	_
 21	zodiakdjurets	zodiakdjur	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	22	nmod:poss	22:nmod:poss	_
 22	namn	namn	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	conj	11:obl:av|13:conj:och	SpaceAfter=No
@@ -13254,7 +13254,7 @@
 15	ekonomisk	ekonomisk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	16	amod	16:amod	_
 16	tillväxt	tillväxt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	conj	2:conj:och|6:nsubj:pass|17:nsubj	_
 17	hade	ha	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-18	alla	all	DET	DT|UTR/NEU|PLU|IND/DEF	Number=Plur	17	acl	17:acl	_
+18	alla	all	PRON	DT|UTR/NEU|PLU|IND/DEF	Number=Plur	17	acl	17:acl	_
 19	betydande	betydande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Mood=Ind|Tense=Pres|VerbForm=Part	20	amod	20:amod	_
 20	effekt	effekt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	obj	17:obj	_
 21	på	på	ADP	PP	_	23	mark	23:mark	_
@@ -20651,7 +20651,7 @@
 2	såldes	sälja	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	0:root	_
 3	det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	6:det	_
 4	före	före	ADP	PP	ExtPos=ADJ	6	amod	6:amod	_
-5	detta	denna	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing	4	fixed	4:fixed	_
+5	detta	denna	PRON	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing	4	fixed	4:fixed	_
 6	klostret	kloster	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	nsubj:pass	2:nsubj:pass	_
 7	till	till	ADP	PP	_	9	case	9:case	_
 8	fabrikören	fabrikör	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nmod	9:nmod	_
@@ -20699,7 +20699,7 @@
 3	finns	finnas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	_
 4	det	den	DET	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	7:det	_
 5	före	före	ADP	PP	ExtPos=ADJ	7	amod	7:amod	_
-6	detta	denna	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing	5	fixed	5:fixed	_
+6	detta	denna	PRON	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing	5	fixed	5:fixed	_
 7	klostret	kloster	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj	3:nsubj	_
 8	till	till	ADP	PP	_	9	case	9:case	_
 9	klosterkyrkan	klosterkyrka	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	nmod	7:nmod:till	_
