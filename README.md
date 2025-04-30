@@ -83,6 +83,7 @@ From v2.15 to v2.16
 - Harmonized lemmas, UPOS and features for participles.
 - Added features to lemma "olik".
 - Harmonized lemmas, UPOS and features for DET/PRON/ADJ.
+- Implemented code-switched analysis for cross-lingual content.
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.1
