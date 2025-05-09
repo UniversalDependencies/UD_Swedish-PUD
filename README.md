@@ -77,6 +77,14 @@ From v2.13 to v2.14:
 From v2.14 to v2.15:
 - Revised the annotation of fixed expressions, reducing the number of fixed expressions in Swedish to 27.
 
+From v2.15 to v2.16
+- Fixed errors in the annotation of "vara" (be) as AUX vs. VERB.
+- Removed "behöva" (need) from the inventory of auxiliaries. 
+- Harmonized lemmas, UPOS and features for participles.
+- Added features to lemma "olik".
+- Harmonized lemmas, UPOS and features for DET/PRON/ADJ.
+- Implemented code-switched analysis for cross-lingual content.
+
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.1
 License: CC BY-SA 4.0
