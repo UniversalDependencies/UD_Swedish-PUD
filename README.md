@@ -85,6 +85,10 @@ From v2.15 to v2.16
 - Harmonized lemmas, UPOS and features for DET/PRON/ADJ.
 - Implemented code-switched analysis for cross-lingual content.
 
+From v2.16 to v2.17
+- Removed the feature Mood=Ind from participles used as adjectives.
+- Fixed errors related to the obl/nmod distinction.
+
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.1
 License: CC BY-SA 4.0
