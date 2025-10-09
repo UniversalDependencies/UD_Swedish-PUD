@@ -22717,10 +22717,10 @@
 8	av	av	ADP	PP	_	9	case	9:case	_
 9	Morricone	Morricone	PROPN	PM|NOM	Case=Nom	7	nmod	7:nmod:av	_
 10	som	som	ADP	KN	_	11	case	11:case	_
-11	Metti	Metti	PROPN	PM|NOM	Case=Nom	7	nmod	7:nmod:som	SpaceAfter=No
+11	Metti	Metti	PROPN	PM|NOM	Case=Nom	7	nmod	7:nmod	SpaceAfter=No
 12	,	,	PUNCT	MID	_	14	punct	14:punct	_
 13	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	14	det	14:det	_
-14	kväll	kväll	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	conj	7:nmod:11:conj	_
+14	kväll	kväll	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	conj	7:nmod|11:conj	_
 15	vid	vid	ADP	PP	_	16	case	16:case	_
 16	middagen	middag	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	nmod	14:nmod:vid	SpaceAfter=No
 17	;	;	PUNCT	MID	_	3	punct	3:punct	_
