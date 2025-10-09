@@ -10421,7 +10421,7 @@
 16	2	2	NUM	RG|NOM	Case=Nom	18	nummod	18:nummod	_
 17	900	900	NUM	RG|NOM	Case=Nom	16	nummod	16:nummod	_
 18	kilowatt	kilowatt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	nmod	19:nmod	_
-19	elektricitet	elektricitet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	nmod	14:nmod:som	SpaceAfter=No
+19	elektricitet	elektricitet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	nmod	14:nmod	SpaceAfter=No
 20	.	.	PUNCT	MAD	_	4	punct	4:punct	_
 
 # sent_id = w01030096
