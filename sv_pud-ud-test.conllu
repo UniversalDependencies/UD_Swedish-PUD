@@ -2137,7 +2137,7 @@
 2	publiceringen	publicering	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	obl	8:obl:trots	_
 3	av	av	ADP	PP	_	5	case	5:case	_
 4	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	5	det	5:det	_
-5	foto	foto	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	mod	2:nmod:av	_
+5	foto	foto	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	nmod	2:nmod:av	_
 6	i	i	ADP	PP	_	7	case	7:case	_
 7	morse	morse	NOUN	NN|-|-|-|-	_	2	nmod	2:nmod:i	_
 8	säger	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
