@@ -86,8 +86,9 @@ From v2.15 to v2.16
 - Implemented code-switched analysis for cross-lingual content.
 
 From v2.16 to v2.17
+- Fixed a number of validation errors related to the obl/nmod distinction.
 - Removed the feature Mood=Ind from participles used as adjectives.
-- Fixed errors related to the obl/nmod distinction.
+- Fixed "så att" and postag of "än" (Issue #1092).
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.1

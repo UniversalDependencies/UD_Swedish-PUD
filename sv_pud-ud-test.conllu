@@ -310,7 +310,7 @@
 9	4	4	NUM	RG|NOM	Case=Nom	6	nummod	6:nummod	_
 10	och	och	CCONJ	KN	_	11	cc	11:cc	_
 11	bättre	god	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	6	conj	2:obl:som|6:conj:och	_
-12	än	än	ADP	KN	_	15	case	15:case	_
+12	än	än	SCONJ	KN	_	15	case	15:case	_
 13	det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	15:det	_
 14	nationella	nationell	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	15	amod	15:amod	_
 15	genomsnittet	genomsnitt	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	11	obl	11:obl:än	_
@@ -771,7 +771,7 @@
 30	med	med	ADP	PP	_	32	case	32:case	_
 31	namnet	namn	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	32	nmod	32:nmod	_
 32	Keira	Keira	PROPN	PM|NOM	Case=Nom	29	nmod	29:nmod:med	_
-33	än	än	ADP	KN	_	34	case	34:case	_
+33	än	än	SCONJ	KN	_	34	case	34:case	_
 34	Kiera	Kiera	PROPN	PM|NOM	Case=Nom	28	obl	28:obl:än	SpaceAfter=No
 35	.	.	PUNCT	MAD	_	18	punct	18:punct	_
 
@@ -1402,7 +1402,7 @@
 19	bara	bara	ADV	AB	_	21	advmod	21:advmod	_
 20	lite	lite	ADJ	AB|POS	Case=Nom|Degree=Pos	21	amod	21:amod	_
 21	mer	mycket	PRON	AB|KOM	Definite=Ind|PronType=Ind	14	parataxis	14:parataxis	_
-22	än	än	ADP	KN	_	23	case	23:case	_
+22	än	än	SCONJ	KN	_	23	case	23:case	_
 23	plantorna	planta	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	21	obl	21:obl:än|25:nsubj:pass	_
 24	som	som	PRON	HP|-|-|-	PronType=Int,Rel	25	nsubj:pass	23:ref	_
 25	odlats	odla	VERB	VB|SUP|SFO	VerbForm=Sup|Voice=Pass	23	acl:relcl	23:acl:relcl	_
@@ -2149,7 +2149,7 @@
 14	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	8:ccomp	_
 15	fler	många	ADJ	JJ|POS|UTR/NEU|PLU|IND|NOM	Case=Nom|Degree=Cmp|Number=Plur	16	amod	16:amod	_
 16	frågor	fråga	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	14	obj	14:obj	_
-17	än	än	ADP	KN	_	18	case	18:case	_
+17	än	än	SCONJ	KN	_	18	case	18:case	_
 18	svar	svar	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	15	obl	15:obl:än	_
 19	i	i	ADP	PP	_	21	case	21:case	_
 20	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	21	det	21:det	_
@@ -2969,7 +2969,7 @@
 4	så	så	ADV	AB	_	5	advmod	5:advmod	_
 5	mycket	mycket	ADJ	AB|POS	Case=Nom|Degree=Pos	6	amod	6:amod	_
 6	mer	mycket	PRON	AB|KOM	Definite=Ind|PronType=Ind	0	root	0:root	_
-7	än	än	ADP	KN	_	8	case	8:case	_
+7	än	än	SCONJ	KN	_	8	case	8:case	_
 8	telefoner	telefon	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	nmod	6:nmod:än	_
 9	numera	numera	ADV	AB	_	6	advmod	6:advmod	SpaceAfter=No
 10	.	.	PUNCT	MAD	_	6	punct	6:punct	_
@@ -4534,7 +4534,7 @@
 17	”	”	PUNCT	PAD	_	26	punct	26:punct	SpaceAfter=No
 18	Mer	mycket	ADV	AB|KOM	Degree=Cmp	19	advmod	19:advmod	_
 19	afrikansk	afrikansk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	26	obj	26:obj	_
-20	än	än	ADP	KN	_	21	case	21:case	_
+20	än	än	SCONJ	KN	_	21	case	21:case	_
 21	du	du	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	19	obl	19:obl:än	SpaceAfter=No
 22	,	,	PUNCT	MID	_	19	punct	19:punct	_
 23	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	26	aux	26:aux	_
@@ -4671,7 +4671,7 @@
 13	sprang	springa	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	11:acl:relcl	_
 14	mot	mot	ADP	PP	_	15	case	15:case	_
 15	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	obl	13:obl:mot	_
-16	än	än	ADP	KN	_	18	case	18:case	_
+16	än	än	SCONJ	KN	_	18	case	18:case	_
 17	runt	runt	ADP	PP	_	18	case	18:case	_
 18	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	obl	10:obl:runt	SpaceAfter=No
 19	.	.	PUNCT	MAD	_	3	punct	3:punct	_
@@ -11409,7 +11409,7 @@
 13	inte	inte	PART	AB	Polarity=Neg	15	advmod	15:advmod	_
 14	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	cop	15:cop	_
 15	mer	mycket	PRON	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Definite=Ind|PronType=Ind	5	advcl	5:advcl:när	_
-16	än	än	ADP	KN	_	19	case	19:case	_
+16	än	än	SCONJ	KN	_	19	case	19:case	_
 17	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	19	det	19:det	_
 18	öppet	öppen	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	amod	19:amod	_
 19	avlopp	avlopp	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	15	obl	15:obl:än	_
@@ -11473,7 +11473,7 @@
 4	öknarnas	öken	NOUN	NN|UTR|PLU|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Plur	5	nmod:poss	5:nmod:poss	_
 5	utkanter	utkant	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	obl	2:obl:i	_
 6	snarare	snarare	ADV	AB|KOM	Degree=Cmp	2	advmod	2:advmod	_
-7	än	än	ADP	KN	_	10	case	10:case	_
+7	än	än	SCONJ	KN	_	10	case	10:case	_
 8	i	i	ADP	PP	_	10	case	10:case	_
 9	själva	själv	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	10	amod	10:amod	_
 10	öknarna	öken	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	6	obl	6:obl:i	_
@@ -13863,7 +13863,7 @@
 24	1	1	NUM	RG|NOM	Case=Nom	25	nummod	25:nummod	_
 25	%	procent	NOUN	NN|AN	Abbr=Yes	23	nmod	23:nmod	_
 26	högre	hög	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	25	nmod	25:nmod	_
-27	än	än	ADP	KN	_	29	case	29:case	_
+27	än	än	SCONJ	KN	_	29	case	29:case	_
 28	studiens	studie	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	29	nmod:poss	29:nmod:poss	_
 29	genomsnitt	genomsnitt	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	26	obl	26:obl:än	_
 30	resulterade	resultera	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	2:advcl:medan	_
@@ -20268,7 +20268,7 @@
 10	färre	få	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp|Number=Plur	11	amod	11:amod	_
 11	kilometrar	kilometer	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	12	nmod	12:nmod	_
 12	tunnelbana	tunnelbana	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obj	9:obj	_
-13	än	än	ADP	KN	_	14	case	14:case	_
+13	än	än	SCONJ	KN	_	14	case	14:case	_
 14	Madrid	Madrid	PROPN	PM|NOM	Case=Nom	10	obl	10:obl:än	SpaceAfter=No
 15	.	.	PUNCT	MAD	_	3	punct	3:punct	_
 
@@ -20748,7 +20748,7 @@
 16	och	och	CCONJ	KN	_	15	fixed	15:fixed	_
 17	med	med	ADV	AB	_	15	fixed	15:fixed	_
 18	mer	mycket	ADV	AB|KOM	Degree=Cmp	7	parataxis	7:parataxis	_
-19	än	än	ADP	KN	_	21	case	21:case	_
+19	än	än	SCONJ	KN	_	21	case	21:case	_
 20	i	i	ADP	PP	_	21	case	21:case	_
 21	Silicon	Silicon	PROPN	PM|NOM	Case=Nom	18	obl	18:obl:i	_
 22	Valley	Valley	PROPN	PM|NOM	Case=Nom	21	flat:name	21:flat:name	SpaceAfter=No
@@ -22060,7 +22060,7 @@
 6	i	i	ADP	PP	_	7	case	7:case	_
 7	Storbritannien	Storbritannien	PROPN	PM|NOM	Case=Nom	4	obl	4:obl:i	_
 8	tidigare	tidigt	ADV	AB|KOM	Degree=Cmp	4	advmod	4:advmod	_
-9	än	än	ADP	KN	_	13	case	13:case	_
+9	än	än	SCONJ	KN	_	13	case	13:case	_
 10	i	i	ADP	PP	_	13	case	13:case	_
 11	något	någon	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	13	det	13:det	_
 12	annat	annan	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	amod	13:amod	_
@@ -24197,7 +24197,7 @@
 26	anspråk	anspråk	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	24	obj	24:obj	_
 27	till	till	ADP	PP	_	28	case	28:case	_
 28	tronen	tron	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	26	nmod	26:nmod:till	_
-29	än	än	ADP	KN	_	32	case	32:case	_
+29	än	än	SCONJ	KN	_	32	case	32:case	_
 30	deras	de	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	31	nmod:poss	31:nmod:poss	_
 31	faster	faster	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	32	nmod	32:nmod	_
 32	Isabella	Isabella	PROPN	PM|NOM	Case=Nom	25	obl	25:obl:än	_
