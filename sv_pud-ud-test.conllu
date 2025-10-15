@@ -1250,7 +1250,7 @@
 23	HFC:er	HFC	PROPN	PM|NOM	Case=Nom	22	obj	22:obj	_
 24	kommer	komma	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	26	aux	26:aux	_
 25	att	att	PART	IE	_	26	mark	26:mark	_
-26	göra	göra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	11	appos	11:appos	SpaceAfter=No
+26	göra	göra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	11	advcl:relcl	11:advcl:relcl	SpaceAfter=No
 27	,	,	PUNCT	MID	_	28	punct	28:punct	_
 28	sade	säga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	2:parataxis	_
 29	Erik	Erik	PROPN	PM|NOM	Case=Nom	28	nsubj	28:nsubj	_
@@ -2119,7 +2119,7 @@
 9	45:e	45:e	ADJ	RO|NOM	Case=Nom|NumType=Ord	10	amod	10:amod	_
 10	president	president	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obl	4:obl:till	SpaceAfter=No
 11	,	,	PUNCT	MID	_	12	punct	12:punct	_
-12	vem	vem	PRON	HP|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Int,Rel	10	appos	10:appos	_
+12	vem	vem	PRON	HP|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Int,Rel	4	advcl	4:advcl	_
 13	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	nsubj	12:nsubj	_
 14	eller	eller	CCONJ	KN	_	15	cc	15:cc	_
 15	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	conj	12:nsubj|13:conj:eller	_
@@ -8609,7 +8609,7 @@
 7	medgivande	medgivande	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	10	obl	10:obl:enligt	_
 8	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	10:cop	_
 9	usla	usel	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	10	amod	10:amod	_
-10	golfare	golfare	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	appos	2:appos	SpaceAfter=No
+10	golfare	golfare	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	acl:relcl	2:acl:relcl	SpaceAfter=No
 11	,	,	PUNCT	MID	_	10	punct	10:punct	_
 12	bluffade	bluffa	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 13	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	12	obj	12:obj	_
