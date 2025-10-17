@@ -3409,7 +3409,7 @@
 12	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	14	det	14:det	_
 13	positiv	positiv	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	14	amod	14:amod	_
 14	sådan	sådan	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	conj	8:conj	_
-15	när	när	ADV	HA	PronType=Int,Rel	17	advmod	17:advmod	_
+15	när	när	SCONJ	HA	PronType=Int,Rel	17	mark	17:mark	_
 16	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	17	nsubj	17:nsubj	_
 17	kommer	komma	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	advcl	14:advcl	_
 18	till	till	ADP	PP	_	20	mark	20:mark	_
@@ -4894,7 +4894,7 @@
 10	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	12	det	12:det	_
 11	enda	enda	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	12	amod	12:amod	_
 12	gången	gång	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	parataxis	2:parataxis	_
-13	när	när	ADV	HA	PronType=Int,Rel	15	advmod	15:advmod	_
+13	när	när	SCONJ	HA	PronType=Int,Rel	15	mark	15:mark	_
 14	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	15	nsubj:pass	15:nsubj:pass|20:nsubj:pass	_
 15	möts	mötas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	12	acl:relcl	12:acl:relcl	_
 16	på	på	ADP	PP	_	18	case	18:case	_
@@ -5685,7 +5685,7 @@
 10	mitt	mitt	ADV	AB	_	12	advmod	12:advmod	_
 11	på	på	ADP	PP	_	12	case	12:case	_
 12	lördagen	lördag	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	obl	9:obl:på	_
-13	när	när	ADV	HA	PronType=Int,Rel	16	advmod	16:advmod	_
+13	när	när	SCONJ	HA	PronType=Int,Rel	16	mark	16:mark	_
 14	industriländer	industriland	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	16	nsubj	16:nsubj	_
 15	får	få	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	16:aux	_
 16	fråga	fråga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	acl:relcl	12:acl:relcl	_
@@ -11824,7 +11824,7 @@
 10	fram	fram	ADV	AB	_	12	advmod	12:advmod	_
 11	till	till	ADP	PP	_	12	case	12:case	_
 12	1492	1492	NUM	RG|NOM	Case=Nom	5	obl	5:obl:till	_
-13	när	när	ADV	HA	PronType=Int,Rel	17	advmod	17:advmod	_
+13	när	när	SCONJ	HA	PronType=Int,Rel	17	mark	17:mark	_
 14	Christofer	Christofer	PROPN	PM|NOM	Case=Nom	17	nsubj	17:nsubj	_
 15	Columbus	Columbus	PROPN	PM|NOM	Case=Nom	14	flat:name	14:flat:name	_
 16	först	först	ADV	AB	_	17	advmod	17:advmod	_
