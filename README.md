@@ -91,7 +91,7 @@ From v2.16 to v2.17
 - Fixed "så att" and postag of "än" (Issue #1092).
 - Changed appos to a(dv)cl:relcl for non-adnominal relative clauses (Issue #1139).
 - Harmonised analysis of "när" (Issue #1148).
-- Harmonised tagging of "som" (Issue #1149).
+- Harmonised tagging of "som" (Issue #1149). 
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.1
