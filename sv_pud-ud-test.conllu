@@ -651,7 +651,7 @@
 9	att	att	PART	IE	_	12	mark	12:mark	_
 10	ha	ha	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	aux	12:aux	_
 11	blivit	bli	AUX	VB|SUP|AKT	VerbForm=Sup|Voice=Act	12	aux:pass	12:aux:pass	_
-12	avskedad	avskedad	VERB	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	3:advcl:att	_
+12	avskedad	avskedad	VERB	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	3:advcl:att	_
 13	i	i	ADP	PP	_	14	case	14:case	_
 14	juli	juli	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	obl	12:obl:i	SpaceAfter=No
 15	.	.	PUNCT	MAD	_	3	punct	3:punct	_
@@ -4446,7 +4446,7 @@
 # text_en = People got killed there.
 1	Människor	människa	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	nsubj	3:nsubj	_
 2	blev	bli	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	3:aux:pass	_
-3	dödade	dödad	VERB	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	0	root	0:root	_
+3	dödade	dödad	VERB	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
 4	där	där	ADV	AB	_	3	advmod	3:advmod	SpaceAfter=No
 5	.	.	PUNCT	MAD	_	3	punct	3:punct	_
 
@@ -5470,7 +5470,7 @@
 6	,	,	PUNCT	MID	_	9	punct	9:punct	_
 7	och	och	CCONJ	KN	_	9	cc	9:cc	_
 8	blir	bli	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	3:conj:och	_
-9	filmad	filmad	VERB	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	3	conj	3:conj	_
+9	filmad	filmad	VERB	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	conj	3:conj	_
 10	när	när	SCONJ	HA	PronType=Int,Rel	12	mark	12:mark	_
 11	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	nsubj	12:nsubj	_
 12	tar	ta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	8:advcl:när	_
@@ -5481,7 +5481,7 @@
 17	innan	innan	SCONJ	SN	_	20	mark	20:mark	_
 18	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	20	nsubj:pass	20:nsubj:pass	_
 19	blir	bli	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux:pass	20:aux:pass	_
-20	intervjuad	intervjuad	VERB	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	12:advcl:innan	SpaceAfter=No
+20	intervjuad	intervjuad	VERB	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	advcl	12:advcl:innan	SpaceAfter=No
 21	.	.	PUNCT	MAD	_	3	punct	3:punct	_
 
 # newdoc id = n01090
@@ -5596,7 +5596,7 @@
 10	Jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	nsubj	13:nsubj	_
 11	skulle	skola	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	13	aux	13:aux	_
 12	bli	bli	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	13	aux:pass	13:aux:pass	_
-13	förbluffad	förbluffad	VERB	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	7	acl	7:acl	_
+13	förbluffad	förbluffad	VERB	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	7:acl	_
 14	om	om	SCONJ	SN	_	20	mark	20:mark	_
 15	antingen	antingen	CCONJ	KN	_	17	advmod	17:advmod	_
 16	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	17	det	17:det	_
@@ -14128,7 +14128,7 @@
 16	som	som	PRON	HP|-|-|-	PronType=Int,Rel	19	nsubj:pass	15:ref	_
 17	hade	ha	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	19	aux	19:aux	_
 18	blivit	bli	AUX	VB|SUP|AKT	VerbForm=Sup|Voice=Act	19	aux:pass	19:aux:pass	_
-19	tvingade	tvingad	VERB	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	15	acl:relcl	15:acl:relcl	_
+19	tvingade	tvingad	VERB	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	acl:relcl	15:acl:relcl	_
 20	till	till	ADP	PP	_	21	case	21:case	_
 21	dop	dop	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	19	obl	19:obl:till	_
 22	lagligen	lagligen	ADV	AB	_	23	advmod	23:advmod	_
@@ -17803,7 +17803,7 @@
 11	,	,	PUNCT	MID	_	14	punct	14:punct	_
 12	men	men	CCONJ	KN	_	14	cc	14:cc	_
 13	blev	bli	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	aux:pass	14:aux:pass	_
-14	besegrad	besegrad	VERB	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	2	conj	2:conj:men	SpaceAfter=No
+14	besegrad	besegrad	VERB	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	conj	2:conj:men	SpaceAfter=No
 15	.	.	PUNCT	MAD	_	2	punct	2:punct	_
 
 # sent_id = w01141137
