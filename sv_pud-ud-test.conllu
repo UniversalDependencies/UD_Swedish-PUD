@@ -2313,7 +2313,7 @@
 4	vilja	vilja	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	5	aux	5:aux	_
 5	se	se	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	0:root	_
 6	större	stor	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	7	amod	7:amod	_
-7	övervaknings-	övervakning	NOUN	NN|UTR|-|-|SMS	Gender=Com	5	obj	5:obj	_
+7	övervaknings-	övervakningsbefogenheter	NOUN	NN|UTR|-|-|SMS	Gender=Com	5	obj	5:obj	_
 8	och	och	CCONJ	KN	_	9	cc	9:cc	_
 9	undersökningsbefogenheter	undersökningsbefogenhet	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	conj	5:obj|7:conj:och	_
 10	för	för	ADP	PP	_	13	case	13:case	_
@@ -6603,7 +6603,7 @@
 # parallel_id = pud/n01108005
 # text = Detalj- och partihandel expanderade då shoppare förblev positiva, och konsumenttjänsteföretag växte även de.
 # text_en = Retail and wholesale businesses expanded as shoppers remained upbeat, and consumer services companies also grew.
-1	Detalj-	detalj	NOUN	NN|UTR|-|-|SMS	Gender=Com	4	nsubj	4:nsubj	_
+1	Detalj-	detaljhandel	NOUN	NN|UTR|-|-|SMS	Gender=Com	4	nsubj	4:nsubj	_
 2	och	och	CCONJ	KN	_	3	cc	3:cc	_
 3	partihandel	partihandel	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	conj	1:conj:och|4:nsubj	_
 4	expanderade	expandera	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
@@ -6701,7 +6701,7 @@
 3	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	6	nsubj	6:nsubj|8:nsubj	_
 4	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	6	det	6:det	_
 5	dyr	dyr	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	amod	6:amod	_
-6	standard-	standard	NOUN	NN|UTR|-|-|SMS	Gender=Com	0	root	0:root	_
+6	standard-	standardtariff	NOUN	NN|UTR|-|-|SMS	Gender=Com	0	root	0:root	_
 7	eller	eller	CCONJ	KN	_	8	cc	8:cc	_
 8	förbetalningstariff	förbetalningstariff	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	conj	6:conj:eller	SpaceAfter=No
 9	?	?	PUNCT	MAD	_	6	punct	6:punct	_
@@ -7162,7 +7162,7 @@
 1	Han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	2:nsubj	_
 2	arbetade	arbeta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	på	på	ADP	PP	_	4	case	4:case	_
-4	nyhets-	nyhet	NOUN	NN|UTR|-|-|SMS	Gender=Com	2	obl	2:obl:på	_
+4	nyhets-	nyhetssidan	NOUN	NN|UTR|-|-|SMS	Gender=Com	2	obl	2:obl:på	_
 5	och	och	CCONJ	KN	_	6	cc	6:cc	_
 6	aktualitetssidan	aktualitetssida	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	conj	2:obl:på|4:conj:och	_
 7	av	av	ADP	PP	_	8	case	8:case	_
@@ -11250,7 +11250,7 @@
 # parallel_id = pud/w01037024
 # text = Nord- och Sydamerika behandlas som åtskilda kontinenter i sjukontinentsmodellen.
 # text_en = North America and South America are treated as separate continents in the seven-continent model.
-1	Nord-	nord	NOUN	NN|UTR|-|-|SMS	Gender=Com	4	nsubj:pass	4:nsubj:pass|7:nsubj	_
+1	Nord-	Nordamerika	NOUN	NN|UTR|-|-|SMS	Gender=Com	4	nsubj:pass	4:nsubj:pass|7:nsubj	_
 2	och	och	CCONJ	KN	_	3	cc	3:cc	_
 3	Sydamerika	Sydamerika	PROPN	PM|NOM	Case=Nom	1	conj	1:conj:och|4:nsubj:pass|7:nsubj	_
 4	behandlas	behandla	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	_
@@ -11443,7 +11443,7 @@
 # parallel_id = pud/w01040100
 # text = Sand- och dammstormar är naturliga fenomen som uppkommer i torra regioner där marken inte skyddas av ett vegetationstäcke.
 # text_en = Sand and dust storms are natural events that occur in arid regions where the land is not protected by a covering of vegetation.
-1	Sand-	sand	NOUN	NN|UTR|-|-|SMS	Gender=Com	6	nsubj	6:nsubj	_
+1	Sand-	sandstormar	NOUN	NN|UTR|-|-|SMS	Gender=Com	6	nsubj	6:nsubj	_
 2	och	och	CCONJ	KN	_	3	cc	3:cc	_
 3	dammstormar	dammstorm	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	conj	1:conj:och|6:nsubj	_
 4	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
@@ -13475,9 +13475,9 @@
 3	lokaliserar	lokalisera	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	soluppgången	soluppgång	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	obj	3:obj	_
 5	vid	vid	ADP	PP	_	6	case	6:case	_
-6	sommar-	sommar	NOUN	NN|UTR|-|-|SMS	Gender=Com	3	obl	3:obl:vid	_
+6	sommar-	sommarsolstånd	NOUN	NN|UTR|-|-|SMS	Gender=Com	3	obl	3:obl:vid	_
 7	och	och	CCONJ	KN	_	8	cc	8:cc	_
-8	vintersolstånden	vintersolstånden	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	6	conj	3:obl:vid|6:conj:och	_
+8	vintersolstånden	vintersolstånd	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	6	conj	3:obl:vid|6:conj:och	_
 9	och	och	CCONJ	KN	_	12	cc	12:cc	_
 10	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	12	det	12:det	_
 11	två	två	NUM	RG|NOM	Case=Nom	12	nummod	12:nummod	_
@@ -14602,7 +14602,7 @@
 6	statistisk	statistisk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	amod	7:amod	_
 7	analys	analys	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obj	4:obj	_
 8	av	av	ADP	PP	_	9	case	9:case	_
-9	demografi-	demografi	NOUN	NN|UTR|-|-|SMS	Gender=Com	7	nmod	7:nmod:av|13:nsubj	_
+9	demografi-	demografidata	NOUN	NN|UTR|-|-|SMS	Gender=Com	7	nmod	7:nmod:av|13:nsubj	_
 10	och	och	CCONJ	KN	_	11	cc	11:cc	_
 11	befolkningsdata	befolkningsdata	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	9	conj	7:nmod:av|9:conj:och|13:nsubj	_
 12	som	som	PRON	HP|-|-|-	PronType=Int,Rel	13	nsubj	9:ref	_
@@ -15989,14 +15989,14 @@
 2	vann	vinna	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	ännu	ännu	ADV	AB	_	2	advmod	2:advmod	_
 4	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	6	det	6:det	_
-5	heders-Academy	Heders-academy	NOUN	NN|NOM	Case=Nom	6	compound	6:compound	_
+5	heders-Academy	heders-academy	NOUN	NN|NOM	Case=Nom	6	compound	6:compound	_
 6	Award	award	NOUN	NN|NOM	Case=Nom	2	obj	2:obj|9:nsubj	SpaceAfter=No
 7	,	,	PUNCT	MID	_	9	punct	9:punct	_
 8	som	som	PRON	HP|-|-|-	PronType=Int,Rel	9	nsubj	6:ref	_
 9	bestod	bestå	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	6:acl:relcl	_
 10	av	av	ADP	PP	_	12	case	12:case	_
 11	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	12	det	12:det	_
-12	fullstorlek-	fullstorlek	NOUN	NN|UTR|-|-|SMS	Gender=Com	9	obl	9:obl:av	_
+12	fullstorlek-	fullstorlek-Oscarsstatyett	NOUN	NN|UTR|-|-|SMS	Gender=Com	9	obl	9:obl:av	_
 13	och	och	CCONJ	KN	_	15	cc	15:cc	_
 14	sju	sju	NUM	RG|NOM	Case=Nom	15	nummod	15:nummod	_
 15	miniatyr-Oscarsstatyetter	miniatyr-Oscarsstatyett	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	12	conj	9:obl:av|12:conj:och	SpaceAfter=No
