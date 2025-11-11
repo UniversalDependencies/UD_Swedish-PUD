@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Swedish-PUD:
-commit 2b3607aa73aa381291c1811de3e08307dd5e20a9
-Merge: 3ea4662 0aa769c
+commit 3ab5fa92744699a2106ee840e276fbd771633bae
+Merge: 9ecf768 823b52e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'sv_pud'
+Language code (from CoNLL-U file name) = 'sv'
+Found the following data files: sv_pud-ud-test.conllu
 Size: counted 19076 of 19076 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.89686200087196.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,31 +19,26 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.5.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.1.
-Features: 12736 out of 19076 total words have one or more features.
+Features: 12738 out of 19076 total words have one or more features.
 Features: source of annotation (from README) factor is 0.5.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi:
-               TOTAL        431
-Udapi: found 431 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 19076 words.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sv --max-err=10 UD_Swedish-PUD/sv_pud-ud-test.conllu
-[Line 11977 Sent w01053067 Node 15]: [L3 Warning fixed-gap] Gaps in fixed expression [15, 19] 'för * * * sedan'
-[Line 14121 Sent w01091016 Node 24]: [L3 Warning fixed-gap] Gaps in fixed expression [24, 27] 'för * * sedan'
-[Line 17165 Sent w01143015 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 5] 'För * * * sedan'
-[Line 20035 Sent n05002004 Node 27]: [L3 Warning fixed-gap] Gaps in fixed expression [27, 30] 'för * * sedan'
+[Line 12492 Sent w01053067]: [L3 Warning fixed-gap] Gaps in fixed expression [15, 19] 'för * * * sedan'
+[Line 14724 Sent w01091016]: [L3 Warning fixed-gap] Gaps in fixed expression [24, 27] 'för * * sedan'
+[Line 17895 Sent w01143015]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 5] 'För * * * sedan'
+[Line 20888 Sent n05002004]: [L3 Warning fixed-gap] Gaps in fixed expression [27, 30] 'för * * sedan'
 Warnings: 4
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.5) = 0.0384615384615385
-(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
-(weight=0.0769230769230769) * (score{lemmas}=0.5) = 0.0384615384615385
-(weight=0.256410256410256) * (score{size}=0.426829104587276) = 0.109443360150584
-(weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
-(weight=0.0769230769230769) * (score{tags}=0.0941176470588235) = 0.00723981900452489
-(weight=0.307692307692308) * (score{udapi}=0.774061648144265) = 0.23817281481362
-(weight=0.0769230769230769) * (score{udeprels}=0.864864864864865) = 0.0665280665280665
-(TOTAL score=0.524290043402778) * (availability=1) * (validity=1) = 0.524290043402778
-STARS = 2.5
-UD_Swedish-PUD	0.524290043402778	2.5
+(weight=0.111111111111111) * (score{features}=0.5) = 0.0555555555555556
+(weight=0.111111111111111) * (score{genres}=0.111111111111111) = 0.0123456790123457
+(weight=0.111111111111111) * (score{lemmas}=0.5) = 0.0555555555555556
+(weight=0.37037037037037) * (score{size}=0.426829104587276) = 0.158084853550843
+(weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
+(weight=0.111111111111111) * (score{tags}=0.0941176470588235) = 0.0104575163398693
+(weight=0.111111111111111) * (score{udeprels}=0.864864864864865) = 0.0960960960960961
+(TOTAL score=0.41328044129545) * (availability=1) * (validity=1) = 0.41328044129545
+STARS = 2
+UD_Swedish-PUD	0.41328044129545	2
