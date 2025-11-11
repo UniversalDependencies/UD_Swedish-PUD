@@ -85,10 +85,21 @@ From v2.15 to v2.16
 - Harmonized lemmas, UPOS and features for DET/PRON/ADJ.
 - Implemented code-switched analysis for cross-lingual content.
 
+From v2.16 to v2.17
+- Fixed a number of validation errors related to the obl/nmod distinction.
+- Removed the feature Mood=Ind from participles used as adjectives.
+- Fixed Voice=Pass errors (Issue #1122).
+- Fixed "så att" and postag of "än" (Issue #1092).
+- Changed appos to a(dv)cl:relcl for non-adnominal relative clauses (Issue #1139).
+- Harmonised analysis of "när" (Issue #1148).
+- Harmonised tagging of "som" (Issue #1149). 
+- Fixed lemmas of truncated compounds (Issue #1150).
+
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.1
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: pud
 Genre: news wiki
 Lemmas: automatic with corrections
 UPOS: automatic with corrections
