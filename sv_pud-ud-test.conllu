@@ -2230,7 +2230,7 @@
 19	flickorna	flicka	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	13	conj	7:obl:till|13:conj:eller	SpaceAfter=No
 20	,	,	PUNCT	MID	_	19	punct	19:punct	_
 21	eller	eller	CCONJ	KN	_	24	cc	24:cc	_
-22	specifikt	specifik	ADV	AB	_	24	advmod	24:advmod	_
+22	specifikt	specifikt	ADV	AB	_	24	advmod	24:advmod	_
 23	till	till	ADP	PP	_	24	case	24:case	_
 24	Abbotsfordområdet	abbotsfordområde	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	13	conj	7:obl:till|13:conj:eller	SpaceAfter=No
 25	,	,	PUNCT	MID	_	26	punct	26:punct	_
@@ -3922,7 +3922,7 @@
 # parallel_id = pud/n01062049
 # text = Sen tar reklamen slut.
 # text_en = Then the commercial ends.
-1	Sen	sen	ADV	AB	_	2	advmod	2:advmod	_
+1	Sen	sent	ADV	AB	_	2	advmod	2:advmod	_
 2	tar	ta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	reklamen	reklam	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	2:nsubj	_
 4	slut	slut	ADV	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Degree=Pos	2	advmod	2:advmod	SpaceAfter=No
@@ -4805,7 +4805,7 @@
 # parallel_id = pud/n01077030
 # text = Sen finns det så kallade sanna historier som läggs upp i en serie med meningsfulla bilder med text som löper under dem.
 # text_en = Then there are the so-called true stories that get posted in a series of meaningful pictures with text running underneath.
-1	Sen	sen	ADV	AB	_	2	advmod	2:advmod	_
+1	Sen	sent	ADV	AB	_	2	advmod	2:advmod	_
 2	finns	finnas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	expl	2:expl	_
 4	så	så	ADV	AB	_	5	advmod	5:advmod	_
@@ -5086,7 +5086,7 @@
 # parallel_id = pud/n01084008
 # text = Teoretiskt sett kan ett par öppna fyra Tesco-konton och tjäna 3 % på 12 000–360 pund.
 # text_en = Theoretically, a couple could open four Tesco accounts and earn 3% on £12,000 – £360.
-1	Teoretiskt	teoretisk	ADV	AB|POS	Degree=Pos	2	advmod	2:advmod	_
+1	Teoretiskt	teoretiskt	ADV	AB|POS	Degree=Pos	2	advmod	2:advmod	_
 2	sett	se	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	6	advcl	6:advcl	_
 3	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
 4	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	5	det	5:det	_
@@ -6001,7 +6001,7 @@
 13	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	_
 14	lista	lista	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	nsubj	15:nsubj|17:nsubj|19:nsubj	_
 15	vuxit	växa	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	0:root	_
-16	omåttligt	omåttlig	ADV	AB|POS	Degree=Pos	17	advmod	17:advmod	_
+16	omåttligt	omåttligt	ADV	AB|POS	Degree=Pos	17	advmod	17:advmod	_
 17	lång	lång	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	15	xcomp	15:xcomp	_
 18	och	och	CCONJ	KN	_	19	cc	19:cc	_
 19	täckte	täcka	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	conj	15:conj:och	_
@@ -7680,7 +7680,7 @@
 7	e-postmeddelanden	e-postmeddelande	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	obj	4:obj	_
 8	eller	eller	CCONJ	KN	_	9	cc	9:cc	_
 9	klickar	klicka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	4:conj:eller	_
-10	ouppmärksamt	ouppmärksam	ADV	AB|POS	Degree=Pos	9	advmod	9:advmod	_
+10	ouppmärksamt	ouppmärksamt	ADV	AB|POS	Degree=Pos	9	advmod	9:advmod	_
 11	på	på	ADP	PP	_	12	case	12:case	_
 12	länkar	länk	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	obl	9:obl:på	_
 13	och	och	CCONJ	KN	_	14	cc	14:cc	_
@@ -10980,7 +10980,7 @@
 3	exploderar	explodera	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	3	nsubj	3:nsubj	_
 5	inte	inte	PART	AB	Polarity=Neg	3	advmod	3:advmod	_
-6	katastrofalt	katastrofal	ADV	AB|POS	Degree=Pos	3	advmod	3:advmod	SpaceAfter=No
+6	katastrofalt	katastrofalt	ADV	AB|POS	Degree=Pos	3	advmod	3:advmod	SpaceAfter=No
 7	.	.	PUNCT	MAD	_	3	punct	3:punct	_
 
 # newdoc id = w01032
@@ -11318,7 +11318,7 @@
 6	återstående	återstående	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Tense=Pres|VerbForm=Part	7	amod	7:amod	_
 7	marken	mark	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	obj	4:obj	SpaceAfter=No
 8	,	,	PUNCT	MID	_	12	punct	12:punct	_
-9	sammanlagt	sammanlagd	ADV	AB	_	12	acl	12:acl	_
+9	sammanlagt	sammanlagt	ADV	AB	_	12	advcl	12:advcl	_
 10	runt	runt	ADV	AB	_	11	advmod	11:advmod	_
 11	en	en	NUM	RG|UTR|SIN	Gender=Com|Number=Sing	12	nummod	12:nummod	_
 12	procent	procent	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	appos	7:appos	_
@@ -12909,7 +12909,7 @@
 10	och	och	CCONJ	KN	_	12	cc	12:cc	_
 11	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	12	nsubj:pass	12:nsubj:pass	_
 12	beviljades	bevilja	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	2	conj	2:conj:och	_
-13	skrupulöst	skrupulös	ADV	AB|POS	Degree=Pos	12	advmod	12:advmod	_
+13	skrupulöst	skrupulöst	ADV	AB|POS	Degree=Pos	12	advmod	12:advmod	_
 14	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	15	det	15:det	_
 15	riter	rit	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	12	iobj	12:iobj|19:nsubj:pass|20:nsubj	_
 16	och	och	CCONJ	KN	_	17	cc	17:cc	_
@@ -14844,7 +14844,7 @@
 2	för	för	ADP	PP	_	7	case	7:case	_
 3	American	American	ADJ	JJ|POS	Degree=Pos|Foreign=Yes	4	amod	4:amod	Lang=en
 4	Motors	motor	NOUN	NN|PLU|NOM	Case=Nom|Number=Plur	7	nmod:poss	7:nmod:poss	_
-5	storleksmässigt	storleksmässig	ADV	AB|POS	Degree=Pos	6	advmod	6:advmod	_
+5	storleksmässigt	storleksmässigt	ADV	AB|POS	Degree=Pos	6	advmod	6:advmod	_
 6	kompakta	kompakt	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	7	amod	7:amod	_
 7	Rambler	Rambler	PROPN	PM|NOM	Case=Nom	1	nmod	1:nmod:för	_
 8	sporrade	sporra	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
@@ -14869,7 +14869,7 @@
 2	konvention	konvention	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nsubj	6:nsubj	_
 3	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 4	bara	bara	ADV	AB	_	6	advmod	6:advmod	_
-5	något	någon	ADV	AB	_	6	advmod	6:advmod	_
+5	något	något	ADV	AB	_	6	advmod	6:advmod	_
 6	avslappnad	avslappnad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
 7	i	i	ADP	PP	_	9	case	9:case	_
 8	modern	modern	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	9	amod	9:amod	_
@@ -15785,7 +15785,7 @@
 21	fram	fram	ADV	PL	_	20	compound:prt	20:compound:prt	_
 22	affischer	affisch	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	20	obj	20:obj|25:nsubj	_
 23	som	som	PRON	HP|-|-|-	PronType=Int,Rel	25	nsubj	22:ref	_
-24	pricksäkert	pricksäker	ADV	AB|POS	Degree=Pos	25	advmod	25:advmod	_
+24	pricksäkert	pricksäkert	ADV	AB|POS	Degree=Pos	25	advmod	25:advmod	_
 25	representerade	representera	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	22	acl:relcl	22:acl:relcl	_
 26	hans	han	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	27	nmod:poss	27:nmod:poss	_
 27	filmer	film	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	25	obj	25:obj	SpaceAfter=No
@@ -19180,7 +19180,7 @@
 5	,	,	PUNCT	MID	_	10	punct	10:punct	_
 6	på	på	ADP	PP	_	10	case	10:case	_
 7	deras	de	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	_
-8	oefterhärmligt	oefterhärmlig	ADV	AB|POS	Degree=Pos	9	advmod	9:advmod	_
+8	oefterhärmligt	oefterhärmligt	ADV	AB|POS	Degree=Pos	9	advmod	9:advmod	_
 9	dumma	dum	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	10	amod	10:amod	_
 10	sätt	sätt	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	obl	2:obl:på	SpaceAfter=No
 11	,	,	PUNCT	MID	_	10	punct	10:punct	_
