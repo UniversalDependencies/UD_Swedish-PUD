@@ -8,7 +8,9 @@ Swedish-PUD was created (together with the other parallel treebanks) for the CoN
 2017 shared task on Multilingual Parsing from Raw Text to Universal Dependencies
 (http://universaldependencies.org/conll17/). It consists of Swedish translations
 of the 1000 sentences from the news domain and from Wikipedia, annotated according
-to the principles of the Swedish-PT treebank. The syntactic annotation has been manually validated in its entirety, while the morphological annotation has only been partially validated.
+to the principles of the Swedish-PT treebank. The syntactic annotation has been manually 
+validated in its entirety, while the morphological annotation has only been partially 
+validated.
 
 # Acknowledgments
 
@@ -18,8 +20,12 @@ on the Stockholm-Umeå Corpus and the Swedish-TP treebank, developed by Robert �
 Aaron Smith and Joakim, and available from https://github.com/robertostling/efselab.
 The syntactic annotation was checked and corrected manually by Joakim Nivre.
 The morphological annotation was checked and corrected by Bernadeta Griciūtė.
-Later, a semi-automatic correction of features and lemmas was done by 
-Victor Norrman and Joakim Nivre.
+Later, a semi-automatic correction of features and lemmas was done by Victor Norrman 
+and Joakim Nivre. A semi-automatic correction of features and lemmas was done by Victor 
+Norrman and Joakim Nivre. Recent harmonization efforts were carried out in collaboration
+with Lars Ahrenberg, Aleksandrs Berdicevskis, and Adriana Masciolini. Recent work to 
+improve the annotation has benefited greatly from discussions within UniDive (COST 
+Action CA21167).
 
 # PUD Treebanks
 
@@ -95,9 +101,10 @@ From v2.16 to v2.17
 - Harmonised tagging of "som" (Issue #1149). 
 - Fixed lemmas of truncated compounds (Issue #1150).
 
-From v2.17 to 2.18
-- Fixed annotation of passives (Issue #1122).
-- Fixed lemmas for adverbs derived from adjectives with "-t" (Issue #1165).
+From v2.16 to v2.17
+- Multiword expression (MWE) annotations in the PARSEME framework added to MISC, with the prefix "ParsemeMWE"
+  - This release adds manual annotation of multiword expressions according to the [PARSEME guidelines, version 2.0](https://parsemefr.lis-lab.fr/parseme-st-guidelines/2.0/), whethere is an overview of all categories. 
+  - See  [Sara Stymne, Astrid Berntsson Ingelstam, and Eva Pettersson. 2026. Swedish Multiword Expression Corpora in PARSEME. In Proceedings of the 22nd Workshop on Multiword Expressions (MWE 2026), pages 27–37, Rabat, Marocco. Association for Computational Linguistics.](https://aclanthology.org/2026.mwe-1.3/) for more information about these annotations
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.1
