@@ -19,7 +19,9 @@ Aaron Smith and Joakim, and available from https://github.com/robertostling/efse
 The syntactic annotation was checked and corrected manually by Joakim Nivre.
 The morphological annotation was checked and corrected by Bernadeta Griciūtė.
 Later, a semi-automatic correction of features and lemmas was done by 
-Victor Norrman and Joakim Nivre.
+Victor Norrman and Joakim Nivre. Further work on refining and harmonizing the 
+treebank with other treebanks for Swedish has been supported by the UniDive COST
+Action (CA21167).
 
 # PUD Treebanks
 
