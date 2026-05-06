@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Swedish-PUD:
-commit 3ab5fa92744699a2106ee840e276fbd771633bae
-Merge: 9ecf768 823b52e
+commit c7f93818d5b59f28c9277855f8e89b0fa7d6344e
+Merge: 8c15d8c 7a9fae0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'sv_pud'
@@ -25,10 +25,10 @@ Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sv --max-err=10 UD_Swedish-PUD/sv_pud-ud-test.conllu
-[Line 12492 Sent w01053067]: [L3 Warning fixed-gap] Gaps in fixed expression [15, 19] 'för * * * sedan'
-[Line 14724 Sent w01091016]: [L3 Warning fixed-gap] Gaps in fixed expression [24, 27] 'för * * sedan'
-[Line 17895 Sent w01143015]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 5] 'För * * * sedan'
-[Line 20888 Sent n05002004]: [L3 Warning fixed-gap] Gaps in fixed expression [27, 30] 'för * * sedan'
+[Line 12492 Sent w01053067]: [L3 WARNING fixed-gap] Gaps in fixed expression [15, 19] 'för * * * sedan'
+[Line 14724 Sent w01091016]: [L3 WARNING fixed-gap] Gaps in fixed expression [24, 27] 'för * * sedan'
+[Line 17895 Sent w01143015]: [L3 WARNING fixed-gap] Gaps in fixed expression [1, 5] 'För * * * sedan'
+[Line 20888 Sent n05002004]: [L3 WARNING fixed-gap] Gaps in fixed expression [27, 30] 'för * * sedan'
 Warnings: 4
 *** PASSED ***
 Validity: 1
