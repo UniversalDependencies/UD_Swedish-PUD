@@ -10194,7 +10194,7 @@
 3	av	av	ADP	PP	_	6	case	6:case	ParsemeMWE=1
 4	det	den	DET	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	6:det	_
 5	delade	dela	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	amod	6:amod	_
-6	klimatet	klimat	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	2	nmod	2:nmod:av	SpaceAfter=No
+6	klimatet	klimat	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	nmod	2:nmod:av	SpaceAfter=No
 7	,	,	PUNCT	MID	_	8	punct	8:punct	_
 8	geologin	geologi	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	conj	6:conj:och|13:obl:på_grund_av	_
 9	och	och	CCONJ	KN	_	10	cc	10:cc	_
@@ -17127,7 +17127,7 @@
 11	”	”	PUNCT	PAD	_	12	punct	12:punct	SpaceAfter=No
 12	fredligt	fredlig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	amod	14:amod	SpaceAfter=No
 13	”	”	PUNCT	MID	_	12	punct	12:punct	_
-14	folk	folk	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	ccomp	4:ccomp	_
+14	folk	folk	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	ccomp	4:ccomp	_
 15	eftersom	eftersom	SCONJ	SN	_	17	mark	17:mark	_
 16	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	17	nsubj	17:nsubj	_
 17	saknade	sakna	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl	14:advcl:eftersom	_
@@ -23866,7 +23866,7 @@
 6	så	så	ADV	AB	_	7	advmod	7:advmod	ParsemeMWE=2:AdjID
 7	kallade	kallad	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	9	amod	9:amod	ParsemeMWE=2
 8	”	”	PUNCT	PAD	_	9	punct	9:punct	SpaceAfter=No
-9	Andes	ande	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	4	obj	4:obj|15:nsubj:pass	_
+9	Andes	ande	NOUN	NN|UTR|SIN|IND|GEN	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	obj	4:obj|15:nsubj:pass	_
 10	de	de	ADP	PP	_	11	case	11:case	_
 11	tipo	tipo	NOUN	NN|SIN	Number=Sing	9	nmod	9:nmod	_
 12	andino	andino	ADJ	JJ|SIN	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	11	amod	11:amod	SpaceAfter=No
