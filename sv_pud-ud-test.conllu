@@ -21798,7 +21798,7 @@
 4	att	att	SCONJ	SN	_	6	mark	6:mark	_
 5	spannmål	spannmål	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nsubj:pass	6:nsubj:pass	ParsemeMWE=2:NID
 6	fraktas	frakta	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	3	ccomp	3:ccomp	_
-7	vidare	vidare	ADV	AB|KOM	Degree=Cmp	6	advmod	6:advmod	_
+7	vidare	vidare	ADV	AB|KOM	_	6	advmod	6:advmod	_
 8	eftersom	eftersom	SCONJ	SN	_	10	mark	10:mark	_
 9	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	10	nsubj	10:nsubj	_
 10	hade	ha	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	3:advcl:eftersom	ParsemeMWE=3:LVC.full
