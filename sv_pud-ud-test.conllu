@@ -23536,7 +23536,7 @@
 13	till	till	ADP	PP	_	16	case	16:case	_
 14	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	16	det	16:det	_
 15	allmänt	allmän	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	amod	16:amod	_
-16	fredsfördag	fredsfördag	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	obl	12:obl:till	SpaceAfter=No
+16	fredsfördag	fredsfördag	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	obl	12:obl:till	SpaceAfter=No
 17	,	,	PUNCT	MID	_	21	punct	21:punct	_
 18	men	men	CCONJ	KN	_	21	cc	21:cc	_
 19	hans	han	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	20	nmod:poss	20:nmod:poss	_
