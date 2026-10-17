@@ -21423,7 +21423,7 @@
 4	spel	spel	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	obl	1:obl:som	_
 5	för	för	ADP	PP	_	6	case	6:case	_
 6	vem	vem	PRON	HP|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Int,Rel	4	nmod	4:nmod:för	ParsemeMWE=1:PronID
-7	som	som	SCONJ	KN	ExtPos=ADV	6	advmod	6:advmod	ParsemeMWE=1
+7	som	som	ADP	KN	ExtPos=ADV	6	advmod	6:advmod	ParsemeMWE=1
 8	helst	gärna	ADV	AB|SUV	Degree=Sup	7	fixed	7:fixed	ParsemeMWE=1
 9	drar	dra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 10	utomhusteatern	utomhusteater	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nsubj	9:nsubj	_

@@ -109,6 +109,7 @@ From v2.17 to 2.18
 From v2.18 to 2.19
 - Fixed lemmas for "värre" and "värst" (ADJ = ond, ADV = illa).
 - Fixed various feature errors.
+- Changed tag for "som" in "som helst" to ADP.
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
